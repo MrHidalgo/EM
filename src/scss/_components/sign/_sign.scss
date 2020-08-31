@@ -1,0 +1,167 @@
+// SECTION :: START
+
+.sign {
+	&__wrapper {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		max-width: 1393px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 147px;
+
+		&-left {
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+			padding-right: 170px;
+			padding-top: (319px - 147px);
+		}
+
+		&-right {
+			width: 100%;
+			max-width: 536px;
+		}
+	}
+
+	&__title {
+		padding-bottom: 20px;
+		@extend %fontEina;
+		font-weight: bold;
+		font-size: 70px;
+		line-height: 75px;
+		color: #000;
+	}
+
+	&__desc {
+		width: 100%;
+		max-width: 414px;
+		@extend %fontEina;
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 28px;
+		color: #000;
+	}
+
+	&__info {
+		padding-bottom: 45px;
+		font-size: 15px;
+		letter-spacing: 0.01em;
+		color: #5d5d5d;
+	}
+
+	&__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 37px;
+
+		&-title {
+			font-size: 24px;
+			letter-spacing: 0.01em;
+			color: #000;
+		}
+
+		&-info {
+			font-size: 15px;
+			letter-spacing: 0.01em;
+			color: #000;
+
+			a {
+				color: #0056fc;
+			}
+		}
+	}
+
+	&__divider {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			height: 1px;
+			background-color: #99bbfe;
+		}
+
+		span {
+			z-index: 2;
+			position: relative;
+			display: flex;
+			padding-left: 12px;
+			padding-right: 12px;
+			background-color: #ffffff;
+			font-size: 15px;
+			letter-spacing: 0.01em;
+			color: #000;
+		}
+	}
+
+	&__link {
+		position: relative;
+		display: flex;
+		align-items: center;
+		font-size: 15px;
+		letter-spacing: 0.01em;
+		color: #0056fc;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+
+		&-field {
+			padding-bottom: 21px;
+
+			&.c-form__field-group {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				> div {
+					&:nth-of-type(2) {
+						width: 100%;
+						max-width: 200px;
+					}
+				}
+
+				.sign__form-field {
+					padding-bottom: 0;
+				}
+			}
+
+			&--btn {
+				.c-btn {
+					width: 100%;
+
+					&__wrapper {
+						width: 100%;
+					}
+				}
+			}
+
+			&--info {
+				padding-top: 3px;
+
+				p {
+					font-size: 13px;
+					letter-spacing: 0.01em;
+					color: rgba(#5d5d5d, 0.6);
+
+					a {
+						color: rgba(#0056fc, 0.6);
+					}
+				}
+			}
+		}
+	}
+}
+
+// SECTION :: END

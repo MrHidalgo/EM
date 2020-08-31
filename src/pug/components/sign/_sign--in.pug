@@ -1,0 +1,79 @@
+// SECTION :: START
+
+section#sign.sign
+
+	.sign__wrapper
+		.sign__wrapper-left
+
+			h1.sign__title
+				| Welcome
+				br
+				| back 🤗
+
+		.sign__wrapper-right
+
+			.logo.logo--sign
+				a.logo__btn(href="#")
+					img.logo__img(src="img/logo.svg" alt="")
+
+			.sign__header
+				div
+					p.sign__header-title Sign in
+				div
+					p.sign__header-info!= "or <a href='/index.html'>Create an account</a>"
+
+			form#createAccountForm.sign__form.c-form(action='' method='' autocomplete='off')
+				.sign__form-field.sign__form-field--btn
+					.c-btn__wrapper
+						a.c-btn.c-btn--social(href="#")
+							img(src="img/logo-google-plus.svg" alt="")
+							span Sign in with Google
+				.sign__form-field.sign__form-field--btn
+					.c-btn__wrapper
+						a.c-btn.c-btn--social.c-btn--social-apple(href="#")
+							img(src="img/logo-apple.svg" alt="")
+							span Sign in with Apple
+
+				.sign__form-field.sign__form-field--divider.c-form__field
+					.sign__divider
+						span or
+
+				.sign__form-field.sign__form-field--input.c-form__field
+					input(type='email' id='email' name='email' placeholder='' input-js required)
+					label(for='email') Enter your email address
+					i.icon-font.icon-check
+					i.icon-font.icon-close
+
+				.sign__form-field.sign__form-field--input.c-form__field
+					input(type='password' id='password' name='password' placeholder='' input-js required)
+					label(for='password') Enter your password
+					a(href="#" password-js)
+						i.icon-font.icon-eye
+						i.icon-font.icon-eye-line
+
+				.sign__form-field.c-form__field.c-form__field-group
+					div
+						.sign__form-field.sign__form-field--checkbox.c-form__field
+
+							.c-checkbox
+								input(type='checkbox' id='remember' name='')
+								label(for='remember')
+									span
+										i
+											i.icon-font.icon-check
+									span
+										u!= "Remember me"
+
+					div
+						.sign__form-field.sign__form-field--btn
+							.c-btn__wrapper
+								button.c-btn.c-btn--blue(type='submit')
+									span Sign in
+
+				.sign__form-field.sign__form-field--link
+					a.sign__link(href="/forgot.html") Forgot your password?
+
+				.sign__form-field.sign__form-field--info
+					p!= "This page is protected by reCAPTCHA, and subject to the <br>Google <a href='#'>Privacy Policy</a> and <a href='#'>Terms of service</a>."
+
+// SECTION :: END

@@ -1,0 +1,21 @@
+// LOGOTYPE :: START
+
+.logo {
+	&.logo--sign {
+		padding-bottom: 43px;
+	}
+
+	&__btn {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	&__img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		max-height: 100%;
+	}
+}
+
+// LOGOTYPE :: END

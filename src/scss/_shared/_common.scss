@@ -1,0 +1,251 @@
+// COMMON :: START
+
+.c-form {
+	&__field {
+		position: relative;
+
+		&.is-focus {
+			input {
+				border-color: #0056FC;
+				background-color: #f1f4fb;
+				@include transition(border-color, background-color);
+			}
+			label {
+				transform: translate(7px, -10px) scale(0.7);
+				@include transition(transform);
+			}
+		}
+		&.is-error {
+			input {
+				border-color: #fd784c;
+				background-color: transparent;
+			}
+			label {
+				color: #fd784c;
+			}
+
+			> .icon-font {
+				&.icon-close {
+					opacity: 1;
+				}
+			}
+		}
+		&.is-done {
+			input {
+				border-color: #3AD378;
+				background-color: transparent;
+			}
+			label {
+				color: #3AD378;
+			}
+
+			> .icon-font {
+				&.icon-check {
+					opacity: 1;
+				}
+			}
+		}
+
+		input {
+			outline: none;
+			position: relative;
+			width: 100%;
+			height: 60px;
+			padding: 15px 50px 0 20px;
+			box-shadow: none;
+			border-radius: 4px;
+			background-color: #fff;
+			border: 1px solid #7ca9ff;
+			font-size: 18px;
+			letter-spacing: 0.01em;
+			color: #000;
+			@include transition(border-color, background-color);
+			@include inputPlaceholder {
+				font-size: 18px;
+				letter-spacing: 0.01em;
+				color: #5d5d5d;
+			}
+		}
+
+		label {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 60px;
+			padding: 0 20px;
+			font-size: 18px;
+			letter-spacing: 0.01em;
+			color: #5D5D5D;
+			line-height: 60px;
+			backface-visibility: hidden;
+			transform-origin: left center;
+			@include transition(transform);
+
+			&.error {
+				top: calc(100% - 21px);
+				bottom: 0;
+				transform: unset;
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				height: 21px;
+				padding: 0;
+				font-size: 12px;
+				text-align: right;
+				color: #fd784c;
+			}
+		}
+
+		> a {
+			z-index: 5;
+			position: absolute;
+			top: 0;
+			right: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 50px;
+			height: 60px;
+
+			&.is-active {
+				.icon-font {
+					@include transition(opacity);
+
+					&.icon-eye-line {
+						opacity: 1;
+					}
+				}
+			}
+
+			.icon-font {
+				color: #5d5d5d;
+				@include transition(opacity);
+
+				&.icon-eye-line {
+					opacity: 0;
+					position: absolute;
+					font-size: 20px;
+				}
+			}
+		}
+
+		> .icon-font {
+			&.icon-check,
+			&.icon-close {
+				opacity: 0;
+				position: absolute;
+				top: 0;
+				right: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 50px;
+				height: 60px;
+				font-size: 10px;
+				@include transition(opacity);
+			}
+
+			&.icon-check {
+				color: #3AD378;
+			}
+			&.icon-close {
+				color: #fd784c;
+			}
+		}
+	}
+}
+
+
+.c-checkbox {
+	position: relative;
+
+	&:hover {
+		label {
+			i {
+				border-color: #0055FC;
+				@include transition(border-color, background-color);
+			}
+		}
+	}
+
+	input {
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		width: 0;
+		height: 0;
+
+		&:checked {
+			& + label {
+				span {
+					> i {
+						border-color: #0055FC;
+						background-color: #0055fc;
+						@include transition(border-color, background-color);
+
+						.icon-font {
+							transform: scale(1);
+							@include transition(transform);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	label {
+		cursor: pointer;
+		position: relative;
+		display: flex;
+		align-items: center;
+		height: auto;
+		padding: 0;
+		line-height: normal;
+
+		> span {
+			&:nth-of-type(1) {
+				width: 25px;
+			}
+			&:nth-of-type(2) {
+				display: flex;
+				flex-wrap: wrap;
+				flex: 1;
+				min-width: 1px;
+				max-width: 100%;
+				padding-top: 1px;
+			}
+
+			> i {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 14px;
+				height: 14px;
+				border-radius: 3px;
+				border: 2px solid #99bbfe;
+				@include transition(border-color, background-color);
+
+				.icon-font {
+					color: #ffffff;
+					font-size: 6px;
+					transform: scale(0);
+					@include transition(transform);
+				}
+			}
+		}
+
+		u {
+			font-size: 15px;
+			letter-spacing: 0.01em;
+			text-decoration: none;
+			color: #5d5d5d;
+		}
+
+		a {
+			color: #0056fc;
+		}
+	}
+}
+
+// COMMON :: END

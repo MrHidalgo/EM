@@ -1,0 +1,12 @@
+ProjectTitle: EM
+
+PageList:
+- file: index.html
+  titleName: Create An Account
+  ready: 55
+- file: sign-in.html
+  titleName: Sign In
+  ready: 55
+- file: forgot.html
+  titleName: Forgot Password
+  ready: 55

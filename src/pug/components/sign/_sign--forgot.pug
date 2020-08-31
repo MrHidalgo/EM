@@ -1,0 +1,36 @@
+// SECTION :: START
+
+section#sign.sign
+
+	.sign__wrapper
+
+		.sign__wrapper-right
+
+			.logo.logo--sign
+				a.logo__btn(href="#")
+					img.logo__img(src="img/logo.svg" alt="")
+
+			.sign__header
+				div
+					p.sign__header-title Forgot your password?
+				div
+
+			p.sign__info Enter your email address to reset your password. You may need to check your spam folder or unblock no-reply@dropbox.com.
+
+			form#createAccountForm.sign__form.c-form(action='' method='' autocomplete='off')
+				.sign__form-field.sign__form-field--input.c-form__field
+					input(type='email' id='email' name='email' placeholder='' input-js required)
+					label(for='email') Enter your email address
+					i.icon-font.icon-check
+					i.icon-font.icon-close
+
+				.sign__form-field.c-form__field.c-form__field-group
+					div
+
+					div
+						.sign__form-field.sign__form-field--btn
+							.c-btn__wrapper
+								button.c-btn.c-btn--blue(type='submit')
+									span Submit
+
+// SECTION :: END
