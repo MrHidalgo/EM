@@ -24,21 +24,50 @@
 		color: #fff;
 	}
 
+	.icon-font {
+		margin-right: 10px;
+		color: #ffffff;
+	}
+
 	&__wrapper {
 		display: flex;
 
 		&--center {
 			justify-content: center;
 		}
+
+		&--column {
+			flex-direction: column;
+		}
 	}
 
 	&--blue {
-		background: #0056fc;
+		background-color: #0056fc;
+		@include transition(background-color);
+	}
+
+	&--cyan {
+		border: 1px solid #00d7fe;
+		background-color: #ccf7ff;
+
+		span {
+			color: #000000;
+		}
+	}
+
+	&--blueBorder {
+		border: 1px solid #0056fc;
+		background-color: transparent;
 		@include transition(background-color);
 
-		&:hover {
-			background-color: #3479ff;
-			@include transition(background-color);
+		.icon-font {
+			color: #0056fc;
+			@include transition(color);
+		}
+
+		span {
+			color: #0056fc;
+			@include transition(color);
 		}
 	}
 

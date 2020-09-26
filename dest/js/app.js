@@ -118,6 +118,16 @@ var initValidation = function initValidation() {
 	/*
  * CALLBACK :: start
  * ============================================= */
+	var bodyCB = function bodyCB() {
+		$('body').on('click', function (e) {
+			var className = ".header__user-wrapper, [dropdown-node-js]";
+
+			if (!$(e.target).closest(className).length) {
+				$('[user-dropdown-js], [dropdown-js]').removeClass('is-open');
+			}
+		});
+	};
+
 	var inputFocus = function inputFocus() {
 		var inputElem = $("[input-js]");
 
@@ -150,6 +160,49 @@ var initValidation = function initValidation() {
 			}
 		});
 	};
+
+	var sidebarCB = function sidebarCB() {
+		$('[sidebar-btn-js]').hover(function (ev) {
+			var el = $(ev.currentTarget),
+			    popperContent = el.find('.c-poppertext');
+
+			popperContent.css({
+				position: 'fixed',
+				top: el[0].getBoundingClientRect().top + popperContent.height() / 2,
+				left: el[0].getBoundingClientRect().left + (el[0].getBoundingClientRect().width + 15),
+				transform: 'unset'
+			});
+		}, function (ev) {});
+	};
+
+	var userToggle = function userToggle() {
+		$('[user-js]').on('click', function (ev) {
+			$(ev.currentTarget).siblings('[user-dropdown-js]').toggleClass('is-open');
+		});
+	};
+
+	var searchToggle = function searchToggle() {
+		$('[search-js]').on('click', function (ev) {
+			var el = $(ev.currentTarget),
+			    searchNode = $('[search-node-js]');
+
+			el.toggleClass('is-active');
+			searchNode.toggleClass('is-open');
+
+			setTimeout(function () {
+				searchNode.find('input').focus();
+			}, 100);
+		});
+	};
+
+	var dropdownCB = function dropdownCB() {
+		$('[dropdown-toggle-js]').on('click', function (ev) {
+			var el = $(ev.currentTarget),
+			    elParent = el.closest('[dropdown-node-js]');
+
+			elParent.find('[dropdown-js]').toggleClass('is-open');
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -164,8 +217,13 @@ var initValidation = function initValidation() {
 		// ==========================================
 
 		// callback
+		bodyCB();
 		inputFocus();
 		passwordCB();
+		sidebarCB();
+		userToggle();
+		searchToggle();
+		dropdownCB();
 		// ==========================================
 	};
 

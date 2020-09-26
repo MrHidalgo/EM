@@ -33,6 +33,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+	@include adaptive(1279) {
+		min-height: 100%;
+	}
+
+	&.body--bgSolitude {
+		background-color: #f1f4fb;
+	}
 
   > .body {
     display: flex;

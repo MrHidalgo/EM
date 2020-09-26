@@ -8,21 +8,17 @@ html(lang="en")
 	head
 		include _head
 
-	body
+	body(class!= bodyClassName)
 
 		block header
 			include ../components/_header
 
-
 		block content
 
-
-		block footer
-			include ../components/_footer
-
 		block sidebar
-		block modal
+			include ../components/_sidebar
 
+		block modal
 
 	block script
 		include _script

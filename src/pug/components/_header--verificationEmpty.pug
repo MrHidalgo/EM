@@ -1,0 +1,31 @@
+// HEADER :: START
+
+header#header.header
+
+	.header__wrapper
+
+		.header__wrapper-left
+
+			.logo.logo--sidebar
+				a.logo__btn(href="#")
+					img.logo__img(src="img/logo.svg" alt="")
+
+		.header__wrapper-right
+
+			.header__user-wrapper
+				a.header__user(href="#" user-js)
+					div
+						i
+						span YA
+				.header__user-dropdown(user-dropdown-js)
+					a.header__user-link.c-popper(href="#")
+						i.icon-font.icon-profile
+						.c-poppertext.c-poppertext--left
+							u Profile
+					a.header__user-link.header__user-link--logout.c-popper(href="#")
+						span
+							i.icon-font.icon-log-out
+						.c-poppertext.c-poppertext--left
+							u Log Out
+
+// HEADER :: END

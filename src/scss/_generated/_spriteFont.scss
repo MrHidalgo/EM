@@ -27,17 +27,62 @@
 @function icon-char($filename) {
 	$char: "";
 
-	@if $filename == check {
+	@if $filename == analytics {
 		$char: "\E001";
 	}
-	@if $filename == close {
+	@if $filename == apps {
 		$char: "\E002";
 	}
-	@if $filename == eye-line {
+	@if $filename == bell {
 		$char: "\E003";
 	}
-	@if $filename == eye {
+	@if $filename == check {
 		$char: "\E004";
+	}
+	@if $filename == close {
+		$char: "\E005";
+	}
+	@if $filename == email {
+		$char: "\E006";
+	}
+	@if $filename == eye-line {
+		$char: "\E007";
+	}
+	@if $filename == eye {
+		$char: "\E008";
+	}
+	@if $filename == filter-search {
+		$char: "\E009";
+	}
+	@if $filename == filter {
+		$char: "\E00A";
+	}
+	@if $filename == gift {
+		$char: "\E00B";
+	}
+	@if $filename == grammar {
+		$char: "\E00C";
+	}
+	@if $filename == intersect {
+		$char: "\E00D";
+	}
+	@if $filename == log-out {
+		$char: "\E00E";
+	}
+	@if $filename == products {
+		$char: "\E00F";
+	}
+	@if $filename == profile {
+		$char: "\E010";
+	}
+	@if $filename == receipt {
+		$char: "\E011";
+	}
+	@if $filename == search {
+		$char: "\E012";
+	}
+	@if $filename == upload {
+		$char: "\E013";
 	}
 
 	@return $char;
@@ -54,6 +99,18 @@
 	}
 }
 
+.icon-analytics {
+	@include icon(analytics);
+
+}
+.icon-apps {
+	@include icon(apps);
+
+}
+.icon-bell {
+	@include icon(bell);
+
+}
 .icon-check {
 	@include icon(check);
 
@@ -62,11 +119,59 @@
 	@include icon(close);
 
 }
+.icon-email {
+	@include icon(email);
+
+}
 .icon-eye-line {
 	@include icon(eye-line);
 
 }
 .icon-eye {
 	@include icon(eye);
+
+}
+.icon-filter-search {
+	@include icon(filter-search);
+
+}
+.icon-filter {
+	@include icon(filter);
+
+}
+.icon-gift {
+	@include icon(gift);
+
+}
+.icon-grammar {
+	@include icon(grammar);
+
+}
+.icon-intersect {
+	@include icon(intersect);
+
+}
+.icon-log-out {
+	@include icon(log-out);
+
+}
+.icon-products {
+	@include icon(products);
+
+}
+.icon-profile {
+	@include icon(profile);
+
+}
+.icon-receipt {
+	@include icon(receipt);
+
+}
+.icon-search {
+	@include icon(search);
+
+}
+.icon-upload {
+	@include icon(upload);
 
 }

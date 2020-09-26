@@ -1,0 +1,62 @@
+// SECTION :: START
+
+.verification {
+	&.verification--empty {
+		.verification__wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+
+	&__wrapper {
+		height: 100vh;
+		padding: 110px;
+	}
+
+	&__welcome {
+		width: 100%;
+		max-width: 390px;
+		margin-left: auto;
+		margin-right: auto;
+
+		&-title {
+			padding-bottom: 39px;
+			font-weight: 500;
+			font-size: 34px;
+			line-height: 40px;
+			color: #000;
+		}
+
+		&-btn {
+			.c-btn {
+				height: 80px;
+
+				&:not(:last-of-type) {
+					margin-bottom: 15px;
+				}
+
+				.icon-font {
+					&.icon-upload {
+						font-size: 25px;
+					}
+					&.icon-intersect {
+						font-size: 30px;
+					}
+				}
+
+				span {
+					font-size: 25px;
+				}
+			}
+		}
+
+		&-info {
+			padding-top: 15px;
+			font-size: 16px;
+			color: #5D5D5D;
+		}
+	}
+}
+
+// SECTION :: END

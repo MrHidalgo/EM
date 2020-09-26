@@ -3,5 +3,107 @@
 header#header.header
 
 	.header__wrapper
+		.header__wrapper-left
+
+			.logo.logo--sidebar
+				a.logo__btn(href="#")
+					img.logo__img(src="img/logo.svg" alt="")
+
+		.header__wrapper-right
+
+			div
+
+				.header__balance
+					p.header__balance-title Credit Balance:
+					.header__balance-content
+						div
+							p.header__balance-sum 2 328 934
+						div
+							img(src="img/mail-balance.svg" alt="")
+
+			div
+
+				.header__sidebar
+					.header__sidebar-col.header__sidebar-col-1
+						.c-btn__wrapper
+							a.c-btn.c-btn--blue.header__sidebar-file(href="#")
+								i.icon-font.icon-upload
+								span Upload your file
+					.header__sidebar-col.header__sidebar-col-2
+						.c-btn__wrapper
+							a.c-btn.c-btn--blueBorder(href="#")
+								i.icon-font.icon-intersect
+								span Connect integration
+					.header__sidebar-col.header__sidebar-col-3
+						.c-btn__wrapper
+							a.c-btn.c-btn--cyan(href="#")
+								span Buy credit
+					.header__sidebar-col.header__sidebar-col-4
+						a.header__sidebar-btn(href="#")
+							i.icon-font.icon-bell
+					.header__sidebar-col.header__sidebar-col-5
+						.header__sidebar-search
+							div
+								a.header__sidebar-btn.c-popper(href="#" search-js)
+									i.icon-font.icon-search
+									.c-poppertext
+										u Search
+							div(search-node-js)
+								.header__sidebar-form
+									div
+										input(type='text' name='' placeholder="Search")
+									div
+										.c-dropdown__wrapper(dropdown-node-js)
+											a.c-dropdown__toggle.header__sidebar-btn(href="#" dropdown-toggle-js)
+												i.icon-font.icon-filter-search
+											.c-dropdown(dropdown-js)
+												p.c-dropdown__title Filter by
+												.c-dropdown__content
+													.c-checkbox
+														input.c-checkbox__input(type='checkbox' name='' id='check-1' checked)
+														label.c-checkbox__label(for='check-1')
+															p
+																i
+															p
+																span All
+													.c-checkbox
+														input.c-checkbox__input(type='checkbox' name='' id='check-2')
+														label.c-checkbox__label(for='check-2')
+															p
+																i
+															p
+																span Verified
+													.c-checkbox
+														input.c-checkbox__input(type='checkbox' name='' id='check-3')
+														label.c-checkbox__label(for='check-3')
+															p
+																i
+															p
+																span Processing
+													.c-checkbox
+														input.c-checkbox__input(type='checkbox' name='' id='check-4')
+														label.c-checkbox__label(for='check-4')
+															p
+																i
+															p
+																span Unprocessed
+
+			div
+
+				.header__user-wrapper
+					a.header__user(href="#" user-js)
+						div
+							i
+							span YA
+					.header__user-dropdown(user-dropdown-js)
+						a.header__user-link.c-popper(href="#")
+							i.icon-font.icon-profile
+							.c-poppertext.c-poppertext--left
+								u Profile
+						a.header__user-link.header__user-link--logout.c-popper(href="#")
+							span
+								i.icon-font.icon-log-out
+							.c-poppertext.c-poppertext--left
+								u Log Out
 
 // HEADER :: END
