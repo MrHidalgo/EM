@@ -1,7 +1,110 @@
 // SECTION :: START
 
+mixin verifyBox(className, boxName, imgClassMod, imgName, badgeClassMod, badgeVal, infoMod, btnClassMod, btnVal)
+	.verification__box(class!= 'verification__box-' + className data-name!= boxName verification-box-js)
+		a.verification__box-close(href="#")
+			i.icon-font.icon-trash
+		.verification__box-head
+			div
+				.verification__box-logo(class!= "verification__box-logo--" + imgClassMod)
+					img(src!= imgName alt="")
+			div
+				.verification__box-badge(class!= 'verification__box-badge--' + badgeClassMod)
+					i
+					span!= badgeVal
+				p.verification__box-date 12/19/17 - 11:37 PM
+		.verification__box-body
+			p.verification__box-name List_12_03_2018.txt
+			p.verification__box-email
+				i.icon-font.icon-email
+				span 2 160 098
+			.verification__box-info
+				if(infoMod === 'list')
+					ul
+						li
+							p Disposable
+							span 25 000
+						li
+							p Duplicate
+							span 198
+						li
+							p Spam-traps
+							span 276
+				if(infoMod === 'progress')
+					.verification__box-progress
+						p 45%
+						div
+							i.icon-font.icon-file-blank
+							span(style='width: 45%;')
+
+		.verification__box-footer
+			.c-btn__wrapper
+				a.c-btn(href="#" class!= "c-btn--" + btnClassMod)
+					span!= btnVal
+
+
 section#verification.verification
 
 	.verification__wrapper
+
+		include _verification--filter
+
+		.verification__box-wrapper
+			div
+				+verifyBox('1', 'unprocessed',
+					'', 'img/img-to-do-list--verify.svg',
+					'verify', 'To verify', 'list',
+					'blue', '2 160 098 To Verify')
+			div
+				+verifyBox('2', 'processing',
+					'', 'img/img-to-do-list--progress.svg',
+					'progress', 'On progress', 'progress',
+					'blueBorder is-disabled', 'On progress')
+			div
+				+verifyBox('3', 'verified',
+					'', 'img/img-to-do-list--verified.svg',
+					'verified', 'Verified', 'list',
+					'blueBorder', 'Show result')
+			div
+				+verifyBox('4', 'verified',
+					'yellow', 'img/img-mailchimp.svg',
+					'verified', 'Verified', 'list',
+					'blueBorder', 'Show result')
+			div
+				+verifyBox('5', 'verified',
+					'purple', 'img/img-campaignMonitor.svg',
+					'verified', 'Verified', 'list',
+					'blueBorder', 'Show result')
+			div
+				+verifyBox('6', 'verified',
+					'', 'img/img-to-do-list--verified.svg',
+					'verified', 'Verified', 'list',
+					'blueBorder', 'Show result')
+			div
+				+verifyBox('7', 'verified',
+					'', 'img/img-to-do-list--verified.svg',
+					'verified', 'Verified', 'list',
+					'blueBorder', 'Show result')
+			div
+				+verifyBox('8', 'unprocessed',
+					'', 'img/img-to-do-list--verify.svg',
+					'verify', 'To verify', 'list',
+					'blue', '2 160 098 To Verify')
+			div
+				+verifyBox('9', 'verified',
+					'', 'img/img-to-do-list--verified.svg',
+					'verified', 'Verified', 'list',
+					'blueBorder', 'Show result')
+			div
+				+verifyBox('10', 'verified',
+					'', 'img/img-to-do-list--verified.svg',
+					'verified', 'Verified', 'list',
+					'blueBorder', 'Show result')
+			div
+				+verifyBox('11', 'verified',
+					'orange', 'img/img-integration.svg',
+					'verified', 'Verified', 'list',
+					'blueBorder', 'Show result')
+
 
 // SECTION :: END

@@ -65,6 +65,12 @@
 				letter-spacing: 0.01em;
 				color: #5d5d5d;
 			}
+			@include adaptive(767) {
+				font-size: 14px;
+				@include inputPlaceholder {
+					font-size: 14px;
+				}
+			}
 		}
 
 		label {
@@ -81,6 +87,9 @@
 			backface-visibility: hidden;
 			transform-origin: left center;
 			@include transition(transform);
+			@include adaptive(767) {
+				font-size: 14px;
+			}
 
 			&.error {
 				top: calc(100% - 21px);
@@ -94,6 +103,9 @@
 				font-size: 12px;
 				text-align: right;
 				color: #fd784c;
+				@include adaptive(767) {
+					font-size: 11px;
+				}
 			}
 		}
 
@@ -240,6 +252,9 @@
 			letter-spacing: 0.01em;
 			text-decoration: none;
 			color: #5d5d5d;
+			@include adaptive(767) {
+				font-size: 11px;
+			}
 		}
 
 		a {

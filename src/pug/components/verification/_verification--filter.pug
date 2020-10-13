@@ -1,0 +1,33 @@
+.verification__filter
+	div
+		p.verification__filter-title Filter by:
+	div
+		.verification__filter-content(filter-js)
+			.c-checkbox
+				input.c-checkbox__input(type='checkbox' name='' id='check-ver-1' data-name='all' checked)
+				label.c-checkbox__label(for='check-ver-1')
+					p
+						i
+					p
+						span All
+			.c-checkbox
+				input.c-checkbox__input(type='checkbox' name='' data-name='verified' id='check-ver-2')
+				label.c-checkbox__label(for='check-ver-2')
+					p
+						i
+					p
+						span Verified
+			.c-checkbox
+				input.c-checkbox__input(type='checkbox' name='' data-name='processing' id='check-ver-3')
+				label.c-checkbox__label(for='check-ver-3')
+					p
+						i
+					p
+						span Processing
+			.c-checkbox
+				input.c-checkbox__input(type='checkbox' name='' data-name='unprocessed' id='check-ver-4')
+				label.c-checkbox__label(for='check-ver-4')
+					p
+						i
+					p
+						span Unprocessed

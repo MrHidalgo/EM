@@ -10,8 +10,12 @@
 	}
 
 	&__wrapper {
+		width: 100%;
+		max-width: 1600px;
+		margin-left: auto;
+		margin-right: auto;
 		height: 100vh;
-		padding: 110px;
+		padding: 172px 140px 110px;
 	}
 
 	&__welcome {
@@ -55,6 +59,293 @@
 			padding-top: 15px;
 			font-size: 16px;
 			color: #5D5D5D;
+		}
+	}
+
+	&__filter {
+		display: flex;
+		align-items: center;
+		padding-bottom: 42px;
+
+		> div {
+			&:nth-of-type(1) {
+				padding-right: 34px;
+			}
+		}
+
+		&-title {
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 40px;
+			color: #000;
+		}
+
+		&-content {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.c-checkbox {
+			padding-bottom: 0;
+
+			&:not(:last-of-type) {
+				padding-right: 33px;
+			}
+		}
+	}
+
+	&__box {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		min-width: 100%;
+		min-height: 295px;
+		padding: 20px 20px 25px;
+		border-radius: 10px;
+		box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+		background-color: #ffffff;
+
+		&-wrapper {
+			position: relative;
+			left: -50px;
+			width: calc(100% + 50px);
+			display: flex;
+			flex-wrap: wrap;
+
+			> div {
+				width: 100%;
+				max-width: calc(100% / 4);
+				padding-left: 50px;
+				padding-bottom: 50px;
+			}
+		}
+
+		&-close {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+
+			&:hover {
+				.icon-font {
+					color: #0056fc;
+					@include transition(color);
+				}
+			}
+
+			.icon-font {
+				color: #99bbfe;
+				font-size: 20px;
+				@include transition(color);
+			}
+		}
+
+		&-head {
+			display: flex;
+			align-items: center;
+
+			> div {
+				&:nth-of-type(1) {
+					padding-right: 20px;
+				}
+				&:nth-of-type(2) {
+					flex: 1;
+					min-width: 1px;
+					max-width: 100%;
+				}
+			}
+		}
+
+		&-body {
+			padding-top: 16px;
+			padding-bottom: 26px;
+		}
+
+		&-logo {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 48px;
+			height: 48px;
+			padding: 5px;
+			border-radius: 10px;
+			background-color: #fff;
+			box-shadow: 0 6px 10px 0 rgba(224, 227, 235, 0.5);
+
+			&--yellow {
+				background-color: #fde04c;
+			}
+			&--purple {
+				background-color: #7856FF;
+			}
+			&--orange {
+				background-color: #F37316;
+			}
+
+			img {
+				display: block;
+				max-width: 100%;
+				height: auto;
+				max-height: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		&-badge {
+			display: flex;
+			align-items: center;
+			padding-bottom: 10px;
+
+			&--verify {
+				i {
+					background-color: #FD784C;
+				}
+				span {
+					color: #FD784C;
+				}
+			}
+			&--progress {
+				i {
+					background-color: #7CA9FF;
+				}
+				span {
+					color: #7CA9FF;
+				}
+			}
+			&--verified {
+				i {
+					background-color: #3ad378;
+				}
+				span {
+					color: #3ad378;
+				}
+			}
+
+			i {
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				margin-right: 5px;
+			}
+
+			span {
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 1;
+				letter-spacing: 0.01em;
+			}
+		}
+
+		&-date {
+			font-size: 13px;
+			letter-spacing: 0.01em;
+			color: #5d5d5d;
+		}
+
+		&-name {
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			padding-bottom: 5px;
+			font-size: 18px;
+			letter-spacing: 0.01em;
+			color: #000;
+		}
+
+		&-email {
+			display: flex;
+			align-items: center;
+			padding-bottom: 10px;
+
+			.icon-font {
+				margin-right: 5px;
+				font-size: 16px;
+				color: #ccddff;
+			}
+
+			span {
+				font-size: 14px;
+				letter-spacing: 0.01em;
+				color: #5d5d5d;
+			}
+		}
+
+		&-info {
+			display: flex;
+			align-items: flex-end;
+			min-height: 50px;
+
+			ul {
+				display: flex;
+				align-items: center;
+				width: 100%;
+
+				li {
+					flex: 1;
+					min-width: 1px;
+					max-width: 100%;
+				}
+
+				p {
+					font-size: 11px;
+					letter-spacing: 0.01em;
+					color: #5d5d5d;
+				}
+
+				span {
+					font-size: 13px;
+					letter-spacing: 0.01em;
+					color: #000;
+				}
+			}
+		}
+
+		&-progress {
+			width: 100%;
+
+			p {
+				font-size: 14px;
+				letter-spacing: 0.01em;
+				text-align: right;
+				color: #5d5d5d;
+			}
+
+			> div {
+				overflow: hidden;
+				position: relative;
+				width: 100%;
+				height: 30px;
+				padding: 5px;
+				border-radius: 4px;
+				background-color: #f0f5fb;
+				box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.06);
+
+				.icon-font {
+					z-index: 2;
+					position: relative;
+					font-size: 20px;
+					color: #7ca9ff;
+				}
+
+				span {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+					background-color: #ccddff;
+					@include transition(width);
+				}
+			}
+		}
+
+		.c-btn {
+			width: 100%;
+
+			&__wrapper {
+				width: 100%;
+			}
 		}
 	}
 }

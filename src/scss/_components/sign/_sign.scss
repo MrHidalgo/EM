@@ -1,6 +1,15 @@
 // SECTION :: START
 
 .sign {
+	min-height: 100vh;
+	@include adaptive(1535) {
+		display: flex;
+		align-items: center;
+	}
+	@include adaptive(767) {
+		align-items: flex-start;
+	}
+
 	&__wrapper {
 		display: flex;
 		justify-content: center;
@@ -11,6 +20,13 @@
 		padding-left: 15px;
 		padding-right: 15px;
 		padding-top: 147px;
+		@include adaptive(1535) {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		@include adaptive(767) {
+			padding: 50px 40px;
+		}
 
 		&-left {
 			flex: 1;
@@ -18,6 +34,15 @@
 			max-width: 100%;
 			padding-right: 170px;
 			padding-top: (319px - 147px);
+			@include adaptive(1439) {
+				padding-right: 100px;
+			}
+			@include adaptive(1279) {
+				padding-right: 50px;
+			}
+			@include adaptive(1023) {
+				display: none;
+			}
 		}
 
 		&-right {
@@ -33,6 +58,18 @@
 		font-size: 70px;
 		line-height: 75px;
 		color: #000;
+		@include adaptive(1535) {
+			font-size: 65px;
+			line-height: 70px;
+		}
+		@include adaptive(1365) {
+			font-size: 60px;
+			line-height: 65px;
+		}
+		@include adaptive(1279) {
+			font-size: 55px;
+			line-height: 60px;
+		}
 	}
 
 	&__desc {
@@ -43,6 +80,17 @@
 		font-size: 22px;
 		line-height: 28px;
 		color: #000;
+		@include adaptive(1535) {
+			font-size: 20px;
+			line-height: 26px;
+		}
+		@include adaptive(1365) {
+			font-size: 18px;
+			line-height: 24px;
+		}
+		@include adaptive(1279) {
+			line-height: normal;
+		}
 	}
 
 	&__info {
@@ -50,6 +98,9 @@
 		font-size: 15px;
 		letter-spacing: 0.01em;
 		color: #5d5d5d;
+		@include adaptive(767) {
+			font-size: 11px;
+		}
 	}
 
 	&__header {
@@ -57,17 +108,26 @@
 		align-items: center;
 		justify-content: space-between;
 		padding-bottom: 37px;
+		@include adaptive(767) {
+			padding-bottom: 25px;
+		}
 
 		&-title {
 			font-size: 24px;
 			letter-spacing: 0.01em;
 			color: #000;
+			@include adaptive(767) {
+				font-size: 20px;
+			}
 		}
 
 		&-info {
 			font-size: 15px;
 			letter-spacing: 0.01em;
 			color: #000;
+			@include adaptive(767) {
+				font-size: 14px;
+			}
 
 			a {
 				color: #0056fc;
@@ -111,6 +171,9 @@
 		font-size: 15px;
 		letter-spacing: 0.01em;
 		color: #0056fc;
+		@include adaptive(767) {
+			font-size: 14px;
+		}
 	}
 
 	&__form {
@@ -129,6 +192,9 @@
 					&:nth-of-type(2) {
 						width: 100%;
 						max-width: 200px;
+						@include adaptive(767) {
+							max-width: 50%;
+						}
 					}
 				}
 
@@ -154,12 +220,71 @@
 					font-size: 13px;
 					letter-spacing: 0.01em;
 					color: rgba(#5d5d5d, 0.6);
+					@include adaptive(767) {
+						font-size: 11px;
+					}
 
 					a {
 						color: rgba(#0056fc, 0.6);
 					}
 				}
 			}
+		}
+	}
+
+	&__popper {
+		white-space: nowrap;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: calc(100% + 7px);
+		display: flex;
+		align-items: center;
+		height: 27px;
+		padding: 2px 20px 2px 12px;
+		border-radius: 5px;
+		border: 1px solid #e0e0e0;
+		box-shadow: 0 12px 25px 0 rgba(224, 227, 235, 0.57);
+		background-color: #fff;
+		@include adaptive(1279) {
+			display: none;
+		}
+
+		&:before,
+		&:after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%) rotate(45deg);
+			right: -5px;
+			width: 10px;
+			height: 10px;
+			border-radius: 2px;
+			background-color: #ffffff;
+		}
+
+		&:before {
+			z-index: 5;
+			right: -4px;
+		}
+		&:after {
+			z-index: 2;
+			border: 1px solid #e0e0e0;
+			box-shadow: 0 12px 25px 0 rgba(224, 227, 235, 0.57);
+		}
+
+		.icon-font {
+			margin-right: 9px;
+			color: #3ad378;
+		}
+
+		span {
+			font-weight: 500;
+			font-size: 14px;
+			letter-spacing: 0.11em;
+			text-align: left;
+			color: #5d5d5d;
+			line-height: 1;
 		}
 	}
 }

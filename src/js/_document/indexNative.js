@@ -95,6 +95,18 @@
 			elParent.find('[dropdown-js]').toggleClass('is-open');
 		});
 	};
+
+
+	const filterBox = () => {
+		$("[filter-js] input[type='checkbox']").on('checked', (ev) => {
+			const el = $(ev.currentTarget),
+				elFilterName = el.attr('data-name');
+
+			// if(elFilterName === 'all') {
+			// 	$('[verification-box-js]').fadeIn(300);
+			// }
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -117,6 +129,7 @@
 		userToggle();
 		searchToggle();
 		dropdownCB();
+		filterBox();
 		// ==========================================
 	};
 

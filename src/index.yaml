@@ -3,22 +3,22 @@ ProjectTitle: EM
 PageList:
 - file: index.html
   titleName: Create An Account
-  ready: 55
+  ready: 100
 - file: sign-in.html
   titleName: Sign In
-  ready: 55
+  ready: 100
 - file: forgot.html
   titleName: Forgot Password
-  ready: 55
+  ready: 100
 - file: verification-1.html
   titleName: Verification - 1
   ready: 1
 - file: verification-2.html
   titleName: Verification - 2
   ready: 1
-- file: verification-3.html
-  titleName: Verification - 3
-  ready: 1
-- file: verification-4.html
-  titleName: Verification - 4
-  ready: 1
+#- file: verification-3.html
+#  titleName: Verification - 3
+#  ready: 1
+#- file: verification-4.html
+#  titleName: Verification - 4
+#  ready: 1

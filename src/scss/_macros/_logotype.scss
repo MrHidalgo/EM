@@ -3,11 +3,17 @@
 .logo {
 	&.logo--sign {
 		padding-bottom: 43px;
+		@include adaptive(767) {
+			padding-bottom: 45px;
+		}
 	}
 
 	&__btn {
 		display: flex;
 		align-items: flex-start;
+		@include adaptive(767) {
+			justify-content: center;
+		}
 	}
 
 	&__img {

@@ -1,7 +1,7 @@
 // SECTION :: START
 
 .sidebar {
-	overflow-y: auto;
+	//overflow-y: auto;
 	z-index: 1500;
 	position: fixed;
 	top: 0;
@@ -14,12 +14,20 @@
 		height: 100vh;
 
 		&-top {
-			padding-top: 110px;
+			height: 110px;
+			@include transition(height);
+
+			.is-fixed & {
+				height: 90px;
+				@include transition(height);
+			}
 		}
 
 		&-middle {
+			overflow-y: auto;
+			position: relative;
 			display: flex;
-			align-items: center;
+			align-items: flex-start;
 			flex: 1;
 			min-height: 1px;
 			max-height: 100%;
@@ -55,6 +63,14 @@
 			border-radius: 4px;
 
 			&.sidebar__menu-btn--blue {
+				&.is-active,
+				&:hover {
+					span {
+						background-color: #f1f4fb;
+						@include transition(background-color);
+					}
+				}
+
 				span {
 					display: flex;
 					align-items: center;
@@ -62,7 +78,8 @@
 					width: 40px;
 					height: 40px;
 					border-radius: 4px;
-					background-color: #f1f4fb;
+					background-color: transparent;
+					@include transition(background-color);
 				}
 
 				.icon-font {

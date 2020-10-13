@@ -30,6 +30,7 @@
 	}
 
 	&__wrapper {
+		position: relative;
 		display: flex;
 
 		&--center {
@@ -44,11 +45,22 @@
 	&--blue {
 		background-color: #0056fc;
 		@include transition(background-color);
+
+		&:hover {
+			background-color: #3479ff;
+			@include transition(background-color);
+		}
 	}
 
 	&--cyan {
 		border: 1px solid #00d7fe;
 		background-color: #ccf7ff;
+		@include transition(background-color);
+
+		&:hover {
+			background-color: #80ebff;
+			@include transition(background-color);
+		}
 
 		span {
 			color: #000000;
@@ -59,6 +71,23 @@
 		border: 1px solid #0056fc;
 		background-color: transparent;
 		@include transition(background-color);
+
+		&:hover {
+			background-color: #f1f4fb;
+			@include transition(background-color);
+		}
+
+		&.is-disabled {
+			pointer-events: none;
+			border-color: transparent;
+			background-color: #f1f4fb;
+			@include transition(border-color, background-color);
+
+			span {
+				color: #99BBFE;
+				@include transition(color);
+			}
+		}
 
 		.icon-font {
 			color: #0056fc;

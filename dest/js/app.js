@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
 *
@@ -14,6 +14,26 @@
 * ============================
 * ============================
 * */
+
+/**
+ * @name initHeaderFixed
+ *
+ * @description Fixing the site header in the scrolling page.
+ */
+var initHeaderFixed = function initHeaderFixed() {
+
+	var countScroll = $(window).scrollTop(),
+	    headerElement = $('.header'),
+	    bodyElement = $('body');
+
+	if (countScroll > 10) {
+		bodyElement.addClass("is-fixed");
+		headerElement.addClass("header--fixed");
+	} else {
+		bodyElement.removeClass("is-fixed");
+		headerElement.removeClass("header--fixed");
+	}
+};
 
 /**
  * @name initPreventBehavior
@@ -114,6 +134,25 @@ var initValidation = function initValidation() {
 	});
 };
 
+/**
+ * @description Window on load.
+ */
+window.addEventListener('load', function (ev) {
+	initHeaderFixed();
+});
+
+/**
+ * @description Window on resize.
+ */
+window.addEventListener('resize', function (ev) {});
+
+/**
+ * @description Window on scroll.
+ */
+window.addEventListener('scroll', function (ev) {
+	initHeaderFixed();
+});
+
 (function () {
 	/*
  * CALLBACK :: start
@@ -203,6 +242,17 @@ var initValidation = function initValidation() {
 			elParent.find('[dropdown-js]').toggleClass('is-open');
 		});
 	};
+
+	var filterBox = function filterBox() {
+		$("[filter-js] input[type='checkbox']").on('checked', function (ev) {
+			var el = $(ev.currentTarget),
+			    elFilterName = el.attr('data-name');
+
+			// if(elFilterName === 'all') {
+			// 	$('[verification-box-js]').fadeIn(300);
+			// }
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -224,6 +274,7 @@ var initValidation = function initValidation() {
 		userToggle();
 		searchToggle();
 		dropdownCB();
+		filterBox();
 		// ==========================================
 	};
 

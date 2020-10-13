@@ -114,38 +114,440 @@
       </div>
     </header>
     <!-- HEADER :: END-->
-    <div class="body body--start p-verification"></div>
+    <div class="body body--start p-verification p-verification-1">
+      <!-- SECTION :: START-->
+      <section class="verification" id="verification">
+        <div class="verification__wrapper">
+          <div class="verification__filter">
+            <div>
+              <p class="verification__filter-title">Filter by:</p>
+            </div>
+            <div>
+              <div class="verification__filter-content" filter-js>
+                <div class="c-checkbox">
+                  <input class="c-checkbox__input" type="checkbox" name="" id="check-ver-1" data-name="all" checked>
+                  <label class="c-checkbox__label" for="check-ver-1">
+                    <p><i></i></p>
+                    <p><span>All</span></p>
+                  </label>
+                </div>
+                <div class="c-checkbox">
+                  <input class="c-checkbox__input" type="checkbox" name="" data-name="verified" id="check-ver-2">
+                  <label class="c-checkbox__label" for="check-ver-2">
+                    <p><i></i></p>
+                    <p><span>Verified</span></p>
+                  </label>
+                </div>
+                <div class="c-checkbox">
+                  <input class="c-checkbox__input" type="checkbox" name="" data-name="processing" id="check-ver-3">
+                  <label class="c-checkbox__label" for="check-ver-3">
+                    <p><i></i></p>
+                    <p><span>Processing</span></p>
+                  </label>
+                </div>
+                <div class="c-checkbox">
+                  <input class="c-checkbox__input" type="checkbox" name="" data-name="unprocessed" id="check-ver-4">
+                  <label class="c-checkbox__label" for="check-ver-4">
+                    <p><i></i></p>
+                    <p><span>Unprocessed</span></p>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="verification__box-wrapper">
+            <div>
+                    <div class="verification__box verification__box-1" data-name="unprocessed" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--"><img src="img/img-to-do-list--verify.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verify"><i></i><span>To verify</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blue" href="#"><span>2 160 098 To Verify</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-2" data-name="processing" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--"><img src="img/img-to-do-list--progress.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--progress"><i></i><span>On progress</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <div class="verification__box-progress">
+                            <p>45%</p>
+                            <div><i class="icon-font icon-file-blank"></i><span style="width: 45%;"></span></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder is-disabled" href="#"><span>On progress</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-3" data-name="verified" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--"><img src="img/img-to-do-list--verified.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verified"><i></i><span>Verified</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-4" data-name="verified" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--yellow"><img src="img/img-mailchimp.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verified"><i></i><span>Verified</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-5" data-name="verified" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--purple"><img src="img/img-campaignMonitor.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verified"><i></i><span>Verified</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-6" data-name="verified" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--"><img src="img/img-to-do-list--verified.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verified"><i></i><span>Verified</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-7" data-name="verified" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--"><img src="img/img-to-do-list--verified.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verified"><i></i><span>Verified</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-8" data-name="unprocessed" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--"><img src="img/img-to-do-list--verify.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verify"><i></i><span>To verify</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blue" href="#"><span>2 160 098 To Verify</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-9" data-name="verified" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--"><img src="img/img-to-do-list--verified.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verified"><i></i><span>Verified</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-10" data-name="verified" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--"><img src="img/img-to-do-list--verified.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verified"><i></i><span>Verified</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                      </div>
+                    </div>
+            </div>
+            <div>
+                    <div class="verification__box verification__box-11" data-name="verified" verification-box-js><a class="verification__box-close" href="#"><i class="icon-font icon-trash"></i></a>
+                      <div class="verification__box-head">
+                        <div>
+                          <div class="verification__box-logo verification__box-logo--orange"><img src="img/img-integration.svg" alt=""></div>
+                        </div>
+                        <div>
+                          <div class="verification__box-badge verification__box-badge--verified"><i></i><span>Verified</span></div>
+                          <p class="verification__box-date">12/19/17 - 11:37 PM</p>
+                        </div>
+                      </div>
+                      <div class="verification__box-body">
+                        <p class="verification__box-name">List_12_03_2018.txt</p>
+                        <p class="verification__box-email"><i class="icon-font icon-email"></i><span>2 160 098</span></p>
+                        <div class="verification__box-info">
+                          <ul>
+                            <li>
+                              <p>Disposable</p><span>25 000</span>
+                            </li>
+                            <li>
+                              <p>Duplicate</p><span>198</span>
+                            </li>
+                            <li>
+                              <p>Spam-traps</p><span>276</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="verification__box-footer">
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION :: END-->
+    </div>
     <!-- SECTION :: START-->
     <section class="sidebar" id="sidebar">
       <div class="sidebar__wrapper">
         <div class="sidebar__wrapper-top"></div>
         <div class="sidebar__wrapper-middle">
           <ul class="sidebar__menu">
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn c-popper" href="#" sidebar-btn-js><i class="icon-font icon-analytics"></i>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-analytics"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Dashboard</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-grammar"></i></span>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper is-active" href="#" sidebar-btn-js><span><i class="icon-font icon-grammar"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Bulk Verification</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn c-popper" href="#" sidebar-btn-js><i class="icon-font icon-email"></i>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-email"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Single Verification</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn c-popper" href="#" sidebar-btn-js><i class="icon-font icon-apps"></i>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-apps"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Api</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn c-popper" href="#" sidebar-btn-js><i class="icon-font icon-products"></i>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-products"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Plans & Upgrade</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn c-popper" href="#" sidebar-btn-js><i class="icon-font icon-receipt"></i>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-receipt"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Payment History</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn c-popper" href="#" sidebar-btn-js><i class="icon-font icon-filter"></i>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-filter"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Settings</u>
                 </div></a></li>

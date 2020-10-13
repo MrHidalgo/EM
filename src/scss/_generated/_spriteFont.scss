@@ -45,44 +45,53 @@
 	@if $filename == email {
 		$char: "\E006";
 	}
-	@if $filename == eye-line {
+	@if $filename == envelope {
 		$char: "\E007";
 	}
-	@if $filename == eye {
+	@if $filename == eye-line {
 		$char: "\E008";
 	}
-	@if $filename == filter-search {
+	@if $filename == eye {
 		$char: "\E009";
 	}
-	@if $filename == filter {
+	@if $filename == file-blank {
 		$char: "\E00A";
 	}
-	@if $filename == gift {
+	@if $filename == filter-search {
 		$char: "\E00B";
 	}
-	@if $filename == grammar {
+	@if $filename == filter {
 		$char: "\E00C";
 	}
-	@if $filename == intersect {
+	@if $filename == gift {
 		$char: "\E00D";
 	}
-	@if $filename == log-out {
+	@if $filename == grammar {
 		$char: "\E00E";
 	}
-	@if $filename == products {
+	@if $filename == intersect {
 		$char: "\E00F";
 	}
-	@if $filename == profile {
+	@if $filename == log-out {
 		$char: "\E010";
 	}
-	@if $filename == receipt {
+	@if $filename == products {
 		$char: "\E011";
 	}
-	@if $filename == search {
+	@if $filename == profile {
 		$char: "\E012";
 	}
-	@if $filename == upload {
+	@if $filename == receipt {
 		$char: "\E013";
+	}
+	@if $filename == search {
+		$char: "\E014";
+	}
+	@if $filename == trash {
+		$char: "\E015";
+	}
+	@if $filename == upload {
+		$char: "\E016";
 	}
 
 	@return $char;
@@ -123,12 +132,20 @@
 	@include icon(email);
 
 }
+.icon-envelope {
+	@include icon(envelope);
+
+}
 .icon-eye-line {
 	@include icon(eye-line);
 
 }
 .icon-eye {
 	@include icon(eye);
+
+}
+.icon-file-blank {
+	@include icon(file-blank);
 
 }
 .icon-filter-search {
@@ -169,6 +186,10 @@
 }
 .icon-search {
 	@include icon(search);
+
+}
+.icon-trash {
+	@include icon(trash);
 
 }
 .icon-upload {
