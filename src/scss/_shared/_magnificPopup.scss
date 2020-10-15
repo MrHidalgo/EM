@@ -1,4 +1,4 @@
-.modal {
+.c-modal {
   position: relative;
   width: 100%;
   //max-width: 500px;
@@ -8,6 +8,18 @@
   background-color: #fff;
 }
 
+.mfp-bg {
+	z-index: 1999;
+	background-color: #000000;
+}
+
+.mfp-wrap {
+	z-index: 2000;
+}
+
+.mfp-close {
+	display: none !important;
+}
 
 //
 // Zoom in...
@@ -30,7 +42,7 @@
       transform: scale(1);
     }
     &.mfp-bg {
-      opacity: 0.8;
+      opacity: 0.1;
     }
   }
 

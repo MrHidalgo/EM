@@ -1,5 +1,10 @@
 // COMMON :: START
 
+.hidden {
+	opacity: 0;
+	visibility: hidden;
+}
+
 .c-form {
 	&__field {
 		position: relative;

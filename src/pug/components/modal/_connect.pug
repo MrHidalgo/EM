@@ -1,0 +1,41 @@
+mixin modalContent()
+	a.c-modal__close(href="#" popup-close-js)
+		i.icon-font.icon-close
+	.c-modal__header
+		div
+			.c-modal__integrate(style='background-color: #F37316;')
+				img(src="img/img-integration.svg" alt="")
+		div
+			p.c-modal__title Hubspot
+
+	.c-modal__body
+
+		mixin connectBox()
+			.c-modal__stat-box
+				div
+					p Marine in Brisbane, QUEE Marine in Brisbane, QUEE
+				div
+					p 1 876
+				div
+					.c-btn__wrapper
+						a.c-btn.c-btn--blueBorder(href="#")
+							i.icon-font.icon-file
+							span Import list
+
+		.c-modal__stat
+			.c-modal__stat-head-wrapper
+				.c-modal__stat-head
+					div
+						p Liste name
+					div
+						p Adresses
+					div
+
+			.c-modal__stat-body
+				+connectBox()
+				+connectBox()
+				+connectBox()
+				+connectBox()
+
+
++modal('connectModal', 'modalContent')

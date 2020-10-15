@@ -1,0 +1,56 @@
+mixin modalContent()
+	a.c-modal__close(href="#" popup-close-js)
+		i.icon-font.icon-close
+	.c-modal__header
+		p.c-modal__title!= "Select your favorite <strong>Integration</strong>"
+
+	.c-modal__body
+
+		mixin integrationBox(imgName, name)
+			a.c-modal__integration(href="/verification-3.html")
+				.c-modal__integration-head
+					img(src!= 'img/' + imgName alt="")
+				.c-modal__integration-body
+					p.c-modal__integration-name!= name
+
+		.c-modal__integration-wrapper
+			div
+				+integrationBox('img-integrartion-box-1.svg', 'Mailchimp')
+			div
+				+integrationBox('img-integrartion-box-2.svg', 'Campaign Monitor')
+			div
+				+integrationBox('img-integrartion-box-3.svg', 'Google Sheets')
+			div
+				+integrationBox('img-integrartion-box-4.svg', 'Aweber')
+			div
+				+integrationBox('img-integrartion-box-5.svg', 'Sendgrid')
+			div
+				+integrationBox('img-integrartion-box-6.svg', 'Mailgun')
+			div
+				+integrationBox('img-integrartion-box-7.svg', 'Active Campaign')
+			div
+				+integrationBox('img-integrartion-box-8.svg', 'Hubspot')
+			div
+				+integrationBox('img-integrartion-box-9.svg', 'Gist')
+			div
+				+integrationBox('img-integrartion-box-10.svg', 'MailerLite')
+			div
+				+integrationBox('img-integrartion-box-4.svg', 'Aweber')
+			div
+				+integrationBox('img-integrartion-box-5.svg', 'Sendgrid')
+			div
+				+integrationBox('img-integrartion-box-6.svg', 'Mailgun')
+			div
+				+integrationBox('img-integrartion-box-7.svg', 'Active Campaign')
+			div
+				+integrationBox('img-integrartion-box-8.svg', 'Hubspot')
+			div
+				+integrationBox('img-integrartion-box-9.svg', 'Gist')
+			div
+				+integrationBox('img-integrartion-box-10.svg', 'MailerLite')
+
+
+	.c-modal__footer
+		p.c-modal__desc More Integrations with your favorite tools Coming Soon!
+
++modal('integrationModal', 'modalContent')

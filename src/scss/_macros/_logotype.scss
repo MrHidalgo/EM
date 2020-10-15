@@ -7,6 +7,11 @@
 			padding-bottom: 45px;
 		}
 	}
+	&.logo--connect {
+		.logo__img {
+			width: 120px;
+		}
+	}
 
 	&__btn {
 		display: flex;

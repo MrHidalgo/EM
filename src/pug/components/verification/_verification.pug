@@ -39,8 +39,12 @@ mixin verifyBox(className, boxName, imgClassMod, imgName, badgeClassMod, badgeVa
 
 		.verification__box-footer
 			.c-btn__wrapper
-				a.c-btn(href="#" class!= "c-btn--" + btnClassMod)
-					span!= btnVal
+				if(btnVal === 'Show result')
+					a.c-btn(href="#" class!= "c-btn--" + btnClassMod show-result-js)
+						span!= btnVal
+				else
+					a.c-btn(href="#" class!= "c-btn--" + btnClassMod)
+						span!= btnVal
 
 
 section#verification.verification

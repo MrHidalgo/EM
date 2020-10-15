@@ -1,7 +1,8 @@
 ---
 title: EM | Verification
 
-pageClassName: p-verification
+pageClassName: p-verification p-verification-3
+pageAddName: p-verification-3
 bodyClassName: body--bgSolitude
 ---
 extends shared/_layout
@@ -13,9 +14,11 @@ block sidebar
 	include components/_sidebar--verificationEmpty
 
 block modal
-	include components/modal/_integration
+	include components/modal/_connect
 
 block content
 	div.body.body--start(class!= pageClassName)
 
-		include components/verification/_verification--empty
+		include components/verification/_verification--connect
+
+

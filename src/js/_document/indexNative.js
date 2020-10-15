@@ -98,13 +98,59 @@
 
 
 	const filterBox = () => {
-		$("[filter-js] input[type='checkbox']").on('checked', (ev) => {
+		$("[filter-js] input[type='radio']").on('change', (ev) => {
 			const el = $(ev.currentTarget),
 				elFilterName = el.attr('data-name');
 
-			// if(elFilterName === 'all') {
-			// 	$('[verification-box-js]').fadeIn(300);
-			// }
+			if(elFilterName === 'all') {
+				$('[verification-box-js]').parent().fadeIn(300);
+			} else {
+				$('[verification-box-js]').parent().hide();
+				$('[verification-box-js][data-name="' + elFilterName + '"]').parent().fadeIn(300);
+			}
+		});
+	};
+
+
+	const reportCB = () => {
+		$('[show-result-js]').on('click', (ev) => {
+			const reportNode = $('#report');
+
+			if(reportNode.hasClass('is-open')) {
+				reportNode.removeClass('is-open');
+				$('html, body').removeClass('is-hideScroll');
+			} else {
+				reportNode.addClass('is-open');
+				$('html, body').addClass('is-hideScroll');
+			}
+		});
+
+		$('[report-close-js]').on('click', (ev) => {
+			$('#report').removeClass('is-open');
+			$('html, body').removeClass('is-hideScroll');
+		});
+
+		$("[report-select-all]").on('change', (ev) => {
+			const el = $(ev.currentTarget),
+				checkboxArr = $('[report-checked-js] input[type="checkbox"]');
+
+			if(el.is(':checked')) {
+				checkboxArr.prop('checked', true);
+			} else {
+				checkboxArr.prop('checked', false);
+			}
+		});
+
+		$('[report-checked-js] input[type="checkbox"]').on('change', (ev) => {
+			const el = $(ev.currentTarget),
+				selectAllCheckbox = $("[report-select-all]");
+
+			let count = true;
+
+			if(count === true) {
+				selectAllCheckbox.prop('checked', false);
+				count = false;
+			}
 		});
 	};
 	/*
@@ -119,6 +165,7 @@
 
 		// lib
 		initValidation();
+		initPopups();
 		// ==========================================
 
 		// callback
@@ -126,10 +173,11 @@
 		inputFocus();
 		passwordCB();
 		sidebarCB();
-		userToggle();
+		// userToggle();
 		searchToggle();
 		dropdownCB();
 		filterBox();
+		reportCB();
 		// ==========================================
 	};
 

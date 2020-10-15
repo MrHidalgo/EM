@@ -38,7 +38,7 @@
                 <div class="c-btn__wrapper"><a class="c-btn c-btn--blue header__sidebar-file" href="#"><i class="icon-font icon-upload"></i><span>Upload your file</span></a></div>
               </div>
               <div class="header__sidebar-col header__sidebar-col-2">
-                <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><i class="icon-font icon-intersect"></i><span>Connect integration</span></a></div>
+                <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#integrationModal" popup-js data-effect="mfp-zoom-in"><i class="icon-font icon-intersect"></i><span>Connect integration</span></a></div>
               </div>
               <div class="header__sidebar-col header__sidebar-col-3">
                 <div class="c-btn__wrapper"><a class="c-btn c-btn--cyan" href="#"><span>Buy credit</span></a></div>
@@ -114,7 +114,7 @@
       </div>
     </header>
     <!-- HEADER :: END-->
-    <div class="body body--start p-verification p-verification-1">
+    <div class="body body--start p-verification p-verification-2">
       <!-- SECTION :: START-->
       <section class="verification" id="verification">
         <div class="verification__wrapper">
@@ -125,28 +125,28 @@
             <div>
               <div class="verification__filter-content" filter-js>
                 <div class="c-checkbox">
-                  <input class="c-checkbox__input" type="checkbox" name="" id="check-ver-1" data-name="all" checked>
+                  <input class="c-checkbox__input" type="radio" name="verification-filter" id="check-ver-1" data-name="all" checked>
                   <label class="c-checkbox__label" for="check-ver-1">
                     <p><i></i></p>
                     <p><span>All</span></p>
                   </label>
                 </div>
                 <div class="c-checkbox">
-                  <input class="c-checkbox__input" type="checkbox" name="" data-name="verified" id="check-ver-2">
+                  <input class="c-checkbox__input" type="radio" name="verification-filter" data-name="verified" id="check-ver-2">
                   <label class="c-checkbox__label" for="check-ver-2">
                     <p><i></i></p>
                     <p><span>Verified</span></p>
                   </label>
                 </div>
                 <div class="c-checkbox">
-                  <input class="c-checkbox__input" type="checkbox" name="" data-name="processing" id="check-ver-3">
+                  <input class="c-checkbox__input" type="radio" name="verification-filter" data-name="processing" id="check-ver-3">
                   <label class="c-checkbox__label" for="check-ver-3">
                     <p><i></i></p>
                     <p><span>Processing</span></p>
                   </label>
                 </div>
                 <div class="c-checkbox">
-                  <input class="c-checkbox__input" type="checkbox" name="" data-name="unprocessed" id="check-ver-4">
+                  <input class="c-checkbox__input" type="radio" name="verification-filter" data-name="unprocessed" id="check-ver-4">
                   <label class="c-checkbox__label" for="check-ver-4">
                     <p><i></i></p>
                     <p><span>Unprocessed</span></p>
@@ -185,7 +185,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blue" href="#"><span>2 160 098 To Verify</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blue" href="#"><span>2 160 098 To Verify</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -211,7 +212,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder is-disabled" href="#"><span>On progress</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder is-disabled" href="#"><span>On progress</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -244,7 +246,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#" show-result-js><span>Show result</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -277,7 +280,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#" show-result-js><span>Show result</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -310,7 +314,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#" show-result-js><span>Show result</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -343,7 +348,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#" show-result-js><span>Show result</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -376,7 +382,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#" show-result-js><span>Show result</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -409,7 +416,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blue" href="#"><span>2 160 098 To Verify</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blue" href="#"><span>2 160 098 To Verify</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -442,7 +450,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#" show-result-js><span>Show result</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -475,7 +484,8 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#" show-result-js><span>Show result</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
@@ -508,11 +518,231 @@
                         </div>
                       </div>
                       <div class="verification__box-footer">
-                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#"><span>Show result</span></a></div>
+                        <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder" href="#" show-result-js><span>Show result</span></a>
+                        </div>
                       </div>
                     </div>
             </div>
           </div>
+        </div>
+      </section>
+      <!-- SECTION :: END-->
+      <!-- SECTION :: START-->
+      <section class="report" id="report"><a class="report__close" href="#" report-close-js><i class="icon-font icon-circle-right"></i></a>
+        <div class="report__head">
+          <p class="report__title"><img src="img/img-documents.svg" alt=""><span>Create your Report</span></p>
+          <p class="report__desc">How do you prefer to get the report?</p>
+        </div>
+        <div class="report__body">
+          <p class="report__name"><i class="icon-font icon-file"></i><span>Long title_Long title_Long title_Long Long title_Long title_Long title_Long</span></p>
+          <ul class="report__info">
+            <li>
+              <div><span>Uploaded :</span></div>
+              <div><i></i></div>
+              <div><span>12/19/17 - 11:37 PM</span></div>
+            </li>
+            <li>
+              <div><span>Verified :</span></div>
+              <div><i class="double"></i></div>
+              <div>
+                <p class="green">2 087 245</p>
+              </div>
+            </li>
+          </ul>
+          <div class="report__export">
+            <div class="report__export-head">
+              <p class="report__export-title"><span>Export Option</span><i></i></p>
+            </div>
+            <div class="report__export-body">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      <div class="c-checkbox">
+                        <input class="c-checkbox__input" type="checkbox" name="" id="report-select-all" report-select-all>
+                        <label class="c-checkbox__label" for="report-select-all">
+                          <p><i></i></p>
+                        </label>
+                      </div>
+                    </th>
+                    <th>
+                      <label for="report-select-all">
+                        <p class="name">Select All</p>
+                      </label>
+                    </th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody report-checked-js>
+                                <tr>
+                                  <td>
+                                    <div class="c-checkbox">
+                                      <input class="c-checkbox__input" type="checkbox" name="" id="report-deliverable">
+                                      <label class="c-checkbox__label" for="report-deliverable">
+                                        <p><i></i></p>
+                                      </label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <label for="report-deliverable">
+                                      <p class="name">Deliverable</p>
+                                    </label>
+                                  </td>
+                                  <td>
+                                    <p class="count">1 925 000</p>
+                                  </td>
+                                  <td>
+                                    <div class="progress">
+                                      <u style="width: 75%; background-color: #3AD378;"></u>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <div class="c-checkbox">
+                                      <input class="c-checkbox__input" type="checkbox" name="" id="report-invalid">
+                                      <label class="c-checkbox__label" for="report-invalid">
+                                        <p><i></i></p>
+                                      </label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <label for="report-invalid">
+                                      <p class="name">Invalid</p>
+                                    </label>
+                                  </td>
+                                  <td>
+                                    <p class="count">2 876</p>
+                                  </td>
+                                  <td>
+                                    <div class="progress">
+                                      <u style="width: 25%; background-color: #7CA9FF;"></u>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <div class="c-checkbox">
+                                      <input class="c-checkbox__input" type="checkbox" name="" id="report-accept-all">
+                                      <label class="c-checkbox__label" for="report-accept-all">
+                                        <p><i></i></p>
+                                      </label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <label for="report-accept-all">
+                                      <p class="name">Accept-All</p>
+                                    </label>
+                                  </td>
+                                  <td>
+                                    <p class="count">82</p>
+                                  </td>
+                                  <td>
+                                    <div class="progress">
+                                      <u style="width: 20%; background-color: #00D7FE;"></u>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <div class="c-checkbox">
+                                      <input class="c-checkbox__input" type="checkbox" name="" id="report-syntax">
+                                      <label class="c-checkbox__label" for="report-syntax">
+                                        <p><i></i></p>
+                                      </label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <label for="report-syntax">
+                                      <p class="name">Syntax</p>
+                                    </label>
+                                  </td>
+                                  <td>
+                                    <p class="count">287 976</p>
+                                  </td>
+                                  <td>
+                                    <div class="progress">
+                                      <u style="width: 75%; background-color: #FF4CFF;"></u>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <div class="c-checkbox">
+                                      <input class="c-checkbox__input" type="checkbox" name="" id="report-disposable">
+                                      <label class="c-checkbox__label" for="report-disposable">
+                                        <p><i></i></p>
+                                      </label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <label for="report-disposable">
+                                      <p class="name">Disposable</p>
+                                    </label>
+                                  </td>
+                                  <td>
+                                    <p class="count">12</p>
+                                  </td>
+                                  <td>
+                                    <div class="progress">
+                                      <u style="width: 10%; background-color: #A762EA;"></u>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <div class="c-checkbox">
+                                      <input class="c-checkbox__input" type="checkbox" name="" id="report-unknown">
+                                      <label class="c-checkbox__label" for="report-unknown">
+                                        <p><i></i></p>
+                                      </label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <label for="report-unknown">
+                                      <p class="name">Unknown</p>
+                                    </label>
+                                  </td>
+                                  <td>
+                                    <p class="count">56</p>
+                                  </td>
+                                  <td>
+                                    <div class="progress">
+                                      <u style="width: 15%; background-color: #FFC14C;"></u>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <div class="c-checkbox">
+                                      <input class="c-checkbox__input" type="checkbox" name="" id="report-spam-traps">
+                                      <label class="c-checkbox__label" for="report-spam-traps">
+                                        <p><i></i></p>
+                                      </label>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <label for="report-spam-traps">
+                                      <p class="name">Spam Traps</p>
+                                    </label>
+                                  </td>
+                                  <td>
+                                    <p class="count">1 231</p>
+                                  </td>
+                                  <td>
+                                    <div class="progress">
+                                      <u style="width: 20%; background-color: #FF4D4D;"></u>
+                                    </div>
+                                  </td>
+                                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="report__footer">
+          <div class="c-btn__wrapper c-btn__wrapper--column"><a class="c-btn c-btn--blueBorder" href="#"><span>Download Results CSV</span></a><a class="c-btn c-btn--blueBorder" href="#"><span>Download Results XLSX</span></a></div><a class="report__guide" href="#"><i class="icon-font icon-vocabulary"></i><span>Guide to Deciphering Email Status Report</span></a>
         </div>
       </section>
       <!-- SECTION :: END-->
@@ -527,7 +757,7 @@
                 <div class="c-poppertext c-poppertext--right">
                   <u>Dashboard</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper is-active" href="#" sidebar-btn-js><span><i class="icon-font icon-grammar"></i></span>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-grammar"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Bulk Verification</u>
                 </div></a></li>
@@ -564,6 +794,120 @@
       </div>
     </section>
     <!-- SECTION :: END-->
+    <div class="c-modal mfp-hide mfp-with-anim" id="integrationModal"><a class="c-modal__close" href="#" popup-close-js><i class="icon-font icon-close"></i></a>
+          <div class="c-modal__header">
+            <p class="c-modal__title">Select your favorite <strong>Integration</strong></p>
+          </div>
+          <div class="c-modal__body">
+            <div class="c-modal__integration-wrapper">
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-1.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Mailchimp</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-2.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Campaign Monitor</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-3.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Google Sheets</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-4.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Aweber</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-5.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Sendgrid</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-6.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Mailgun</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-7.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Active Campaign</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-8.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Hubspot</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-9.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Gist</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-10.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">MailerLite</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-4.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Aweber</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-5.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Sendgrid</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-6.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Mailgun</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-7.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Active Campaign</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-8.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Hubspot</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-9.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">Gist</p>
+                        </div></a>
+              </div>
+              <div><a class="c-modal__integration" href="/verification-3.html">
+                        <div class="c-modal__integration-head"><img src="img/img-integrartion-box-10.svg" alt=""></div>
+                        <div class="c-modal__integration-body">
+                          <p class="c-modal__integration-name">MailerLite</p>
+                        </div></a>
+              </div>
+            </div>
+          </div>
+          <div class="c-modal__footer">
+            <p class="c-modal__desc">More Integrations with your favorite tools Coming Soon!</p>
+          </div>
+    </div>
   </body>
   <!-- SCRIPT :: START-->
   <script src="js/vendor.js"></script>

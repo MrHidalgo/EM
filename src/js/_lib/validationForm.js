@@ -78,4 +78,19 @@ const initValidation = () => {
 			}
 		}
 	});
+
+	$("#integrationConnect").validate({
+		submitHandler: function() {
+			$('[popup-js]').trigger('click');
+		},
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function(element) {
+			$(element).valid();
+		},
+		rules: {
+			api_key: 'required',
+		}
+	});
 };

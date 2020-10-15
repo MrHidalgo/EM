@@ -88,6 +88,15 @@
 
 		&-wrapper {
 			position: relative;
+
+			&:hover {
+				.header__user-dropdown {
+					opacity: 1;
+					visibility: visible;
+					transform: translateY(0);
+					@include transition(opacity, visibility, transform);
+				}
+			}
 		}
 
 		&-dropdown {

@@ -1,0 +1,101 @@
+// SECTION :: START
+
+
+
+section#report.report
+
+	a.report__close(href="#" report-close-js)
+		i.icon-font.icon-circle-right
+
+	.report__head
+
+		p.report__title
+			img(src="img/img-documents.svg" alt="")
+			span Create your Report
+		p.report__desc How do you prefer to get the report?
+
+	.report__body
+
+		p.report__name
+			i.icon-font.icon-file
+			span Long title_Long title_Long title_Long Long title_Long title_Long title_Long
+
+		ul.report__info
+			li
+				div
+					span Uploaded :
+				div
+					i
+				div
+					span 12/19/17 - 11:37 PM
+			li
+				div
+					span Verified :
+				div
+					i.double
+				div
+					p.green 2 087 245
+
+		.report__export
+			.report__export-head
+
+				p.report__export-title
+					span Export Option
+					i
+
+			.report__export-body
+
+				mixin reportTableRow(id, name, count, width, bgColor)
+					tr
+						td
+							.c-checkbox
+								input.c-checkbox__input(type='checkbox' name='' id!= id)
+								label.c-checkbox__label(for!= id)
+									p
+										i
+						td
+							label(for!= id)
+								p.name!= name
+						td
+							p.count!= count
+						td
+							.progress
+								u(style='width: ' + width + '; background-color: ' + bgColor + ';')
+
+				table
+					thead
+						tr
+							th
+								.c-checkbox
+									input.c-checkbox__input(type='checkbox' name='' id='report-select-all' report-select-all)
+									label.c-checkbox__label(for='report-select-all')
+										p
+											i
+							th
+								label(for='report-select-all')
+									p.name Select All
+							th
+							th
+					tbody(report-checked-js)
+						+reportTableRow('report-deliverable', 'Deliverable', '1 925 000', '75%', '#3AD378')
+						+reportTableRow('report-invalid', 'Invalid', '2 876', '25%', '#7CA9FF')
+						+reportTableRow('report-accept-all', 'Accept-All', '82', '20%', '#00D7FE')
+						+reportTableRow('report-syntax', 'Syntax', '287 976', '75%', '#FF4CFF')
+						+reportTableRow('report-disposable', 'Disposable', '12', '10%', '#A762EA')
+						+reportTableRow('report-unknown', 'Unknown', '56', '15%', '#FFC14C')
+						+reportTableRow('report-spam-traps', 'Spam Traps', '1 231', '20%', '#FF4D4D')
+
+
+	.report__footer
+
+		.c-btn__wrapper.c-btn__wrapper--column
+			a.c-btn.c-btn--blueBorder(href="#")
+				span Download Results CSV
+			a.c-btn.c-btn--blueBorder(href="#")
+				span Download Results XLSX
+
+		a.report__guide(href="#")
+			i.icon-font.icon-vocabulary
+			span Guide to Deciphering Email Status Report
+
+// SECTION :: END
