@@ -1,0 +1,23 @@
+// SECTION :: START
+
+section#api.api.api--welcome
+
+	.c-grid
+
+		.api__wrapper
+
+			.api__welcome
+				p.api__welcome-title!= "No API? <br>Create your first API key!"
+
+				.c-btn__wrapper.c-btn__wrapper--column
+					a.c-btn.c-btn--blue(href="#createAPIModal" data-effect='mfp-zoom-in' popup-js)
+						i.icon-font.icon-add-code
+						span Create your API
+
+					a.c-btn.c-btn--blueBorder(href="#")
+						i.icon-font.icon-github
+						span Libraries
+
+				p.api__welcome-info!= "Verify email addresses within your application using our Real Time API. Get a head start with the EmailMarker API libraries for <strong>cURL</strong>, <strong>PHP</strong>, <strong>C Sharp</strong>, <strong>Python</strong>, and <strong>Ruby</strong>."
+
+// SECTION :: END

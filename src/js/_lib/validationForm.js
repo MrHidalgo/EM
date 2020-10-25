@@ -93,4 +93,30 @@ const initValidation = () => {
 			api_key: 'required',
 		}
 	});
+
+	$("#apiName").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function(element) {
+			$(element).valid();
+		},
+		rules: {
+			api_name: 'required',
+		}
+	});
+
+	$("#apiKey").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function(element) {
+			$(element).valid();
+		},
+		rules: {
+			api_key: 'required',
+		}
+	});
 };

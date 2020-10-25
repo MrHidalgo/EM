@@ -2,56 +2,58 @@
 
 section#dashboard.dashboard
 
-	.dashboard__wrapper
-		.dashboard__wrapper-head
+	.c-grid
 
-			.dashboard__box-wrapper
-				div
-					.dashboard__box
-						p.dashboard__box-title Verified
-						p.dashboard__box-num 2 160 098
-						#chartBox1.dashboard__box-chart
-				div
-					.dashboard__box
-						p.dashboard__box-title Disposable
-						p.dashboard__box-num 25 000
-						#chartBox2.dashboard__box-chart
-				div
-					.dashboard__box
-						p.dashboard__box-title Duplicate
-						p.dashboard__box-num 198
-						#chartBox3.dashboard__box-chart
-				div
-					.dashboard__box
-						p.dashboard__box-title Spam-traps
-						p.dashboard__box-num 276
-						#chartBox4.dashboard__box-chart
+		.dashboard__wrapper
+			.dashboard__wrapper-head
 
-		.dashboard__wrapper-body
-
-			.dashboard__block
-				.dashboard__block-head
+				.dashboard__box-wrapper
 					div
-						p.dashboard__block-title History
+						.dashboard__box
+							p.dashboard__box-title Verified
+							p.dashboard__box-num 2 160 098
+							#chartBox1.dashboard__box-chart
 					div
-						p.dashboard__block-date Fri, 31 Jul 2020 - Mon, 31 Aug 2020
+						.dashboard__box
+							p.dashboard__box-title Disposable
+							p.dashboard__box-num 25 000
+							#chartBox2.dashboard__box-chart
+					div
+						.dashboard__box
+							p.dashboard__box-title Duplicate
+							p.dashboard__box-num 198
+							#chartBox3.dashboard__box-chart
+					div
+						.dashboard__box
+							p.dashboard__box-title Spam-traps
+							p.dashboard__box-num 276
+							#chartBox4.dashboard__box-chart
 
-				.dashboard__block-body
+			.dashboard__wrapper-body
 
-					.dashboard__tab-wrapper
-						.dashboard__tab-head
-							a.dashboard__tab.is-active(href="#" data-id='1' tab-js)
-								span Today
-							a.dashboard__tab(href="#" data-id='2' tab-js)
-								span This Week
-							a.dashboard__tab(href="#" data-id='3' tab-js)
-								span This Month
-						.dashboard__tab-body
-							.dashboard__tab-content.is-active(data-content='1' tab-content-js)
-								#chartBlock1
-							.dashboard__tab-content(data-content='2' tab-content-js)
-								#chartBlock2
-							.dashboard__tab-content(data-content='3' tab-content-js)
-								#chartBlock3
+				.dashboard__block
+					.dashboard__block-head
+						div
+							p.dashboard__block-title History
+						div
+							p.dashboard__block-date Fri, 31 Jul 2020 - Mon, 31 Aug 2020
+
+					.dashboard__block-body
+
+						.dashboard__tab-wrapper
+							.dashboard__tab-head
+								a.dashboard__tab.is-active(href="#" data-id='1' tab-js)
+									span Today
+								a.dashboard__tab(href="#" data-id='2' tab-js)
+									span This Week
+								a.dashboard__tab(href="#" data-id='3' tab-js)
+									span This Month
+							.dashboard__tab-body
+								.dashboard__tab-content.is-active(data-content='1' tab-content-js)
+									#chartBlock1
+								.dashboard__tab-content(data-content='2' tab-content-js)
+									#chartBlock2
+								.dashboard__tab-content(data-content='3' tab-content-js)
+									#chartBlock3
 
 // SECTION :: END

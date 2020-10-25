@@ -294,6 +294,44 @@
 			}
 		}
 	}
+
+	&#createAPIModal {
+		max-width: 900px;
+		padding: 30px 30px 20px;
+
+		.c-form {
+			display: flex;
+			justify-content: space-between;
+
+			&__field {
+				padding-bottom: 20px;
+
+				&:nth-of-type(1) {
+					width: calc(100% - 260px);
+				}
+				&:nth-of-type(2) {
+					width: 250px;
+				}
+			}
+		}
+
+		.c-btn {
+			width: 100%;
+		}
+
+		.c-modal {
+			&__title {
+				padding-bottom: 40px;
+				font-size: 34px;
+				color: #535260;
+
+				span {
+					color: #000000;
+					font-weight: 500;
+				}
+			}
+		}
+	}
 }
 
 // MODAL :: END

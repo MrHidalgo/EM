@@ -1,0 +1,105 @@
+// SECTION :: START
+
+section#api-stat.api-stat(apibox-result-js)
+
+	a.api-stat__back(href="#" apibox-back-js)
+		i.icon-font.icon-circle-right
+
+	.api-stat__header
+		div
+			p.api-stat__title
+				img(src="img/img-documents.svg" alt="")
+				span API Summary
+		div
+			a.api-stat__remove(href="#")
+				i.icon-font.icon-trash
+				span Delete API
+
+	.api-stat__body
+
+		p.api-stat__subtitle How do you prefer to get the report?
+
+		.api-stat__line
+
+		.api-stat__graph
+			p.api-stat__graph-time 12/19/17  -  11:37 PM
+
+			.api-stat__graph-header
+				div
+					.api-stat__graph-name
+						div
+							i.icon-font.icon-file
+						div
+							input(type='text' name='' id='' value='Marine in Brisbane, QUEE' disabled)
+						div
+							a(href="#")
+								i.icon-font.icon-edit
+
+				div
+					.api-stat__graph-select
+						select
+							option Month
+							option Week
+							option Year
+
+			.api-stat__graph-body
+
+				#chartBlock1
+
+			.api-stat__graph-footer
+
+				ul.api-stat__graph-list
+					li.deliverable
+						div
+							p Deliverable
+							p 1 925 000
+						div
+							span(style='width: 80%;')
+					li.invalid
+						div
+							p Invalid
+							p 2 876
+						div
+							span(style='width: 50%;')
+					li.disposable
+						div
+							p Disposable
+							p 82
+						div
+							span(style='width: 10%;')
+
+		.api-stat__line
+
+		.api-stat__form
+			p.api-stat__form-title Your API key
+			form#apiKey.c-form(action='' method='' autocomplete='off')
+				.c-form__field.is-focus
+					input(type='text' id='api_key' name='api_key' value='IL4TbXms7PXuDagNVpOIa' input-js required)
+					label(for='api_key') API Key
+				.c-form__field
+					.c-btn__wrapper
+						button.c-btn.c-btn--blue(type='submit')
+							span Regenerate
+
+		.api-stat__line
+
+		.api-stat__documentation-wrapper
+			div
+				p.api-stat__documentation-title Documentation
+			div
+				.api-stat__documentation-row
+					div
+						.api-stat__documentation
+							img(src="img/lang-python-logo.png" srcset="img/lang-python-logo@2x.png 2x" alt="")
+					div
+						.api-stat__documentation
+							img(src="img/lang-rybu-logo.png" srcset="img/lang-rybu-logo@2x.png 2x" alt="")
+					div
+						.api-stat__documentation
+							img(src="img/lang-php-logo.png" srcset="img/lang-php-logo@2x.png 2x" alt="")
+					div
+						.api-stat__documentation
+							img(src="img/lang-c-logo.png" srcset="img/lang-c-logo@2x.png 2x" alt="")
+
+
+// SECTION :: END

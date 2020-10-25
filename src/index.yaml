@@ -34,3 +34,9 @@ PageList:
 - file: single-verification-4.html
   titleName: Single Verification 4
   ready: 33
+- file: api-1.html
+  titleName: API 1
+  ready: 33
+- file: api-2.html
+  titleName: API 2
+  ready: 33

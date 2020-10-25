@@ -39,11 +39,6 @@
 	&__wrapper {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
-		max-width: (1580px + 30px + 250px);
-		margin-left: auto;
-		margin-right: auto;
-		padding: 172px 125px 110px;
 
 		&-header {
 			padding-bottom: 55px;

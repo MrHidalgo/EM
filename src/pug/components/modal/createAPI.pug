@@ -1,0 +1,20 @@
+mixin modalContent()
+	a.c-modal__close(href="#" popup-close-js)
+		i.icon-font.icon-close
+
+	.c-modal__header
+
+		p.c-modal__title!= "Create your first <span>API key!</span>"
+
+	.c-modal__body
+
+		form#apiName.c-form(action='' method='' autocomplete='off')
+			.c-form__field
+				input(type='text' id='api_name' name='api_name' input-js required)
+				label(for='api_name') API name
+			.c-form__field
+				.c-btn__wrapper
+					button.c-btn.c-btn--blue(type='submit')
+						span Create API
+
++modal('createAPIModal', 'modalContent')

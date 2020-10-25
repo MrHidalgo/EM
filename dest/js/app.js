@@ -177,6 +177,32 @@ var initValidation = function initValidation() {
 			api_key: 'required'
 		}
 	});
+
+	$("#apiName").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function onkeyup(element) {
+			$(element).valid();
+		},
+		rules: {
+			api_name: 'required'
+		}
+	});
+
+	$("#apiKey").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function onkeyup(element) {
+			$(element).valid();
+		},
+		rules: {
+			api_key: 'required'
+		}
+	});
 };
 
 /**
@@ -674,22 +700,32 @@ window.addEventListener('scroll', function (ev) {
 			}
 		};
 
-		if ($('#chartBox1').length || $('#chartBlock1').length) {
+		if ($('#chartBox1').length > 0) {
 			var chartBox1 = new ApexCharts(document.querySelector("#chartBox1"), optionsBox1);
-			var chartBox2 = new ApexCharts(document.querySelector("#chartBox2"), optionsBox2);
-			var chartBox3 = new ApexCharts(document.querySelector("#chartBox3"), optionsBox3);
-			var chartBox4 = new ApexCharts(document.querySelector("#chartBox4"), optionsBox4);
-			var chartBlock1 = new ApexCharts(document.querySelector("#chartBlock1"), optionsBlock1);
-			var chartBlock2 = new ApexCharts(document.querySelector("#chartBlock2"), optionsBlock2);
-			var chartBlock3 = new ApexCharts(document.querySelector("#chartBlock3"), optionsBlock3);
-
 			chartBox1.render();
+		}
+		if ($('#chartBox2').length > 0) {
+			var chartBox2 = new ApexCharts(document.querySelector("#chartBox2"), optionsBox2);
 			chartBox2.render();
+		}
+		if ($('#chartBox3').length > 0) {
+			var chartBox3 = new ApexCharts(document.querySelector("#chartBox3"), optionsBox3);
 			chartBox3.render();
+		}
+		if ($('#chartBox4').length > 0) {
+			var chartBox4 = new ApexCharts(document.querySelector("#chartBox4"), optionsBox4);
 			chartBox4.render();
-
+		}
+		if ($('#chartBlock1').length > 0) {
+			var chartBlock1 = new ApexCharts(document.querySelector("#chartBlock1"), optionsBlock1);
 			chartBlock1.render();
+		}
+		if ($('#chartBlock2').length > 0) {
+			var chartBlock2 = new ApexCharts(document.querySelector("#chartBlock2"), optionsBlock2);
 			chartBlock2.render();
+		}
+		if ($('#chartBlock3').length > 0) {
+			var chartBlock3 = new ApexCharts(document.querySelector("#chartBlock3"), optionsBlock3);
 			chartBlock3.render();
 		}
 	};
@@ -704,6 +740,18 @@ window.addEventListener('scroll', function (ev) {
 
 			$('[tab-content-js]').removeClass('is-active');
 			$('[tab-content-js][data-content="' + elID + '"]').addClass('is-active');
+		});
+	};
+
+	var apiBoxResult = function apiBoxResult() {
+		$('[apibox-js]').on('click', function (ev) {
+			$('html, body').addClass('is-hideScroll');
+			$('[apibox-result-js]').addClass('is-open');
+		});
+
+		$('[apibox-back-js]').on('click', function (ev) {
+			$('html, body').removeClass('is-hideScroll');
+			$('[apibox-result-js]').removeClass('is-open');
 		});
 	};
 	/*
@@ -732,6 +780,7 @@ window.addEventListener('scroll', function (ev) {
 		reportCB();
 		chartCB();
 		tabCB();
+		apiBoxResult();
 		// ==========================================
 	};
 

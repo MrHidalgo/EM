@@ -49,66 +49,68 @@ mixin verifyBox(className, boxName, imgClassMod, imgName, badgeClassMod, badgeVa
 
 section#verification.verification
 
-	.verification__wrapper
+	.c-grid
 
-		include _verification--filter
+		.verification__wrapper
 
-		.verification__box-wrapper
-			div
-				+verifyBox('1', 'unprocessed',
-					'', 'img/img-to-do-list--verify.svg',
-					'verify', 'To verify', 'list',
-					'blue', '2 160 098 To Verify')
-			div
-				+verifyBox('2', 'processing',
-					'', 'img/img-to-do-list--progress.svg',
-					'progress', 'On progress', 'progress',
-					'blueBorder is-disabled', 'On progress')
-			div
-				+verifyBox('3', 'verified',
-					'', 'img/img-to-do-list--verified.svg',
-					'verified', 'Verified', 'list',
-					'blueBorder', 'Show result')
-			div
-				+verifyBox('4', 'verified',
-					'yellow', 'img/img-mailchimp.svg',
-					'verified', 'Verified', 'list',
-					'blueBorder', 'Show result')
-			div
-				+verifyBox('5', 'verified',
-					'purple', 'img/img-campaignMonitor.svg',
-					'verified', 'Verified', 'list',
-					'blueBorder', 'Show result')
-			div
-				+verifyBox('6', 'verified',
-					'', 'img/img-to-do-list--verified.svg',
-					'verified', 'Verified', 'list',
-					'blueBorder', 'Show result')
-			div
-				+verifyBox('7', 'verified',
-					'', 'img/img-to-do-list--verified.svg',
-					'verified', 'Verified', 'list',
-					'blueBorder', 'Show result')
-			div
-				+verifyBox('8', 'unprocessed',
-					'', 'img/img-to-do-list--verify.svg',
-					'verify', 'To verify', 'list',
-					'blue', '2 160 098 To Verify')
-			div
-				+verifyBox('9', 'verified',
-					'', 'img/img-to-do-list--verified.svg',
-					'verified', 'Verified', 'list',
-					'blueBorder', 'Show result')
-			div
-				+verifyBox('10', 'verified',
-					'', 'img/img-to-do-list--verified.svg',
-					'verified', 'Verified', 'list',
-					'blueBorder', 'Show result')
-			div
-				+verifyBox('11', 'verified',
-					'orange', 'img/img-integration.svg',
-					'verified', 'Verified', 'list',
-					'blueBorder', 'Show result')
+			include _verification--filter
+
+			.verification__box-wrapper
+				div
+					+verifyBox('1', 'unprocessed',
+						'', 'img/img-to-do-list--verify.svg',
+						'verify', 'To verify', 'list',
+						'blue', '2 160 098 To Verify')
+				div
+					+verifyBox('2', 'processing',
+						'', 'img/img-to-do-list--progress.svg',
+						'progress', 'On progress', 'progress',
+						'blueBorder is-disabled', 'On progress')
+				div
+					+verifyBox('3', 'verified',
+						'', 'img/img-to-do-list--verified.svg',
+						'verified', 'Verified', 'list',
+						'blueBorder', 'Show result')
+				div
+					+verifyBox('4', 'verified',
+						'yellow', 'img/img-mailchimp.svg',
+						'verified', 'Verified', 'list',
+						'blueBorder', 'Show result')
+				div
+					+verifyBox('5', 'verified',
+						'purple', 'img/img-campaignMonitor.svg',
+						'verified', 'Verified', 'list',
+						'blueBorder', 'Show result')
+				div
+					+verifyBox('6', 'verified',
+						'', 'img/img-to-do-list--verified.svg',
+						'verified', 'Verified', 'list',
+						'blueBorder', 'Show result')
+				div
+					+verifyBox('7', 'verified',
+						'', 'img/img-to-do-list--verified.svg',
+						'verified', 'Verified', 'list',
+						'blueBorder', 'Show result')
+				div
+					+verifyBox('8', 'unprocessed',
+						'', 'img/img-to-do-list--verify.svg',
+						'verify', 'To verify', 'list',
+						'blue', '2 160 098 To Verify')
+				div
+					+verifyBox('9', 'verified',
+						'', 'img/img-to-do-list--verified.svg',
+						'verified', 'Verified', 'list',
+						'blueBorder', 'Show result')
+				div
+					+verifyBox('10', 'verified',
+						'', 'img/img-to-do-list--verified.svg',
+						'verified', 'Verified', 'list',
+						'blueBorder', 'Show result')
+				div
+					+verifyBox('11', 'verified',
+						'orange', 'img/img-integration.svg',
+						'verified', 'Verified', 'list',
+						'blueBorder', 'Show result')
 
 
 // SECTION :: END

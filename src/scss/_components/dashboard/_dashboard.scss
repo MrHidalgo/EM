@@ -1,14 +1,6 @@
 // SECTION :: START
 
 .dashboard {
-	&__wrapper {
-		width: 100%;
-		max-width: (1580px + 30px + 250px);
-		margin-left: auto;
-		margin-right: auto;
-		padding: 172px 125px 110px;
-	}
-
 	&__box {
 		position: relative;
 		display: flex;

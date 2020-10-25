@@ -2,23 +2,25 @@
 
 section#single-verification.single-verification.single-verification--main
 
-	.single-verification__wrapper
+	.c-grid
 
-		.single-verification__wrapper-header
-			p!= "You have <span>98</span> available email validation(s) <a href='#' class=''><u>Buy credits</u></a>"
+		.single-verification__wrapper
 
-		.single-verification__wrapper-body
+			.single-verification__wrapper-header
+				p!= "You have <span>98</span> available email validation(s) <a href='#' class=''><u>Buy credits</u></a>"
 
-			form.single-verification__form.c-form(action='#' method='#' autocomplete='off')
-				.c-form__field
-					input(type='text' id='email' name='email' placeholder='' input-js required)
-					label(for='email') Enter an email address
-				.c-btn__wrapper
-					button.c-btn.c-btn--blue(type='submit')
-						span Start Verifying
+			.single-verification__wrapper-body
 
-		.single-verification__wrapper-footer
+				form.single-verification__form.c-form(action='#' method='#' autocomplete='off')
+					.c-form__field
+						input(type='text' id='email' name='email' placeholder='' input-js required)
+						label(for='email') Enter an email address
+					.c-btn__wrapper
+						button.c-btn.c-btn--blue(type='submit')
+							span Start Verifying
 
-			p.single-verification__details!= "Check the status, deliverability, <br>and risk level of email addresses with <br>our single email verification"
+			.single-verification__wrapper-footer
+
+				p.single-verification__details!= "Check the status, deliverability, <br>and risk level of email addresses with <br>our single email verification"
 
 // SECTION :: END

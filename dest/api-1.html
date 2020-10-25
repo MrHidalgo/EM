@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- TITLE-->
-    <title>EM | Single Verification</title>
+    <title>EM | API</title>
     <!-- FAVICON-->
     <!-- STYLE :: START-->
     <link rel="stylesheet" href="css/vendor.css">
@@ -114,69 +114,15 @@
       </div>
     </header>
     <!-- HEADER :: END-->
-    <div class="body body--start p-single-verification p-single-verification-4">
+    <div class="body body--start p-api p-api-1">
       <!-- SECTION :: START-->
-      <section class="single-verification single-verification--warning" id="single-verification">
+      <section class="api api--welcome" id="api">
         <div class="c-grid">
-          <div class="single-verification__wrapper">
-            <div class="single-verification__wrapper-header">
-              <p>You have <span>98</span> available email validation(s) <a href='#' class=''><u>Buy credits</u></a></p>
-            </div>
-            <div class="single-verification__wrapper-body">
-              <form class="single-verification__form c-form" action="#" method="#" autocomplete="off">
-                <div class="c-form__field">
-                  <input type="text" id="email" name="email" placeholder="" input-js required>
-                  <label for="email">Enter an email address</label>
-                </div>
-                <div class="c-btn__wrapper">
-                  <button class="c-btn c-btn--blue" type="submit"><span>Start Verifying</span></button>
-                </div>
-              </form>
-              <div class="single-verification__info">
-                <div><img src="img/img-warning.svg" alt=""></div>
-                <div>
-                  <p>Your email address <strong>is Invalid</strong> <br>because it’s <span>Bounce.</span></p>
-                </div>
-              </div>
-            </div>
-            <div class="single-verification__wrapper-footer">
-              <div class="single-verification__list-wrapper">
-                <p class="single-verification__list-title">Details:</p>
-                <ul class="single-verification__list">
-                  <li>
-                    <div>Status</div>
-                    <div class="red">Valid</div>
-                  </li>
-                  <li>
-                    <div>Syntax error</div>
-                    <div>False</div>
-                  </li>
-                  <li>
-                    <div>Domain</div>
-                    <div>gmail.com</div>
-                  </li>
-                  <li>
-                    <div>Role</div>
-                    <div>False</div>
-                  </li>
-                  <li>
-                    <div>Disposable</div>
-                    <div>False</div>
-                  </li>
-                  <li>
-                    <div>Accept-all</div>
-                    <div class="red">False</div>
-                  </li>
-                  <li>
-                    <div>Spam trap</div>
-                    <div>False</div>
-                  </li>
-                  <li>
-                    <div>Free email</div>
-                    <div>True</div>
-                  </li>
-                </ul>
-              </div>
+          <div class="api__wrapper">
+            <div class="api__welcome">
+              <p class="api__welcome-title">No API? <br>Create your first API key!</p>
+              <div class="c-btn__wrapper c-btn__wrapper--column"><a class="c-btn c-btn--blue" href="#createAPIModal" data-effect="mfp-zoom-in" popup-js><i class="icon-font icon-add-code"></i><span>Create your API</span></a><a class="c-btn c-btn--blueBorder" href="#"><i class="icon-font icon-github"></i><span>Libraries</span></a></div>
+              <p class="api__welcome-info">Verify email addresses within your application using our Real Time API. Get a head start with the EmailMarker API libraries for <strong>cURL</strong>, <strong>PHP</strong>, <strong>C Sharp</strong>, <strong>Python</strong>, and <strong>Ruby</strong>.</p>
             </div>
           </div>
         </div>
@@ -197,11 +143,11 @@
                 <div class="c-poppertext c-poppertext--right">
                   <u>Bulk Verification</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper is-active" href="#" sidebar-btn-js><span><i class="icon-font icon-email"></i></span>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-email"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Single Verification</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-apps"></i></span>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper is-active" href="#" sidebar-btn-js><span><i class="icon-font icon-apps"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Api</u>
                 </div></a></li>
@@ -230,6 +176,24 @@
       </div>
     </section>
     <!-- SECTION :: END-->
+    <div class="c-modal mfp-hide mfp-with-anim" id="createAPIModal"><a class="c-modal__close" href="#" popup-close-js><i class="icon-font icon-close"></i></a>
+          <div class="c-modal__header">
+            <p class="c-modal__title">Create your first <span>API key!</span></p>
+          </div>
+          <div class="c-modal__body">
+            <form class="c-form" id="apiName" action="" method="" autocomplete="off">
+              <div class="c-form__field">
+                <input type="text" id="api_name" name="api_name" input-js required>
+                <label for="api_name">API name</label>
+              </div>
+              <div class="c-form__field">
+                <div class="c-btn__wrapper">
+                  <button class="c-btn c-btn--blue" type="submit"><span>Create API</span></button>
+                </div>
+              </div>
+            </form>
+          </div>
+    </div>
   </body>
   <!-- SCRIPT :: START-->
   <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>

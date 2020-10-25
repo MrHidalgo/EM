@@ -11,7 +11,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-analytics:before, .icon-apps:before, .icon-bell:before, .icon-check:before, .icon-circle-right:before, .icon-close:before, .icon-email:before, .icon-envelope:before, .icon-eye-line:before, .icon-eye:before, .icon-file-blank:before, .icon-file:before, .icon-filter-search:before, .icon-filter:before, .icon-gift:before, .icon-grammar:before, .icon-intersect:before, .icon-log-out:before, .icon-products:before, .icon-profile:before, .icon-receipt:before, .icon-search:before, .icon-trash:before, .icon-upload:before, .icon-viewport-narrow:before, .icon-vocabulary:before {
+.icon-add-code:before, .icon-analytics:before, .icon-apps:before, .icon-bell:before, .icon-check:before, .icon-circle-right:before, .icon-close:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-eye-line:before, .icon-eye:before, .icon-file-blank:before, .icon-file:before, .icon-filter-search:before, .icon-filter:before, .icon-gift:before, .icon-github:before, .icon-grammar:before, .icon-intersect:before, .icon-log-out:before, .icon-products:before, .icon-profile:before, .icon-receipt:before, .icon-search:before, .icon-trash:before, .icon-upload:before, .icon-viewport-narrow:before, .icon-vocabulary:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -22,134 +22,149 @@
   text-transform: none;
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-analytics:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-add-code:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-apps:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-analytics:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-bell:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-apps:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-check:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-bell:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-circle-right:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-check:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-close:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-circle-right:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-close:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-envelope:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-eye-line:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-eye:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-envelope:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-file-blank:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-eye-line:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-file:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-eye:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-filter-search:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-file-blank:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-filter:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-file:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-gift:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-filter-search:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-grammar:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-filter:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-intersect:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-gift:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-log-out:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-github:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-products:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-grammar:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-profile:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-intersect:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-receipt:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-log-out:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-products:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-trash:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-profile:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-receipt:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-viewport-narrow:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-vocabulary:before {
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-trash:before {
   content: "";
+}
+
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
+  content: "";
+}
+
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-viewport-narrow:before {
+  content: "";
+}
+
+/* line 122, src/scss/_generated/_spriteFont.scss */
+.icon-vocabulary:before {
+  content: "";
 }
 
 @font-face {
@@ -423,6 +438,24 @@ picture {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* line 8, src/scss/_shared/_grid.scss */
+.c-grid, .c-grid-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 172px 125px 110px 125px;
+}
+
+/* line 19, src/scss/_shared/_grid.scss */
+.c-grid {
+  max-width: 1860px;
+}
+
+/* line 26, src/scss/_shared/_grid.scss */
+.c-grid-fluid {
+  max-width: 100%;
 }
 
 /* line 3, src/scss/_shared/_common.scss */
@@ -1964,6 +1997,58 @@ picture {
   height: 100%;
 }
 
+/* line 298, src/scss/_macros/_modal.scss */
+.c-modal#createAPIModal {
+  max-width: 900px;
+  padding: 30px 30px 20px;
+}
+
+/* line 302, src/scss/_macros/_modal.scss */
+.c-modal#createAPIModal .c-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 306, src/scss/_macros/_modal.scss */
+.c-modal#createAPIModal .c-form__field {
+  padding-bottom: 20px;
+}
+
+/* line 309, src/scss/_macros/_modal.scss */
+.c-modal#createAPIModal .c-form__field:nth-of-type(1) {
+  width: -webkit-calc(100% - 260px);
+  width: calc(100% - 260px);
+}
+
+/* line 312, src/scss/_macros/_modal.scss */
+.c-modal#createAPIModal .c-form__field:nth-of-type(2) {
+  width: 250px;
+}
+
+/* line 318, src/scss/_macros/_modal.scss */
+.c-modal#createAPIModal .c-btn {
+  width: 100%;
+}
+
+/* line 323, src/scss/_macros/_modal.scss */
+.c-modal#createAPIModal .c-modal__title {
+  padding-bottom: 40px;
+  font-size: 34px;
+  color: #535260;
+}
+
+/* line 328, src/scss/_macros/_modal.scss */
+.c-modal#createAPIModal .c-modal__title span {
+  color: #000000;
+  font-weight: 500;
+}
+
 /* line 3, src/scss/_components/_header.scss */
 .header {
   z-index: 1550;
@@ -3149,12 +3234,17 @@ picture {
   line-height: 1;
 }
 
-/* line 5, src/scss/_components/verification/_verification.scss */
-.verification.verification--empty .verification__wrapper {
+/* line 4, src/scss/_components/verification/_verification.scss */
+.verification.verification--empty {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -3163,18 +3253,15 @@ picture {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  min-height: 100vh;
 }
 
-/* line 12, src/scss/_components/verification/_verification.scss */
-.verification__wrapper {
-  width: 100%;
-  max-width: 1860px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 172px 125px 110px;
+/* line 11, src/scss/_components/verification/_verification.scss */
+.verification.verification--empty .c-grid {
+  padding-bottom: 172px;
 }
 
-/* line 20, src/scss/_components/verification/_verification.scss */
+/* line 16, src/scss/_components/verification/_verification.scss */
 .verification__welcome {
   width: 100%;
   max-width: 390px;
@@ -3182,7 +3269,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 26, src/scss/_components/verification/_verification.scss */
+/* line 22, src/scss/_components/verification/_verification.scss */
 .verification__welcome-title {
   padding-bottom: 39px;
   font-weight: 500;
@@ -3191,39 +3278,39 @@ picture {
   color: #000;
 }
 
-/* line 35, src/scss/_components/verification/_verification.scss */
+/* line 31, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn {
   height: 80px;
 }
 
-/* line 38, src/scss/_components/verification/_verification.scss */
+/* line 34, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn:not(:last-of-type) {
   margin-bottom: 15px;
 }
 
-/* line 43, src/scss/_components/verification/_verification.scss */
+/* line 39, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn .icon-font.icon-upload {
   font-size: 25px;
 }
 
-/* line 46, src/scss/_components/verification/_verification.scss */
+/* line 42, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn .icon-font.icon-intersect {
   font-size: 30px;
 }
 
-/* line 51, src/scss/_components/verification/_verification.scss */
+/* line 47, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn span {
   font-size: 25px;
 }
 
-/* line 57, src/scss/_components/verification/_verification.scss */
+/* line 53, src/scss/_components/verification/_verification.scss */
 .verification__welcome-info {
   padding-top: 15px;
   font-size: 16px;
   color: #5D5D5D;
 }
 
-/* line 64, src/scss/_components/verification/_verification.scss */
+/* line 60, src/scss/_components/verification/_verification.scss */
 .verification__filter {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3236,12 +3323,12 @@ picture {
   padding-bottom: 42px;
 }
 
-/* line 70, src/scss/_components/verification/_verification.scss */
+/* line 66, src/scss/_components/verification/_verification.scss */
 .verification__filter > div:nth-of-type(1) {
   padding-right: 34px;
 }
 
-/* line 75, src/scss/_components/verification/_verification.scss */
+/* line 71, src/scss/_components/verification/_verification.scss */
 .verification__filter-title {
   font-weight: 500;
   font-size: 15px;
@@ -3249,7 +3336,7 @@ picture {
   color: #000;
 }
 
-/* line 82, src/scss/_components/verification/_verification.scss */
+/* line 78, src/scss/_components/verification/_verification.scss */
 .verification__filter-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3265,17 +3352,17 @@ picture {
           justify-content: center;
 }
 
-/* line 88, src/scss/_components/verification/_verification.scss */
+/* line 84, src/scss/_components/verification/_verification.scss */
 .verification__filter .c-checkbox {
   padding-bottom: 0;
 }
 
-/* line 91, src/scss/_components/verification/_verification.scss */
+/* line 87, src/scss/_components/verification/_verification.scss */
 .verification__filter .c-checkbox:not(:last-of-type) {
   padding-right: 33px;
 }
 
-/* line 97, src/scss/_components/verification/_verification.scss */
+/* line 93, src/scss/_components/verification/_verification.scss */
 .verification__box {
   position: relative;
   display: -webkit-box;
@@ -3297,7 +3384,7 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 108, src/scss/_components/verification/_verification.scss */
+/* line 104, src/scss/_components/verification/_verification.scss */
 .verification__box-wrapper {
   position: relative;
   left: -50px;
@@ -3312,7 +3399,7 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 115, src/scss/_components/verification/_verification.scss */
+/* line 111, src/scss/_components/verification/_verification.scss */
 .verification__box-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 4);
@@ -3321,14 +3408,14 @@ picture {
   padding-bottom: 50px;
 }
 
-/* line 123, src/scss/_components/verification/_verification.scss */
+/* line 119, src/scss/_components/verification/_verification.scss */
 .verification__box-close {
   position: absolute;
   top: 20px;
   right: 20px;
 }
 
-/* line 129, src/scss/_components/verification/_verification.scss */
+/* line 125, src/scss/_components/verification/_verification.scss */
 .verification__box-close:hover .icon-font {
   color: #0056fc;
   -webkit-transition: color 0.3s ease-in-out;
@@ -3336,7 +3423,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 135, src/scss/_components/verification/_verification.scss */
+/* line 131, src/scss/_components/verification/_verification.scss */
 .verification__box-close .icon-font {
   color: #99bbfe;
   font-size: 20px;
@@ -3345,7 +3432,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 142, src/scss/_components/verification/_verification.scss */
+/* line 138, src/scss/_components/verification/_verification.scss */
 .verification__box-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3357,12 +3444,12 @@ picture {
           align-items: center;
 }
 
-/* line 147, src/scss/_components/verification/_verification.scss */
+/* line 143, src/scss/_components/verification/_verification.scss */
 .verification__box-head > div:nth-of-type(1) {
   padding-right: 20px;
 }
 
-/* line 150, src/scss/_components/verification/_verification.scss */
+/* line 146, src/scss/_components/verification/_verification.scss */
 .verification__box-head > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -3372,13 +3459,13 @@ picture {
   max-width: 100%;
 }
 
-/* line 158, src/scss/_components/verification/_verification.scss */
+/* line 154, src/scss/_components/verification/_verification.scss */
 .verification__box-body {
   padding-top: 16px;
   padding-bottom: 26px;
 }
 
-/* line 163, src/scss/_components/verification/_verification.scss */
+/* line 159, src/scss/_components/verification/_verification.scss */
 .verification__box-logo {
   position: relative;
   display: -webkit-box;
@@ -3403,22 +3490,22 @@ picture {
           box-shadow: 0 6px 10px 0 rgba(224, 227, 235, 0.5);
 }
 
-/* line 175, src/scss/_components/verification/_verification.scss */
+/* line 171, src/scss/_components/verification/_verification.scss */
 .verification__box-logo--yellow {
   background-color: #fde04c;
 }
 
-/* line 178, src/scss/_components/verification/_verification.scss */
+/* line 174, src/scss/_components/verification/_verification.scss */
 .verification__box-logo--purple {
   background-color: #7856FF;
 }
 
-/* line 181, src/scss/_components/verification/_verification.scss */
+/* line 177, src/scss/_components/verification/_verification.scss */
 .verification__box-logo--orange {
   background-color: #F37316;
 }
 
-/* line 185, src/scss/_components/verification/_verification.scss */
+/* line 181, src/scss/_components/verification/_verification.scss */
 .verification__box-logo img {
   display: block;
   max-width: 100%;
@@ -3428,7 +3515,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 195, src/scss/_components/verification/_verification.scss */
+/* line 191, src/scss/_components/verification/_verification.scss */
 .verification__box-badge {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3441,37 +3528,37 @@ picture {
   padding-bottom: 10px;
 }
 
-/* line 201, src/scss/_components/verification/_verification.scss */
+/* line 197, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--verify i {
   background-color: #FD784C;
 }
 
-/* line 204, src/scss/_components/verification/_verification.scss */
+/* line 200, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--verify span {
   color: #FD784C;
 }
 
-/* line 209, src/scss/_components/verification/_verification.scss */
+/* line 205, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--progress i {
   background-color: #7CA9FF;
 }
 
-/* line 212, src/scss/_components/verification/_verification.scss */
+/* line 208, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--progress span {
   color: #7CA9FF;
 }
 
-/* line 217, src/scss/_components/verification/_verification.scss */
+/* line 213, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--verified i {
   background-color: #3ad378;
 }
 
-/* line 220, src/scss/_components/verification/_verification.scss */
+/* line 216, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--verified span {
   color: #3ad378;
 }
 
-/* line 225, src/scss/_components/verification/_verification.scss */
+/* line 221, src/scss/_components/verification/_verification.scss */
 .verification__box-badge i {
   width: 10px;
   height: 10px;
@@ -3480,7 +3567,7 @@ picture {
   margin-right: 5px;
 }
 
-/* line 232, src/scss/_components/verification/_verification.scss */
+/* line 228, src/scss/_components/verification/_verification.scss */
 .verification__box-badge span {
   font-weight: 500;
   font-size: 14px;
@@ -3488,14 +3575,14 @@ picture {
   letter-spacing: 0.01em;
 }
 
-/* line 240, src/scss/_components/verification/_verification.scss */
+/* line 236, src/scss/_components/verification/_verification.scss */
 .verification__box-date {
   font-size: 13px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 246, src/scss/_components/verification/_verification.scss */
+/* line 242, src/scss/_components/verification/_verification.scss */
 .verification__box-name {
   overflow: hidden;
   white-space: nowrap;
@@ -3507,7 +3594,7 @@ picture {
   color: #000;
 }
 
-/* line 256, src/scss/_components/verification/_verification.scss */
+/* line 252, src/scss/_components/verification/_verification.scss */
 .verification__box-email {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3520,21 +3607,21 @@ picture {
   padding-bottom: 10px;
 }
 
-/* line 261, src/scss/_components/verification/_verification.scss */
+/* line 257, src/scss/_components/verification/_verification.scss */
 .verification__box-email .icon-font {
   margin-right: 5px;
   font-size: 16px;
   color: #ccddff;
 }
 
-/* line 267, src/scss/_components/verification/_verification.scss */
+/* line 263, src/scss/_components/verification/_verification.scss */
 .verification__box-email span {
   font-size: 14px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 274, src/scss/_components/verification/_verification.scss */
+/* line 270, src/scss/_components/verification/_verification.scss */
 .verification__box-info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3547,7 +3634,7 @@ picture {
   min-height: 50px;
 }
 
-/* line 279, src/scss/_components/verification/_verification.scss */
+/* line 275, src/scss/_components/verification/_verification.scss */
 .verification__box-info ul {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3560,7 +3647,7 @@ picture {
   width: 100%;
 }
 
-/* line 284, src/scss/_components/verification/_verification.scss */
+/* line 280, src/scss/_components/verification/_verification.scss */
 .verification__box-info ul li {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -3570,26 +3657,26 @@ picture {
   max-width: 100%;
 }
 
-/* line 290, src/scss/_components/verification/_verification.scss */
+/* line 286, src/scss/_components/verification/_verification.scss */
 .verification__box-info ul p {
   font-size: 11px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 296, src/scss/_components/verification/_verification.scss */
+/* line 292, src/scss/_components/verification/_verification.scss */
 .verification__box-info ul span {
   font-size: 13px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 304, src/scss/_components/verification/_verification.scss */
+/* line 300, src/scss/_components/verification/_verification.scss */
 .verification__box-progress {
   width: 100%;
 }
 
-/* line 307, src/scss/_components/verification/_verification.scss */
+/* line 303, src/scss/_components/verification/_verification.scss */
 .verification__box-progress p {
   font-size: 14px;
   letter-spacing: 0.01em;
@@ -3597,7 +3684,7 @@ picture {
   color: #5d5d5d;
 }
 
-/* line 314, src/scss/_components/verification/_verification.scss */
+/* line 310, src/scss/_components/verification/_verification.scss */
 .verification__box-progress > div {
   overflow: hidden;
   position: relative;
@@ -3611,7 +3698,7 @@ picture {
           box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.06);
 }
 
-/* line 324, src/scss/_components/verification/_verification.scss */
+/* line 320, src/scss/_components/verification/_verification.scss */
 .verification__box-progress > div .icon-font {
   z-index: 2;
   position: relative;
@@ -3619,7 +3706,7 @@ picture {
   color: #7ca9ff;
 }
 
-/* line 331, src/scss/_components/verification/_verification.scss */
+/* line 327, src/scss/_components/verification/_verification.scss */
 .verification__box-progress > div span {
   position: absolute;
   top: 0;
@@ -3631,12 +3718,12 @@ picture {
   transition: width 0.3s ease-in-out;
 }
 
-/* line 342, src/scss/_components/verification/_verification.scss */
+/* line 338, src/scss/_components/verification/_verification.scss */
 .verification__box .c-btn {
   width: 100%;
 }
 
-/* line 345, src/scss/_components/verification/_verification.scss */
+/* line 341, src/scss/_components/verification/_verification.scss */
 .verification__box .c-btn__wrapper {
   width: 100%;
 }
@@ -4099,15 +4186,6 @@ picture {
 }
 
 /* line 4, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__wrapper {
-  width: 100%;
-  max-width: 1860px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 172px 125px 110px;
-}
-
-/* line 12, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box {
   position: relative;
   display: -webkit-box;
@@ -4132,7 +4210,7 @@ picture {
           box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
 }
 
-/* line 23, src/scss/_components/dashboard/_dashboard.scss */
+/* line 15, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-wrapper {
   position: relative;
   left: -33px;
@@ -4147,7 +4225,7 @@ picture {
   width: calc(100% + 33px);
 }
 
-/* line 30, src/scss/_components/dashboard/_dashboard.scss */
+/* line 22, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 4);
@@ -4156,21 +4234,21 @@ picture {
   padding-bottom: 33px;
 }
 
-/* line 38, src/scss/_components/dashboard/_dashboard.scss */
+/* line 30, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-title {
   font-size: 18px;
   letter-spacing: 0.01em;
   color: #7ca9ff;
 }
 
-/* line 44, src/scss/_components/dashboard/_dashboard.scss */
+/* line 36, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-num {
   font-size: 28px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 50, src/scss/_components/dashboard/_dashboard.scss */
+/* line 42, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-chart {
   position: relative;
   width: 100%;
@@ -4180,7 +4258,7 @@ picture {
   padding-left: 50px;
 }
 
-/* line 60, src/scss/_components/dashboard/_dashboard.scss */
+/* line 52, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block {
   position: relative;
   display: -webkit-box;
@@ -4201,7 +4279,7 @@ picture {
   background-color: #fff;
 }
 
-/* line 70, src/scss/_components/dashboard/_dashboard.scss */
+/* line 62, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4218,21 +4296,21 @@ picture {
   padding-bottom: 30px;
 }
 
-/* line 77, src/scss/_components/dashboard/_dashboard.scss */
+/* line 69, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-title {
   font-size: 24px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 83, src/scss/_components/dashboard/_dashboard.scss */
+/* line 75, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-date {
   font-size: 14px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 90, src/scss/_components/dashboard/_dashboard.scss */
+/* line 82, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab {
   position: relative;
   display: -webkit-box;
@@ -4257,7 +4335,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 102, src/scss/_components/dashboard/_dashboard.scss */
+/* line 94, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab:after {
   content: '';
   opacity: 0;
@@ -4272,7 +4350,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 114, src/scss/_components/dashboard/_dashboard.scss */
+/* line 106, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab:hover, .dashboard__tab.is-active {
   color: #878cfd;
   -webkit-transition: color 0.3s ease-in-out;
@@ -4280,7 +4358,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 121, src/scss/_components/dashboard/_dashboard.scss */
+/* line 113, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab.is-active:after {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -4288,7 +4366,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 127, src/scss/_components/dashboard/_dashboard.scss */
+/* line 119, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4301,7 +4379,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 132, src/scss/_components/dashboard/_dashboard.scss */
+/* line 124, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4316,12 +4394,12 @@ picture {
   border-bottom: 2px dashed silver;
 }
 
-/* line 140, src/scss/_components/dashboard/_dashboard.scss */
+/* line 132, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab-content {
   display: none;
 }
 
-/* line 143, src/scss/_components/dashboard/_dashboard.scss */
+/* line 135, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab-content.is-active {
   display: block;
 }
@@ -4352,40 +4430,35 @@ picture {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
-  max-width: 1860px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 172px 125px 110px;
 }
 
-/* line 48, src/scss/_components/single-verification/_single-verification.scss */
+/* line 43, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-header {
   padding-bottom: 55px;
 }
 
-/* line 51, src/scss/_components/single-verification/_single-verification.scss */
+/* line 46, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-header p {
   font-weight: 500;
   font-size: 18px;
 }
 
-/* line 55, src/scss/_components/single-verification/_single-verification.scss */
+/* line 50, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-header p span {
   color: #0056fc;
 }
 
-/* line 59, src/scss/_components/single-verification/_single-verification.scss */
+/* line 54, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-header p a {
   font-weight: 400;
 }
 
-/* line 65, src/scss/_components/single-verification/_single-verification.scss */
+/* line 60, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-footer {
   padding-top: 100px;
 }
 
-/* line 70, src/scss/_components/single-verification/_single-verification.scss */
+/* line 65, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__form {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4403,17 +4476,17 @@ picture {
   max-width: 800px;
 }
 
-/* line 77, src/scss/_components/single-verification/_single-verification.scss */
+/* line 72, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__form .c-btn {
   width: 100%;
 }
 
-/* line 80, src/scss/_components/single-verification/_single-verification.scss */
+/* line 75, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__form .c-btn__wrapper {
   min-width: 255px;
 }
 
-/* line 86, src/scss/_components/single-verification/_single-verification.scss */
+/* line 81, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__details {
   font-weight: 500;
   font-size: 34px;
@@ -4421,7 +4494,7 @@ picture {
   color: #000;
 }
 
-/* line 93, src/scss/_components/single-verification/_single-verification.scss */
+/* line 88, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4430,12 +4503,12 @@ picture {
   padding-top: 55px;
 }
 
-/* line 98, src/scss/_components/single-verification/_single-verification.scss */
+/* line 93, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info > div:nth-of-type(1) {
   width: 100px;
 }
 
-/* line 101, src/scss/_components/single-verification/_single-verification.scss */
+/* line 96, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -4445,32 +4518,32 @@ picture {
   max-width: 100%;
 }
 
-/* line 108, src/scss/_components/single-verification/_single-verification.scss */
+/* line 103, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 114, src/scss/_components/single-verification/_single-verification.scss */
+/* line 109, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info p {
   font-size: 34px;
   line-height: 40px;
   color: #000;
 }
 
-/* line 119, src/scss/_components/single-verification/_single-verification.scss */
+/* line 114, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info p strong {
   font-weight: 700;
 }
 
-/* line 123, src/scss/_components/single-verification/_single-verification.scss */
+/* line 118, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info p span {
   position: relative;
   line-height: 1;
 }
 
-/* line 127, src/scss/_components/single-verification/_single-verification.scss */
+/* line 122, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info p span:after {
   content: '';
   z-index: -1;
@@ -4482,7 +4555,7 @@ picture {
   height: 4px;
 }
 
-/* line 140, src/scss/_components/single-verification/_single-verification.scss */
+/* line 135, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4493,7 +4566,7 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 144, src/scss/_components/single-verification/_single-verification.scss */
+/* line 139, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li {
   overflow: hidden;
   white-space: nowrap;
@@ -4513,43 +4586,43 @@ picture {
   font-size: 18px;
 }
 
-/* line 155, src/scss/_components/single-verification/_single-verification.scss */
+/* line 150, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li:nth-of-type(odd) {
   padding-right: 15px;
 }
 
-/* line 158, src/scss/_components/single-verification/_single-verification.scss */
+/* line 153, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li:nth-of-type(even) {
   padding-left: 15px;
 }
 
-/* line 162, src/scss/_components/single-verification/_single-verification.scss */
+/* line 157, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div {
   width: 50%;
 }
 
-/* line 165, src/scss/_components/single-verification/_single-verification.scss */
+/* line 160, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div.green {
   color: #3ad378 !important;
 }
 
-/* line 168, src/scss/_components/single-verification/_single-verification.scss */
+/* line 163, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div.red {
   color: #fd784c !important;
 }
 
-/* line 172, src/scss/_components/single-verification/_single-verification.scss */
+/* line 167, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div:nth-of-type(1) {
   color: #535260;
 }
 
-/* line 176, src/scss/_components/single-verification/_single-verification.scss */
+/* line 171, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div:nth-of-type(2) {
   padding-left: 15px;
   color: #000;
 }
 
-/* line 183, src/scss/_components/single-verification/_single-verification.scss */
+/* line 178, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4564,7 +4637,7 @@ picture {
   max-width: 600px;
 }
 
-/* line 190, src/scss/_components/single-verification/_single-verification.scss */
+/* line 185, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list-title {
   padding-bottom: 35px;
   font-size: 24px;
@@ -4572,10 +4645,760 @@ picture {
   color: #000;
 }
 
-/* line 199, src/scss/_components/single-verification/_single-verification.scss */
+/* line 194, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification .c-form__field {
   width: -webkit-calc(100% - 265px);
   width: calc(100% - 265px);
+}
+
+/* line 4, src/scss/_components/api/_api.scss */
+.api.api--welcome {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+/* line 11, src/scss/_components/api/_api.scss */
+.api.api--welcome .c-grid {
+  padding-bottom: 172px;
+}
+
+/* line 16, src/scss/_components/api/_api.scss */
+.api.api--welcome .api__welcome {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 25, src/scss/_components/api/_api.scss */
+.api-stat {
+  z-index: 1999;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 985px;
+  height: 100%;
+  padding: 80px 80px 30px;
+  -webkit-border-radius: 10px 0 0 10px;
+          border-radius: 10px 0 0 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
+          box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
+  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 43, src/scss/_components/api/_api.scss */
+.api-stat.is-open {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 50, src/scss/_components/api/_api.scss */
+.api-stat__back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* line 55, src/scss/_components/api/_api.scss */
+.api-stat__back .icon-font {
+  font-size: 20px;
+  color: #000000;
+}
+
+/* line 61, src/scss/_components/api/_api.scss */
+.api-stat__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+/* line 68, src/scss/_components/api/_api.scss */
+.api-stat__title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 72, src/scss/_components/api/_api.scss */
+.api-stat__title img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: 25px;
+}
+
+/* line 79, src/scss/_components/api/_api.scss */
+.api-stat__title span {
+  font-size: 34px;
+  line-height: 40px;
+  color: #000;
+}
+
+/* line 86, src/scss/_components/api/_api.scss */
+.api-stat__remove {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 90, src/scss/_components/api/_api.scss */
+.api-stat__remove .icon-font {
+  margin-right: 10px;
+  color: #0056fc;
+  font-size: 14px;
+}
+
+/* line 96, src/scss/_components/api/_api.scss */
+.api-stat__remove span {
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 16px;
+  color: #0056fc;
+}
+
+/* line 104, src/scss/_components/api/_api.scss */
+.api-stat__subtitle {
+  padding-bottom: 45px;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #5d5d5d;
+}
+
+/* line 111, src/scss/_components/api/_api.scss */
+.api-stat__line {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 45px;
+  background-color: #cdf;
+}
+
+/* line 119, src/scss/_components/api/_api.scss */
+.api-stat__graph-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 125, src/scss/_components/api/_api.scss */
+.api-stat__graph-body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 130, src/scss/_components/api/_api.scss */
+.api-stat__graph-footer {
+  padding-bottom: 40px;
+}
+
+/* line 134, src/scss/_components/api/_api.scss */
+.api-stat__graph-time {
+  padding-bottom: 5px;
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  color: #5d5d5d;
+}
+
+/* line 141, src/scss/_components/api/_api.scss */
+.api-stat__graph-name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 146, src/scss/_components/api/_api.scss */
+.api-stat__graph-name > div:nth-of-type(2) {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 152, src/scss/_components/api/_api.scss */
+.api-stat__graph-name .icon-file {
+  color: #7ca9ff;
+  font-size: 20px;
+}
+
+/* line 157, src/scss/_components/api/_api.scss */
+.api-stat__graph-name input {
+  outline: none;
+  border: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 167, src/scss/_components/api/_api.scss */
+.api-stat__graph-name input[disabled] {
+  pointer-events: none;
+}
+
+/* line 172, src/scss/_components/api/_api.scss */
+.api-stat__graph-name a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 177, src/scss/_components/api/_api.scss */
+.api-stat__graph-name a .icon-font {
+  font-size: 14px;
+  color: #0056fc;
+}
+
+/* line 185, src/scss/_components/api/_api.scss */
+.api-stat__graph-select select {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  background-color: transparent;
+}
+
+/* line 194, src/scss/_components/api/_api.scss */
+.api-stat__graph-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 199, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 209, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li.deliverable > div:nth-of-type(2) span {
+  background-color: #3AD378;
+}
+
+/* line 218, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li.invalid > div:nth-of-type(2) span {
+  background-color: #7CA9FF;
+}
+
+/* line 227, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li.disposable > div:nth-of-type(2) span {
+  background-color: #A762EA;
+}
+
+/* line 235, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li:nth-of-type(2) > div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 241, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li:nth-of-type(3) > div {
+  margin-left: auto;
+}
+
+/* line 246, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li > div {
+  width: 100%;
+  max-width: 180px;
+}
+
+/* line 250, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li > div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+/* line 257, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li > div:nth-of-type(2) {
+  position: relative;
+  width: 100%;
+  height: 14px;
+  background-color: #f1f4fb;
+}
+
+/* line 263, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li > div:nth-of-type(2) span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+/* line 271, src/scss/_components/api/_api.scss */
+.api-stat__graph-list li > div p {
+  font-size: 15px;
+  color: #161637;
+}
+
+/* line 280, src/scss/_components/api/_api.scss */
+.api-stat__form {
+  padding-bottom: 20px;
+}
+
+/* line 283, src/scss/_components/api/_api.scss */
+.api-stat__form-title {
+  padding-bottom: 15px;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 290, src/scss/_components/api/_api.scss */
+.api-stat__form .c-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 294, src/scss/_components/api/_api.scss */
+.api-stat__form .c-form__field {
+  padding-bottom: 20px;
+}
+
+/* line 297, src/scss/_components/api/_api.scss */
+.api-stat__form .c-form__field:nth-of-type(1) {
+  width: -webkit-calc(100% - 260px);
+  width: calc(100% - 260px);
+}
+
+/* line 301, src/scss/_components/api/_api.scss */
+.api-stat__form .c-form__field:nth-of-type(2) .c-btn {
+  min-width: 250px;
+}
+
+/* line 309, src/scss/_components/api/_api.scss */
+.api-stat__documentation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 10px 0 rgba(224, 227, 235, 0.5);
+          box-shadow: 0 6px 10px 0 rgba(224, 227, 235, 0.5);
+}
+
+/* line 319, src/scss/_components/api/_api.scss */
+.api-stat__documentation > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+/* line 326, src/scss/_components/api/_api.scss */
+.api-stat__documentation-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/* line 331, src/scss/_components/api/_api.scss */
+.api-stat__documentation-wrapper > div:nth-of-type(1) {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* line 335, src/scss/_components/api/_api.scss */
+.api-stat__documentation-wrapper > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 343, src/scss/_components/api/_api.scss */
+.api-stat__documentation-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 348, src/scss/_components/api/_api.scss */
+.api-stat__documentation-row > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  max-width: -webkit-calc(100% / 4);
+  max-width: calc(100% / 4);
+  padding-bottom: 20px;
+}
+
+/* line 357, src/scss/_components/api/_api.scss */
+.api-stat__documentation-title {
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 365, src/scss/_components/api/_api.scss */
+.api__welcome {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 371, src/scss/_components/api/_api.scss */
+.api__welcome-title {
+  padding-bottom: 35px;
+  font-weight: 500;
+  font-size: 34px;
+  color: #000;
+}
+
+/* line 378, src/scss/_components/api/_api.scss */
+.api__welcome .c-btn {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+/* line 383, src/scss/_components/api/_api.scss */
+.api__welcome .c-btn .icon-font {
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+/* line 388, src/scss/_components/api/_api.scss */
+.api__welcome .c-btn span {
+  font-size: 25px;
+}
+
+/* line 392, src/scss/_components/api/_api.scss */
+.api__welcome .c-btn__wrapper {
+  width: 100%;
+}
+
+/* line 397, src/scss/_components/api/_api.scss */
+.api__welcome-info {
+  font-weight: normal;
+  font-size: 16px;
+  color: #5D5D5D;
+}
+
+/* line 402, src/scss/_components/api/_api.scss */
+.api__welcome-info strong {
+  color: #000000;
+  font-weight: 500;
+}
+
+/* line 410, src/scss/_components/api/_api.scss */
+.api__wrapper-header {
+  padding-bottom: 40px;
+}
+
+/* line 413, src/scss/_components/api/_api.scss */
+.api__wrapper-header .c-btn {
+  min-width: 300px;
+  height: 80px;
+}
+
+/* line 417, src/scss/_components/api/_api.scss */
+.api__wrapper-header .c-btn .icon-font {
+  font-size: 30px;
+}
+
+/* line 421, src/scss/_components/api/_api.scss */
+.api__wrapper-header .c-btn span {
+  font-size: 25px;
+}
+
+/* line 425, src/scss/_components/api/_api.scss */
+.api__wrapper-header .c-btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* line 432, src/scss/_components/api/_api.scss */
+.api__box {
+  position: relative;
+  width: 100%;
+  min-height: 256px;
+  padding: 25px 20px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+          box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+}
+
+/* line 441, src/scss/_components/api/_api.scss */
+.api__box-wrapper {
+  position: relative;
+  left: -40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: -webkit-calc(100% + 40px);
+  width: calc(100% + 40px);
+}
+
+/* line 448, src/scss/_components/api/_api.scss */
+.api__box-wrapper > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 4);
+  max-width: calc(100% / 4);
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 456, src/scss/_components/api/_api.scss */
+.api__box-header {
+  padding-right: 50px;
+  padding-bottom: 40px;
+}
+
+/* line 461, src/scss/_components/api/_api.scss */
+.api__box-body {
+  padding-bottom: 40px;
+}
+
+/* line 466, src/scss/_components/api/_api.scss */
+.api__box-footer .c-btn {
+  width: 100%;
+}
+
+/* line 471, src/scss/_components/api/_api.scss */
+.api__box-remove {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* line 477, src/scss/_components/api/_api.scss */
+.api__box-remove:hover .icon-font {
+  color: #0056fc;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 483, src/scss/_components/api/_api.scss */
+.api__box-remove .icon-font {
+  color: #99bbfe;
+  font-size: 20px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 490, src/scss/_components/api/_api.scss */
+.api__box-title {
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+  color: #000;
+}
+
+/* line 497, src/scss/_components/api/_api.scss */
+.api__box-time {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #5d5d5d;
+}
+
+/* line 503, src/scss/_components/api/_api.scss */
+.api__box-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/* line 507, src/scss/_components/api/_api.scss */
+.api__box-list li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 512, src/scss/_components/api/_api.scss */
+.api__box-list li span {
+  font-size: 11px;
+  letter-spacing: 0.01em;
+  color: #5d5d5d;
+}
+
+/* line 518, src/scss/_components/api/_api.scss */
+.api__box-list li p {
+  font-size: 13px;
+  letter-spacing: 0.01em;
+  color: #000;
 }
 
 /*# sourceMappingURL=maps/app.css.map */
