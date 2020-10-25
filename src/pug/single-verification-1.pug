@@ -1,0 +1,16 @@
+---
+title: EM | Single Verification
+
+pageClassName: p-single-verification p-single-verification-1
+pageAddName: p-single-verification
+bodyClassName: body--bgSolitude
+---
+extends shared/_layout
+
+block modal
+	include components/modal/_integration
+
+block content
+	div.body.body--start(class!= pageClassName)
+
+		include components/single-verification/_single-verification

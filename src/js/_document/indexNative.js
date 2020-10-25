@@ -153,6 +153,404 @@
 			}
 		});
 	};
+
+
+	const chartCB = () => {
+		var optionsBox1 = {
+			chart: {
+				type: "area",
+				height: '100px',
+				toolbar: {
+					show: false
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			series: [
+				{
+					name: "Verified",
+					data: [10, 52, 38, 45, 19]
+				}
+			],
+			colors: ["#00d8a3"],
+			fill: {
+				type: "gradient",
+				gradient: {
+					shadeIntensity: 1,
+					opacityFrom: 0.55,
+					opacityTo: 0
+				}
+			},
+			grid: {
+				show: false,
+			},
+			yaxis: {
+				labels: {
+					show: false
+				}
+			},
+			xaxis: {
+				labels: {
+					show: false
+				},
+				axisBorder: {
+					show: false
+				},
+				categories: [
+					"1",
+					"2",
+					"3",
+					"4",
+					"5"
+				]
+			}
+		};
+		var optionsBox2 = {
+			chart: {
+				type: "area",
+				height: '100px',
+				toolbar: {
+					show: false
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			series: [
+				{
+					name: "Disposable",
+					data: [55, 1, 84, 99, 10]
+				}
+			],
+			colors: ["#878cfd"],
+			fill: {
+				type: "gradient",
+				gradient: {
+					shadeIntensity: 1,
+					opacityFrom: 0.55,
+					opacityTo: 0
+				}
+			},
+			grid: {
+				show: false,
+			},
+			yaxis: {
+				labels: {
+					show: false
+				}
+			},
+			xaxis: {
+				labels: {
+					show: false
+				},
+				axisBorder: {
+					show: false
+				},
+				categories: [
+					"1",
+					"2",
+					"3",
+					"4",
+					"5"
+				]
+			}
+		};
+		var optionsBox3 = {
+			chart: {
+				type: "area",
+				height: '100px',
+				toolbar: {
+					show: false
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			series: [
+				{
+					name: "Duplicate",
+					data: [99, 55, 1, 74, 10]
+				}
+			],
+			colors: ["#ffc409"],
+			fill: {
+				type: "gradient",
+				gradient: {
+					shadeIntensity: 1,
+					opacityFrom: 0.55,
+					opacityTo: 0
+				}
+			},
+			grid: {
+				show: false,
+			},
+			yaxis: {
+				labels: {
+					show: false
+				}
+			},
+			xaxis: {
+				labels: {
+					show: false
+				},
+				axisBorder: {
+					show: false
+				},
+				categories: [
+					"1",
+					"2",
+					"3",
+					"4",
+					"5",
+				]
+			}
+		};
+		var optionsBox4 = {
+			chart: {
+				type: "area",
+				height: '100px',
+				toolbar: {
+					show: false
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			series: [
+				{
+					name: "Spam-traps",
+					data: [1, 30, 10, 5, 20]
+				}
+			],
+			colors: ["#ff6a8f"],
+			fill: {
+				type: "gradient",
+				gradient: {
+					shadeIntensity: 1,
+					opacityFrom: 0.55,
+					opacityTo: 0
+				}
+			},
+			grid: {
+				show: false,
+			},
+			yaxis: {
+				labels: {
+					show: false
+				}
+			},
+			xaxis: {
+				labels: {
+					show: false
+				},
+				axisBorder: {
+					show: false
+				},
+				categories: [
+					"1",
+					"2",
+					"3",
+					"4",
+					"5"
+				]
+			},
+		};
+		var optionsBlock1 = {
+			chart: {
+				height: 550,
+				type: 'line',
+				stacked: true,
+				toolbar: {
+					show: false,
+					autoSelected: 'zoom'
+				},
+			},
+			colors: ['#2a77f4', '#1ccab8',],
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				curve: 'smooth',
+				width: [2, 2],
+				dashArray: [0, 3]
+			},
+			grid: {
+				borderColor: "#45404a2e",
+				padding: {
+					left: 0,
+					right: 0
+				},
+				strokeDashArray: 4,
+			},
+			markers: {
+				size: 0,
+				hover: {
+					size: 0
+				}
+			},
+			series: [{
+				name: 'Revenue',
+				data: [0,60,20,90,45,110,55,130,44,110,75,200]
+			}, {
+				name: 'New Orders',
+				data: [0,45,10,75,35,94,40,115,30,105,65,190]
+			}],
+
+			xaxis: {
+				type: 'datetime',
+				categories: ["2020-09-19T00:00:00", "2020-09-19T01:30:00", "2020-09-19T02:30:00", "2020-09-19T03:30:00", "2020-09-19T04:30:00", "2020-09-19T05:30:00", "2020-09-19T06:30:00", "2020-09-19T07:30:00", "2020-09-19T08:30:00", "2020-09-19T09:30:00", "2020-09-19T10:30:00", "2020-09-19T11:30:00"],
+				axisBorder: {
+					show: true,
+					color: '#45404a2e',
+				},
+				axisTicks: {
+					show: true,
+					color: '#45404a2e',
+				},
+			},
+			tooltip: {
+				x: {
+					format: 'dd/MM/yy HH:mm'
+				},
+			},
+			legend: {
+				show: false,
+				position: 'top',
+				horizontalAlign: 'right'
+			},
+		};
+		var optionsBlock2 = {
+			series: [{
+				name: 'Revenue',
+				data: [31, 40, 28, 51, 42, 109, 100]
+			},],
+			chart: {
+				height: 550,
+				type: 'area',
+				toolbar: {
+					show: false,
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				curve: 'smooth',
+				width: 2,
+			},
+			colors: ['#1eca87'],
+			xaxis: {
+				type: 'day',
+				categories: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+			},
+			yaxis: {
+				labels: {
+					formatter: function (value) {
+						return "$" + value + "k";
+					}
+				},
+			},
+			legend: {
+				show: false,
+			},
+			grid: {
+				borderColor: "#45404a2e",
+				padding: {
+					left: 0,
+					right: 0
+				},
+				strokeDashArray: 4,
+			},
+			tooltip: {
+				x: {
+					format: 'dd/MM/yy HH:mm'
+				},
+			},
+		};
+		var optionsBlock3 = {
+			series: [{
+				name: 'Revenue',
+				data: [31, 40, 28, 51, 42, 109, 100, 31, 40, 28, 51, 42, 109, 100, 31, 40, 28, 51, 42, 109, 100, 31, 40, 28, 51, 42, 109, 100, 42, 109, 100]
+			},],
+			chart: {
+				height: 550,
+				type: 'bar',
+				toolbar: {
+					show: false,
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				curve: 'smooth',
+				width: 2,
+			},
+			colors: ['#00b9ca'],
+			xaxis: {
+				type: 'day',
+				categories: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Thu", "Fri", "Sat"]
+			},
+			yaxis: {
+				labels: {
+					formatter: function (value) {
+						return "$" + value + "k";
+					}
+				},
+			},
+			legend: {
+				show: false,
+			},
+			grid: {
+				borderColor: "#45404a2e",
+				padding: {
+					left: 0,
+					right: 0
+				},
+				strokeDashArray: 4,
+			},
+			tooltip: {
+				x: {
+					format: 'dd/MM/yy HH:mm'
+				},
+			},
+		};
+
+		if($('#chartBox1').length || $('#chartBlock1').length) {
+			var chartBox1 = new ApexCharts(document.querySelector("#chartBox1"), optionsBox1);
+			var chartBox2 = new ApexCharts(document.querySelector("#chartBox2"), optionsBox2);
+			var chartBox3 = new ApexCharts(document.querySelector("#chartBox3"), optionsBox3);
+			var chartBox4 = new ApexCharts(document.querySelector("#chartBox4"), optionsBox4);
+			var chartBlock1 = new ApexCharts(document.querySelector("#chartBlock1"), optionsBlock1);
+			var chartBlock2 = new ApexCharts(document.querySelector("#chartBlock2"), optionsBlock2);
+			var chartBlock3 = new ApexCharts(document.querySelector("#chartBlock3"), optionsBlock3);
+
+			chartBox1.render();
+			chartBox2.render();
+			chartBox3.render();
+			chartBox4.render();
+
+			chartBlock1.render();
+			chartBlock2.render();
+			chartBlock3.render();
+		}
+	};
+
+
+	const tabCB = () => {
+		$('[tab-js]').on('click', (ev) => {
+			const el = $(ev.currentTarget),
+				elID = el.attr('data-id');
+
+			$('[tab-js]').removeClass('is-active');
+			el.addClass('is-active');
+
+			$('[tab-content-js]').removeClass('is-active');
+			$('[tab-content-js][data-content="' + elID + '"]').addClass('is-active');
+
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -178,6 +576,8 @@
 		dropdownCB();
 		filterBox();
 		reportCB();
+		chartCB();
+		tabCB();
 		// ==========================================
 	};
 

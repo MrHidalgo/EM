@@ -1,0 +1,56 @@
+// SECTION :: START
+
+section#single-verification.single-verification.single-verification--done
+
+	.single-verification__wrapper
+
+		.single-verification__wrapper-header
+			p!= "You have <span>98</span> available email validation(s) <a href='#' class=''><u>Buy credits</u></a>"
+
+		.single-verification__wrapper-body
+
+			form.single-verification__form.c-form(action='#' method='#' autocomplete='off')
+				.c-form__field
+					input(type='text' id='email' name='email' placeholder='' input-js required)
+					label(for='email') Enter an email address
+				.c-btn__wrapper
+					button.c-btn.c-btn--blue(type='submit')
+						span Start Verifying
+
+			.single-verification__info
+				div
+					img(src="img/img-check.svg" alt="")
+				div
+					p!= "Your email address is <strong>Safe to send</strong> <br>because it’s <span>Delierable.</span>"
+
+		.single-verification__wrapper-footer
+
+			.single-verification__list-wrapper
+				p.single-verification__list-title Details:
+				ul.single-verification__list
+					li
+						div Status
+						div.green Valid
+					li
+						div Syntax error
+						div False
+					li
+						div Domain
+						div gmail.com
+					li
+						div Role
+						div False
+					li
+						div Disposable
+						div False
+					li
+						div Accept-all
+						div.red False
+					li
+						div Spam trap
+						div False
+					li
+						div Free email
+						div True
+
+// SECTION :: END

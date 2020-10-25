@@ -28,6 +28,4 @@ const initPopups = () => {
   $('[popup-close-js]').on('click', (ev) => {
   	$.magnificPopup.close();
 	});
-
-	$('[popup-js]').click();
 };

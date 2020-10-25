@@ -3168,14 +3168,13 @@ picture {
 /* line 12, src/scss/_components/verification/_verification.scss */
 .verification__wrapper {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1860px;
   margin-left: auto;
   margin-right: auto;
-  height: 100vh;
-  padding: 172px 140px 110px;
+  padding: 172px 125px 110px;
 }
 
-/* line 21, src/scss/_components/verification/_verification.scss */
+/* line 20, src/scss/_components/verification/_verification.scss */
 .verification__welcome {
   width: 100%;
   max-width: 390px;
@@ -3183,7 +3182,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 27, src/scss/_components/verification/_verification.scss */
+/* line 26, src/scss/_components/verification/_verification.scss */
 .verification__welcome-title {
   padding-bottom: 39px;
   font-weight: 500;
@@ -3192,39 +3191,39 @@ picture {
   color: #000;
 }
 
-/* line 36, src/scss/_components/verification/_verification.scss */
+/* line 35, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn {
   height: 80px;
 }
 
-/* line 39, src/scss/_components/verification/_verification.scss */
+/* line 38, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn:not(:last-of-type) {
   margin-bottom: 15px;
 }
 
-/* line 44, src/scss/_components/verification/_verification.scss */
+/* line 43, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn .icon-font.icon-upload {
   font-size: 25px;
 }
 
-/* line 47, src/scss/_components/verification/_verification.scss */
+/* line 46, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn .icon-font.icon-intersect {
   font-size: 30px;
 }
 
-/* line 52, src/scss/_components/verification/_verification.scss */
+/* line 51, src/scss/_components/verification/_verification.scss */
 .verification__welcome-btn .c-btn span {
   font-size: 25px;
 }
 
-/* line 58, src/scss/_components/verification/_verification.scss */
+/* line 57, src/scss/_components/verification/_verification.scss */
 .verification__welcome-info {
   padding-top: 15px;
   font-size: 16px;
   color: #5D5D5D;
 }
 
-/* line 65, src/scss/_components/verification/_verification.scss */
+/* line 64, src/scss/_components/verification/_verification.scss */
 .verification__filter {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3237,12 +3236,12 @@ picture {
   padding-bottom: 42px;
 }
 
-/* line 71, src/scss/_components/verification/_verification.scss */
+/* line 70, src/scss/_components/verification/_verification.scss */
 .verification__filter > div:nth-of-type(1) {
   padding-right: 34px;
 }
 
-/* line 76, src/scss/_components/verification/_verification.scss */
+/* line 75, src/scss/_components/verification/_verification.scss */
 .verification__filter-title {
   font-weight: 500;
   font-size: 15px;
@@ -3250,7 +3249,7 @@ picture {
   color: #000;
 }
 
-/* line 83, src/scss/_components/verification/_verification.scss */
+/* line 82, src/scss/_components/verification/_verification.scss */
 .verification__filter-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3266,17 +3265,17 @@ picture {
           justify-content: center;
 }
 
-/* line 89, src/scss/_components/verification/_verification.scss */
+/* line 88, src/scss/_components/verification/_verification.scss */
 .verification__filter .c-checkbox {
   padding-bottom: 0;
 }
 
-/* line 92, src/scss/_components/verification/_verification.scss */
+/* line 91, src/scss/_components/verification/_verification.scss */
 .verification__filter .c-checkbox:not(:last-of-type) {
   padding-right: 33px;
 }
 
-/* line 98, src/scss/_components/verification/_verification.scss */
+/* line 97, src/scss/_components/verification/_verification.scss */
 .verification__box {
   position: relative;
   display: -webkit-box;
@@ -3298,7 +3297,7 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 109, src/scss/_components/verification/_verification.scss */
+/* line 108, src/scss/_components/verification/_verification.scss */
 .verification__box-wrapper {
   position: relative;
   left: -50px;
@@ -3313,7 +3312,7 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 116, src/scss/_components/verification/_verification.scss */
+/* line 115, src/scss/_components/verification/_verification.scss */
 .verification__box-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 4);
@@ -3322,14 +3321,14 @@ picture {
   padding-bottom: 50px;
 }
 
-/* line 124, src/scss/_components/verification/_verification.scss */
+/* line 123, src/scss/_components/verification/_verification.scss */
 .verification__box-close {
   position: absolute;
   top: 20px;
   right: 20px;
 }
 
-/* line 130, src/scss/_components/verification/_verification.scss */
+/* line 129, src/scss/_components/verification/_verification.scss */
 .verification__box-close:hover .icon-font {
   color: #0056fc;
   -webkit-transition: color 0.3s ease-in-out;
@@ -3337,7 +3336,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 136, src/scss/_components/verification/_verification.scss */
+/* line 135, src/scss/_components/verification/_verification.scss */
 .verification__box-close .icon-font {
   color: #99bbfe;
   font-size: 20px;
@@ -3346,7 +3345,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 143, src/scss/_components/verification/_verification.scss */
+/* line 142, src/scss/_components/verification/_verification.scss */
 .verification__box-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3358,12 +3357,12 @@ picture {
           align-items: center;
 }
 
-/* line 148, src/scss/_components/verification/_verification.scss */
+/* line 147, src/scss/_components/verification/_verification.scss */
 .verification__box-head > div:nth-of-type(1) {
   padding-right: 20px;
 }
 
-/* line 151, src/scss/_components/verification/_verification.scss */
+/* line 150, src/scss/_components/verification/_verification.scss */
 .verification__box-head > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -3373,13 +3372,13 @@ picture {
   max-width: 100%;
 }
 
-/* line 159, src/scss/_components/verification/_verification.scss */
+/* line 158, src/scss/_components/verification/_verification.scss */
 .verification__box-body {
   padding-top: 16px;
   padding-bottom: 26px;
 }
 
-/* line 164, src/scss/_components/verification/_verification.scss */
+/* line 163, src/scss/_components/verification/_verification.scss */
 .verification__box-logo {
   position: relative;
   display: -webkit-box;
@@ -3404,22 +3403,22 @@ picture {
           box-shadow: 0 6px 10px 0 rgba(224, 227, 235, 0.5);
 }
 
-/* line 176, src/scss/_components/verification/_verification.scss */
+/* line 175, src/scss/_components/verification/_verification.scss */
 .verification__box-logo--yellow {
   background-color: #fde04c;
 }
 
-/* line 179, src/scss/_components/verification/_verification.scss */
+/* line 178, src/scss/_components/verification/_verification.scss */
 .verification__box-logo--purple {
   background-color: #7856FF;
 }
 
-/* line 182, src/scss/_components/verification/_verification.scss */
+/* line 181, src/scss/_components/verification/_verification.scss */
 .verification__box-logo--orange {
   background-color: #F37316;
 }
 
-/* line 186, src/scss/_components/verification/_verification.scss */
+/* line 185, src/scss/_components/verification/_verification.scss */
 .verification__box-logo img {
   display: block;
   max-width: 100%;
@@ -3429,7 +3428,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 196, src/scss/_components/verification/_verification.scss */
+/* line 195, src/scss/_components/verification/_verification.scss */
 .verification__box-badge {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3442,37 +3441,37 @@ picture {
   padding-bottom: 10px;
 }
 
-/* line 202, src/scss/_components/verification/_verification.scss */
+/* line 201, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--verify i {
   background-color: #FD784C;
 }
 
-/* line 205, src/scss/_components/verification/_verification.scss */
+/* line 204, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--verify span {
   color: #FD784C;
 }
 
-/* line 210, src/scss/_components/verification/_verification.scss */
+/* line 209, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--progress i {
   background-color: #7CA9FF;
 }
 
-/* line 213, src/scss/_components/verification/_verification.scss */
+/* line 212, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--progress span {
   color: #7CA9FF;
 }
 
-/* line 218, src/scss/_components/verification/_verification.scss */
+/* line 217, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--verified i {
   background-color: #3ad378;
 }
 
-/* line 221, src/scss/_components/verification/_verification.scss */
+/* line 220, src/scss/_components/verification/_verification.scss */
 .verification__box-badge--verified span {
   color: #3ad378;
 }
 
-/* line 226, src/scss/_components/verification/_verification.scss */
+/* line 225, src/scss/_components/verification/_verification.scss */
 .verification__box-badge i {
   width: 10px;
   height: 10px;
@@ -3481,7 +3480,7 @@ picture {
   margin-right: 5px;
 }
 
-/* line 233, src/scss/_components/verification/_verification.scss */
+/* line 232, src/scss/_components/verification/_verification.scss */
 .verification__box-badge span {
   font-weight: 500;
   font-size: 14px;
@@ -3489,14 +3488,14 @@ picture {
   letter-spacing: 0.01em;
 }
 
-/* line 241, src/scss/_components/verification/_verification.scss */
+/* line 240, src/scss/_components/verification/_verification.scss */
 .verification__box-date {
   font-size: 13px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 247, src/scss/_components/verification/_verification.scss */
+/* line 246, src/scss/_components/verification/_verification.scss */
 .verification__box-name {
   overflow: hidden;
   white-space: nowrap;
@@ -3508,7 +3507,7 @@ picture {
   color: #000;
 }
 
-/* line 257, src/scss/_components/verification/_verification.scss */
+/* line 256, src/scss/_components/verification/_verification.scss */
 .verification__box-email {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3521,21 +3520,21 @@ picture {
   padding-bottom: 10px;
 }
 
-/* line 262, src/scss/_components/verification/_verification.scss */
+/* line 261, src/scss/_components/verification/_verification.scss */
 .verification__box-email .icon-font {
   margin-right: 5px;
   font-size: 16px;
   color: #ccddff;
 }
 
-/* line 268, src/scss/_components/verification/_verification.scss */
+/* line 267, src/scss/_components/verification/_verification.scss */
 .verification__box-email span {
   font-size: 14px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 275, src/scss/_components/verification/_verification.scss */
+/* line 274, src/scss/_components/verification/_verification.scss */
 .verification__box-info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3548,7 +3547,7 @@ picture {
   min-height: 50px;
 }
 
-/* line 280, src/scss/_components/verification/_verification.scss */
+/* line 279, src/scss/_components/verification/_verification.scss */
 .verification__box-info ul {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3561,7 +3560,7 @@ picture {
   width: 100%;
 }
 
-/* line 285, src/scss/_components/verification/_verification.scss */
+/* line 284, src/scss/_components/verification/_verification.scss */
 .verification__box-info ul li {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -3571,26 +3570,26 @@ picture {
   max-width: 100%;
 }
 
-/* line 291, src/scss/_components/verification/_verification.scss */
+/* line 290, src/scss/_components/verification/_verification.scss */
 .verification__box-info ul p {
   font-size: 11px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 297, src/scss/_components/verification/_verification.scss */
+/* line 296, src/scss/_components/verification/_verification.scss */
 .verification__box-info ul span {
   font-size: 13px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 305, src/scss/_components/verification/_verification.scss */
+/* line 304, src/scss/_components/verification/_verification.scss */
 .verification__box-progress {
   width: 100%;
 }
 
-/* line 308, src/scss/_components/verification/_verification.scss */
+/* line 307, src/scss/_components/verification/_verification.scss */
 .verification__box-progress p {
   font-size: 14px;
   letter-spacing: 0.01em;
@@ -3598,7 +3597,7 @@ picture {
   color: #5d5d5d;
 }
 
-/* line 315, src/scss/_components/verification/_verification.scss */
+/* line 314, src/scss/_components/verification/_verification.scss */
 .verification__box-progress > div {
   overflow: hidden;
   position: relative;
@@ -3612,7 +3611,7 @@ picture {
           box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.06);
 }
 
-/* line 325, src/scss/_components/verification/_verification.scss */
+/* line 324, src/scss/_components/verification/_verification.scss */
 .verification__box-progress > div .icon-font {
   z-index: 2;
   position: relative;
@@ -3620,7 +3619,7 @@ picture {
   color: #7ca9ff;
 }
 
-/* line 332, src/scss/_components/verification/_verification.scss */
+/* line 331, src/scss/_components/verification/_verification.scss */
 .verification__box-progress > div span {
   position: absolute;
   top: 0;
@@ -3632,12 +3631,12 @@ picture {
   transition: width 0.3s ease-in-out;
 }
 
-/* line 343, src/scss/_components/verification/_verification.scss */
+/* line 342, src/scss/_components/verification/_verification.scss */
 .verification__box .c-btn {
   width: 100%;
 }
 
-/* line 346, src/scss/_components/verification/_verification.scss */
+/* line 345, src/scss/_components/verification/_verification.scss */
 .verification__box .c-btn__wrapper {
   width: 100%;
 }
@@ -4097,6 +4096,486 @@ picture {
 .connect__form .c-btn {
   width: auto;
   min-width: 250px;
+}
+
+/* line 4, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__wrapper {
+  width: 100%;
+  max-width: 1860px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 172px 125px 110px;
+}
+
+/* line 12, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__box {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  min-height: 200px;
+  padding: 25px 30px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f3f6ff));
+  background: -webkit-linear-gradient(#fff 0%, #f3f6ff 100%);
+  background: -o-linear-gradient(#fff 0%, #f3f6ff 100%);
+  background: linear-gradient(#fff 0%, #f3f6ff 100%);
+  -webkit-box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+          box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+}
+
+/* line 23, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__box-wrapper {
+  position: relative;
+  left: -33px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: -webkit-calc(100% + 33px);
+  width: calc(100% + 33px);
+}
+
+/* line 30, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__box-wrapper > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 4);
+  max-width: calc(100% / 4);
+  padding-left: 33px;
+  padding-bottom: 33px;
+}
+
+/* line 38, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__box-title {
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #7ca9ff;
+}
+
+/* line 44, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__box-num {
+  font-size: 28px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 50, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__box-chart {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  height: 100px;
+  max-height: 100px;
+  padding-left: 50px;
+}
+
+/* line 60, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 30px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  -webkit-box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+          box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+  background-color: #fff;
+}
+
+/* line 70, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+/* line 77, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-title {
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 83, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-date {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 90, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__tab {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: gray;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 102, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__tab:after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+  width: 100%;
+  height: 4px;
+  background-color: #878cfd;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 114, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__tab:hover, .dashboard__tab.is-active {
+  color: #878cfd;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 121, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__tab.is-active:after {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 127, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__tab-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 132, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__tab-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 45%;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed silver;
+}
+
+/* line 140, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__tab-content {
+  display: none;
+}
+
+/* line 143, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__tab-content.is-active {
+  display: block;
+}
+
+/* line 9, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification.single-verification--done .single-verification__info p span:after {
+  background-color: #3ad378;
+}
+
+/* line 20, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification.single-verification--error .single-verification__info p span:after {
+  background-color: #FD784C;
+}
+
+/* line 31, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification.single-verification--warning .single-verification__info p span:after {
+  background-color: #FDC937;
+}
+
+/* line 39, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 1860px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 172px 125px 110px;
+}
+
+/* line 48, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__wrapper-header {
+  padding-bottom: 55px;
+}
+
+/* line 51, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__wrapper-header p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 55, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__wrapper-header p span {
+  color: #0056fc;
+}
+
+/* line 59, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__wrapper-header p a {
+  font-weight: 400;
+}
+
+/* line 65, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__wrapper-footer {
+  padding-top: 100px;
+}
+
+/* line 70, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* line 77, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__form .c-btn {
+  width: 100%;
+}
+
+/* line 80, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__form .c-btn__wrapper {
+  min-width: 255px;
+}
+
+/* line 86, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__details {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  color: #000;
+}
+
+/* line 93, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 55px;
+}
+
+/* line 98, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__info > div:nth-of-type(1) {
+  width: 100px;
+}
+
+/* line 101, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__info > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 108, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__info img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 114, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__info p {
+  font-size: 34px;
+  line-height: 40px;
+  color: #000;
+}
+
+/* line 119, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__info p strong {
+  font-weight: 700;
+}
+
+/* line 123, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__info p span {
+  position: relative;
+  line-height: 1;
+}
+
+/* line 127, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__info p span:after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: -webkit-calc(100% - 12px);
+  top: calc(100% - 12px);
+  left: 0;
+  width: 100%;
+  height: 4px;
+}
+
+/* line 140, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 144, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list li {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 155, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list li:nth-of-type(odd) {
+  padding-right: 15px;
+}
+
+/* line 158, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list li:nth-of-type(even) {
+  padding-left: 15px;
+}
+
+/* line 162, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list li > div {
+  width: 50%;
+}
+
+/* line 165, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list li > div.green {
+  color: #3ad378 !important;
+}
+
+/* line 168, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list li > div.red {
+  color: #fd784c !important;
+}
+
+/* line 172, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list li > div:nth-of-type(1) {
+  color: #535260;
+}
+
+/* line 176, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list li > div:nth-of-type(2) {
+  padding-left: 15px;
+  color: #000;
+}
+
+/* line 183, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* line 190, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification__list-title {
+  padding-bottom: 35px;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 199, src/scss/_components/single-verification/_single-verification.scss */
+.single-verification .c-form__field {
+  width: -webkit-calc(100% - 265px);
+  width: calc(100% - 265px);
 }
 
 /*# sourceMappingURL=maps/app.css.map */

@@ -11,11 +11,10 @@
 
 	&__wrapper {
 		width: 100%;
-		max-width: 1600px;
+		max-width: (1580px + 30px + 250px);
 		margin-left: auto;
 		margin-right: auto;
-		height: 100vh;
-		padding: 172px 140px 110px;
+		padding: 172px 125px 110px;
 	}
 
 	&__welcome {

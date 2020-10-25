@@ -9,7 +9,7 @@ section#sidebar.sidebar
 
 			ul.sidebar__menu
 				li.sidebar__menu-item
-					a.sidebar__menu-btn.sidebar__menu-btn--blue.c-popper(href="#" sidebar-btn-js)
+					a.sidebar__menu-btn.sidebar__menu-btn--blue.c-popper(href="#" class!= (pageAddName === 'p-dashboard')?'is-active':'' sidebar-btn-js)
 						span
 							i.icon-font.icon-analytics
 						.c-poppertext.c-poppertext--right
@@ -21,7 +21,7 @@ section#sidebar.sidebar
 						.c-poppertext.c-poppertext--right
 							u Bulk Verification
 				li.sidebar__menu-item
-					a.sidebar__menu-btn.sidebar__menu-btn--blue.c-popper(href="#" sidebar-btn-js)
+					a.sidebar__menu-btn.sidebar__menu-btn--blue.c-popper(href="#" class!= (pageAddName === 'p-single-verification')?'is-active':'' sidebar-btn-js)
 						span
 							i.icon-font.icon-email
 						.c-poppertext.c-poppertext--right
