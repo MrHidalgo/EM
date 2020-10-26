@@ -120,7 +120,7 @@ const initValidation = () => {
 		}
 	});
 
-	$("#paymentGeneral").validate({
+	$("#settingGeneral").validate({
 		submitHandler: validationSubmitHandler,
 		errorPlacement: validationErrorPlacement,
 		highlight: validationHighlight,
@@ -141,7 +141,7 @@ const initValidation = () => {
 		}
 	});
 
-	$("#paymentSettting").validate({
+	$("#settingSettting").validate({
 		submitHandler: validationSubmitHandler,
 		errorPlacement: validationErrorPlacement,
 		highlight: validationHighlight,

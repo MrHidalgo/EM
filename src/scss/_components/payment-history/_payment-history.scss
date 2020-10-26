@@ -1,0 +1,162 @@
+// SECTION :: START
+
+.payment-history {
+	&__title {
+		padding-bottom: 15px;
+		font-weight: 500;
+		font-size: 34px;
+		color: #000;
+	}
+
+	&__subtitle {
+		padding-bottom: 60px;
+		font-size: 18px;
+		color: #27282d;
+	}
+
+	&__box {
+		padding: 20px;
+		border-radius: 10px;
+		background-color: #fff;
+		box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
+	}
+
+	&__table {
+		overflow: hidden;
+		border-radius: 10px;
+		border: 1px solid #cdf;
+
+		&-head {
+			background-color: #f1f4fb;
+			border-bottom: 1px solid #cdf;
+		}
+
+		&-body {
+			padding: 10px 0;
+
+			.payment-history__table-tr {
+				position: relative;
+				left: -1px;
+				width: calc(100% + 2px);
+
+				&:hover {
+					&:before {
+						border-color: #0056FC;
+						@include transition(border-color);
+					}
+
+					.payment-history__table-td {
+						.c-btn {
+							background-color: #0056fc;
+							@include transition(background-color);
+
+							.icon-font,
+							span {
+								color: #ffffff;
+								@include transition(color);
+							}
+						}
+					}
+				}
+
+				&:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 10px;
+					width: calc(100% - 20px);
+					height: 100%;
+					border-radius: 10px;
+					background-color: #fff;
+					border: 1px solid #cdf;
+					box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+					@include transition(border-color);
+				}
+
+				&:not(:last-of-type) {
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+		&-tr {
+			display: flex;
+		}
+
+		&-th,
+		&-td {
+			display: flex;
+			align-items: center;
+			height: 60px;
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+			padding: 10px 40px;
+		}
+
+		&-th {
+			&:not(:last-of-type) {
+				border-right: 1px solid #cdf;
+			}
+
+			p {
+				font-size: 18px;
+				letter-spacing: 0.01em;
+				color: #000;
+			}
+		}
+
+		&-td {
+			position: relative;
+
+			&:after {
+				content: '';
+				opacity: 0;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				right: 0;
+				width: 1px;
+				height: 75%;
+				background: #cdf;
+			}
+
+			&:not(:last-of-type) {
+				&:after {
+					opacity: 1;
+				}
+			}
+
+			span {
+				display: flex;
+				align-items: center;
+				font-size: 18px;
+				letter-spacing: 0.01em;
+				color: #535260;
+
+				.icon-font {
+					margin-right: 10px;
+					color: #ccddff;
+					font-size: 16px;
+				}
+			}
+
+			.c-btn {
+				height: 40px;
+				@include transition(background-color);
+
+				.icon-font,
+				span {
+					@include transition(color);
+				}
+
+				span {
+					font-size: 16px;
+					color: #0056fc;
+				}
+			}
+		}
+	}
+}
+
+// SECTION :: END

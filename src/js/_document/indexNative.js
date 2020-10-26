@@ -576,16 +576,16 @@
 	};
 
 
-	const paymentBtn = () => {
-		$('[payment-btn-js]').on('click', (ev) => {
+	const settingBtn = () => {
+		$('[setting-btn-js]').on('click', (ev) => {
 			const el = $(ev.currentTarget),
 				elID = el.attr('data-id');
 
-			$('[payment-btn-js]').removeClass('is-active');
+			$('[setting-btn-js]').removeClass('is-active');
 			el.addClass('is-active');
 
-			$('[payment-content-js]').removeClass('is-active');
-			$('[payment-content-js][data-id="' + elID + '"]').addClass('is-active');
+			$('[setting-content-js]').removeClass('is-active');
+			$('[setting-content-js][data-id="' + elID + '"]').addClass('is-active');
 		});
 	};
 	/*
@@ -616,7 +616,7 @@
 		chartCB();
 		tabCB();
 		apiBoxResult();
-		paymentBtn();
+		settingBtn();
 		// ==========================================
 	};
 

@@ -1,0 +1,53 @@
+// SECTION :: START
+
+section#payment-history.payment-history
+
+	.c-grid
+
+		.payment-history__wrapper
+			.payment-history__wrapper-header
+
+				p.payment-history__title Payment History
+				p.payment-history__subtitle No montly payment and your credit never expire
+
+			.payment-history__wrapper-body
+
+				.payment-history__box
+
+					.payment-history__table
+						.payment-history__table-head
+							.payment-history__table-tr
+								.payment-history__table-th
+									p Date
+								.payment-history__table-th
+									p Order id
+								.payment-history__table-th
+									p Package
+								.payment-history__table-th
+									p Price
+								.payment-history__table-th
+									p Status
+								.payment-history__table-th
+									p Invoice
+						.payment-history__table-body
+							each val, idx in [1,2,3,4,5,6,7,8,9,0]
+								.payment-history__table-tr
+									.payment-history__table-td
+										span 12/19/17  -  11:37 PM
+									.payment-history__table-td
+										span 50,000
+									.payment-history__table-td
+										span
+											i.icon-font.icon-email
+											| 50,000
+									.payment-history__table-td
+										span $13
+									.payment-history__table-td
+										span 50,000
+									.payment-history__table-td
+										.c-btn__wrapper
+											a.c-btn.c-btn--blueBorder(href="#")
+												i.icon-font.icon-receipt
+												span Download
+
+// SECTION :: END

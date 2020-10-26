@@ -1,53 +1,53 @@
 // SECTION :: START
 
-section#payment.payment
+section#setting.setting
 
 	.c-grid
 
-		.payment__wrapper
-			.payment__wrapper-header
+		.setting__wrapper
+			.setting__wrapper-header
 
-				p.payment__title Settings
-				p.payment__subtitle No montly payment and your credit never expire
+				p.setting__title Settings
+				p.setting__subtitle No montly payment and your credit never expire
 
-			.payment__wrapper-body
+			.setting__wrapper-body
 
-				.payment__tab-wrapper
+				.setting__tab-wrapper
 
-					.payment__tab-left
+					.setting__tab-left
 
-						.payment__tab-box
-							.payment__tab-box-body
+						.setting__tab-box
+							.setting__tab-box-body
 
-								a.payment__tab-btn.is-active(href="#" payment-btn-js data-id='1')
+								a.setting__tab-btn.is-active(href="#" setting-btn-js data-id='1')
 									i.icon-font.icon-arrow-right
 									span General
 
-								a.payment__tab-btn(href="#" data-id='2' payment-btn-js)
+								a.setting__tab-btn(href="#" data-id='2' setting-btn-js)
 									i.icon-font.icon-arrow-right
 									span Security
 
-							.payment__tab-box-footer
+							.setting__tab-box-footer
 								.c-btn__wrapper
 									a.c-btn.c-btn--red(href="#")
 										span Delete your account
 
-					.payment__tab-right
+					.setting__tab-right
 
-						.payment__tab-box
+						.setting__tab-box
 
-							.payment__tab-content.is-active(data-id='1' payment-content-js)
-								.payment__tab-box-header
+							.setting__tab-content.is-active(data-id='1' setting-content-js)
+								.setting__tab-box-header
 									div
-										p.payment__date!= "Created: <span>2017-06-29 14:41:14</span>"
+										p.setting__date!= "Created: <span>2017-06-29 14:41:14</span>"
 									div
 										.c-btn__wrapper
 											a.c-btn.c-btn--blueBorder.is-disabled(href="#")
 												span Save
 
-								.payment__tab-box-body
+								.setting__tab-box-body
 
-									form#paymentGeneral.payment__form.c-form(action='' method='' autocomplete='off')
+									form#settingGeneral.setting__form.c-form(action='' method='' autocomplete='off')
 										.c-form__field-group
 											.c-form__field.is-focus
 												input(type='text' id='full_name' name='full_name' value='Youssef ait' required input-js)
@@ -80,18 +80,18 @@ section#payment.payment
 												i.icon-font.icon-check
 												i.icon-font.icon-close
 
-							.payment__tab-content(data-id='2' payment-content-js)
+							.setting__tab-content(data-id='2' setting-content-js)
 
-								.payment__tab-box-header
+								.setting__tab-box-header
 									div
-										p.payment__date!= "Your last login: <span>2017-06-29 14:41:14</span>"
+										p.setting__date!= "Your last login: <span>2017-06-29 14:41:14</span>"
 									div
 										.c-btn__wrapper
 											a.c-btn.c-btn--blueBorder.is-disabled(href="#")
 												span Save
 
-								.payment__tab-box-body
-									form#paymentSettting.payment__form.c-form(action='' method='' autocomplete='off')
+								.setting__tab-box-body
+									form#settingSettting.setting__form.c-form(action='' method='' autocomplete='off')
 										.c-form__field-group
 											.c-form__field
 												input(type='text' id='new_password' name='new_password' required input-js)

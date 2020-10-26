@@ -204,7 +204,7 @@ var initValidation = function initValidation() {
 		}
 	});
 
-	$("#paymentGeneral").validate({
+	$("#settingGeneral").validate({
 		submitHandler: validationSubmitHandler,
 		errorPlacement: validationErrorPlacement,
 		highlight: validationHighlight,
@@ -225,7 +225,7 @@ var initValidation = function initValidation() {
 		}
 	});
 
-	$("#paymentSettting").validate({
+	$("#settingSettting").validate({
 		submitHandler: validationSubmitHandler,
 		errorPlacement: validationErrorPlacement,
 		highlight: validationHighlight,
@@ -797,16 +797,16 @@ window.addEventListener('scroll', function (ev) {
 		});
 	};
 
-	var paymentBtn = function paymentBtn() {
-		$('[payment-btn-js]').on('click', function (ev) {
+	var settingBtn = function settingBtn() {
+		$('[setting-btn-js]').on('click', function (ev) {
 			var el = $(ev.currentTarget),
 			    elID = el.attr('data-id');
 
-			$('[payment-btn-js]').removeClass('is-active');
+			$('[setting-btn-js]').removeClass('is-active');
 			el.addClass('is-active');
 
-			$('[payment-content-js]').removeClass('is-active');
-			$('[payment-content-js][data-id="' + elID + '"]').addClass('is-active');
+			$('[setting-content-js]').removeClass('is-active');
+			$('[setting-content-js][data-id="' + elID + '"]').addClass('is-active');
 		});
 	};
 	/*
@@ -836,7 +836,7 @@ window.addEventListener('scroll', function (ev) {
 		chartCB();
 		tabCB();
 		apiBoxResult();
-		paymentBtn();
+		settingBtn();
 		// ==========================================
 	};
 

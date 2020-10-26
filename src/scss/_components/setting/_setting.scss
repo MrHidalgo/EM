@@ -1,7 +1,6 @@
 // SECTION :: START
 
-.payment {
-
+.setting {
 	&__title {
 		padding-bottom: 15px;
 		font-weight: 500;
@@ -25,7 +24,7 @@
 			width: 230px;
 			height: 350px;
 
-			.payment__tab-box {
+			.setting__tab-box {
 				flex-direction: column;
 				justify-content: space-between;
 				padding: 40px 20px 20px;
@@ -46,7 +45,7 @@
 			max-width: calc(100% - 250px);
 			margin-left: 20px;
 
-			.payment__tab-box {
+			.setting__tab-box {
 				flex-direction: column;
 				padding: 65px 60px;
 			}
