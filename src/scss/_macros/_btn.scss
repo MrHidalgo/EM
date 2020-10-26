@@ -67,6 +67,27 @@
 		}
 	}
 
+	&--red {
+		border: 1px solid #FD784C;
+		background-color: #FFE5DD;
+		@include transition(background-color);
+
+		&:hover {
+			background-color: #FD784C;
+			@include transition(background-color);
+
+			span {
+				color: #ffffff;
+				@include transition(color);
+			}
+		}
+
+		span {
+			color: #FD784C;
+			@include transition(color);
+		}
+	}
+
 	&--blueBorder {
 		border: 1px solid #0056fc;
 		background-color: transparent;

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- TITLE-->
-    <title>EM | Single Verification</title>
+    <title>EM | Payment</title>
     <!-- FAVICON-->
     <!-- STYLE :: START-->
     <link rel="stylesheet" href="css/vendor.css">
@@ -114,27 +114,100 @@
       </div>
     </header>
     <!-- HEADER :: END-->
-    <div class="body body--start p-single-verification p-single-verification-1">
+    <div class="body body--start p-payment">
       <!-- SECTION :: START-->
-      <section class="single-verification single-verification--main" id="single-verification">
+      <section class="payment" id="payment">
         <div class="c-grid">
-          <div class="single-verification__wrapper">
-            <div class="single-verification__wrapper-header">
-              <p>You have <span>98</span> available email validation(s) <a href='#' class=''><u>Buy credits</u></a></p>
+          <div class="payment__wrapper">
+            <div class="payment__wrapper-header">
+              <p class="payment__title">Settings</p>
+              <p class="payment__subtitle">No montly payment and your credit never expire</p>
             </div>
-            <div class="single-verification__wrapper-body">
-              <form class="single-verification__form c-form" action="#" method="#" autocomplete="off">
-                <div class="c-form__field">
-                  <input type="text" id="email" name="email" placeholder="" input-js required>
-                  <label for="email">Enter an email address</label><i class="icon-font icon-check"></i><i class="icon-font icon-close"></i>
+            <div class="payment__wrapper-body">
+              <div class="payment__tab-wrapper">
+                <div class="payment__tab-left">
+                  <div class="payment__tab-box">
+                    <div class="payment__tab-box-body"><a class="payment__tab-btn is-active" href="#" payment-btn-js data-id="1"><i class="icon-font icon-arrow-right"></i><span>General</span></a><a class="payment__tab-btn" href="#" data-id="2" payment-btn-js><i class="icon-font icon-arrow-right"></i><span>Security</span></a></div>
+                    <div class="payment__tab-box-footer">
+                      <div class="c-btn__wrapper"><a class="c-btn c-btn--red" href="#"><span>Delete your account</span></a></div>
+                    </div>
+                  </div>
                 </div>
-                <div class="c-btn__wrapper">
-                  <button class="c-btn c-btn--blue" type="submit"><span>Start Verifying</span></button>
+                <div class="payment__tab-right">
+                  <div class="payment__tab-box">
+                    <div class="payment__tab-content is-active" data-id="1" payment-content-js>
+                      <div class="payment__tab-box-header">
+                        <div>
+                          <p class="payment__date">Created: <span>2017-06-29 14:41:14</span></p>
+                        </div>
+                        <div>
+                          <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder is-disabled" href="#"><span>Save</span></a></div>
+                        </div>
+                      </div>
+                      <div class="payment__tab-box-body">
+                        <form class="payment__form c-form" id="paymentGeneral" action="" method="" autocomplete="off">
+                          <div class="c-form__field-group">
+                            <div class="c-form__field is-focus">
+                              <input type="text" id="full_name" name="full_name" value="Youssef ait" required input-js>
+                              <label for="full_name">Full Name</label><i class="icon-font icon-check"></i><i class="icon-font icon-close"></i>
+                            </div>
+                            <div class="c-form__field is-focus is-disabled">
+                              <input type="email" id="email" name="email" value="youssef.ait.7@gmail.com" required input-js>
+                              <label for="email">Email</label>
+                            </div>
+                          </div>
+                          <div class="c-form__field-group">
+                            <div class="c-form__field">
+                              <input type="text" id="company_name" name="company_name" required input-js>
+                              <label for="company_name">Company Name</label><i class="icon-font icon-check"></i><i class="icon-font icon-close"></i>
+                            </div>
+                            <div class="c-form__field">
+                              <input type="text" id="mobile_phone" name="mobile_phone" required input-js>
+                              <label for="mobile_phone">Mobile Phone</label><i class="icon-font icon-check"></i><i class="icon-font icon-close"></i>
+                            </div>
+                          </div>
+                          <div class="c-form__field-group">
+                            <div class="c-form__field">
+                              <input type="text" id="city" name="city" required input-js>
+                              <label for="city">City</label><i class="icon-font icon-check"></i><i class="icon-font icon-close"></i>
+                            </div>
+                            <div class="c-form__field">
+                              <input type="text" id="country" name="country" required input-js>
+                              <label for="country">Country</label><i class="icon-font icon-check"></i><i class="icon-font icon-close"></i>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="payment__tab-content" data-id="2" payment-content-js>
+                      <div class="payment__tab-box-header">
+                        <div>
+                          <p class="payment__date">Your last login: <span>2017-06-29 14:41:14</span></p>
+                        </div>
+                        <div>
+                          <div class="c-btn__wrapper"><a class="c-btn c-btn--blueBorder is-disabled" href="#"><span>Save</span></a></div>
+                        </div>
+                      </div>
+                      <div class="payment__tab-box-body">
+                        <form class="payment__form c-form" id="paymentSettting" action="" method="" autocomplete="off">
+                          <div class="c-form__field-group">
+                            <div class="c-form__field">
+                              <input type="text" id="new_password" name="new_password" required input-js>
+                              <label for="new_password">New Password</label><i class="icon-font icon-check"></i><i class="icon-font icon-close"></i>
+                            </div>
+                          </div>
+                          <div class="c-form__field-group">
+                            <div class="c-form__field">
+                              <input type="text" id="confirm_password" name="confirm_password" required input-js>
+                              <label for="confirm_password">Confirm Password</label><i class="icon-font icon-check"></i><i class="icon-font icon-close"></i>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </form>
-            </div>
-            <div class="single-verification__wrapper-footer">
-              <p class="single-verification__details">Check the status, deliverability, <br>and risk level of email addresses with <br>our single email verification</p>
+              </div>
             </div>
           </div>
         </div>
@@ -155,7 +228,7 @@
                 <div class="c-poppertext c-poppertext--right">
                   <u>Bulk Verification</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper is-active" href="#" sidebar-btn-js><span><i class="icon-font icon-email"></i></span>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--blue c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-email"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Single Verification</u>
                 </div></a></li>
@@ -175,7 +248,7 @@
                 <div class="c-poppertext c-poppertext--right">
                   <u>Settings</u>
                 </div></a></li>
-            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--orange c-popper" href="#" sidebar-btn-js><span><i class="icon-font icon-gift"></i></span>
+            <li class="sidebar__menu-item"><a class="sidebar__menu-btn sidebar__menu-btn--orange c-popper is-active" href="#" sidebar-btn-js><span><i class="icon-font icon-gift"></i></span>
                 <div class="c-poppertext c-poppertext--right">
                   <u>Today's Deal</u>
                 </div></a></li>

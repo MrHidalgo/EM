@@ -119,4 +119,46 @@ const initValidation = () => {
 			api_key: 'required',
 		}
 	});
+
+	$("#paymentGeneral").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function(element) {
+			$(element).valid();
+		},
+		rules: {
+			full_name: 'required',
+			email: {
+				required: true,
+				email: true
+			},
+			company_name: 'required',
+			mobile_phone: 'required',
+			city: 'required',
+			country: 'required',
+		}
+	});
+
+	$("#paymentSettting").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function(element) {
+			$(element).valid();
+		},
+		rules: {
+			new_password: {
+				required: true,
+				minlength : 8,
+			},
+			confirm_password: {
+				required: true,
+				minlength : 8,
+				equalTo : "#new_password"
+			},
+		}
+	});
 };

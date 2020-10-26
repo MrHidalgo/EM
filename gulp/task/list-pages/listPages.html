@@ -527,21 +527,8 @@
 
 <!-- content -->
 <header class="header">
-  <!--<h1>-->
-  <!--<span><%= pages.ProjectTitle %></span>-->
-  <!--</h1>-->
-  <%
-  date = new Date(_.now());
-  if(date.getMonth()+1<10){ month = '0' + (date.getMonth()+1);}
-  else{ month = date.getMonth()+1; }
-
-  if(date.getDate()<10){ day = '0' + (date.getDate());}
-  else{ day = date.getDate(); }
-  %>
   <div class="header__updated">
-    <em><%= pages.ProjectTitle %></em> -
-    updated <strong><%= day %>.<%= month %>.<%= date.getFullYear() %></strong>
-    <!--, <%= pages.PageList.length %> pages-->
+    <em><%= pages.ProjectTitle %></em>
   </div>
 
   <nav class="types">

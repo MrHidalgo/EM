@@ -203,6 +203,48 @@ var initValidation = function initValidation() {
 			api_key: 'required'
 		}
 	});
+
+	$("#paymentGeneral").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function onkeyup(element) {
+			$(element).valid();
+		},
+		rules: {
+			full_name: 'required',
+			email: {
+				required: true,
+				email: true
+			},
+			company_name: 'required',
+			mobile_phone: 'required',
+			city: 'required',
+			country: 'required'
+		}
+	});
+
+	$("#paymentSettting").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function onkeyup(element) {
+			$(element).valid();
+		},
+		rules: {
+			new_password: {
+				required: true,
+				minlength: 8
+			},
+			confirm_password: {
+				required: true,
+				minlength: 8,
+				equalTo: "#new_password"
+			}
+		}
+	});
 };
 
 /**
@@ -754,6 +796,19 @@ window.addEventListener('scroll', function (ev) {
 			$('[apibox-result-js]').removeClass('is-open');
 		});
 	};
+
+	var paymentBtn = function paymentBtn() {
+		$('[payment-btn-js]').on('click', function (ev) {
+			var el = $(ev.currentTarget),
+			    elID = el.attr('data-id');
+
+			$('[payment-btn-js]').removeClass('is-active');
+			el.addClass('is-active');
+
+			$('[payment-content-js]').removeClass('is-active');
+			$('[payment-content-js][data-id="' + elID + '"]').addClass('is-active');
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -781,6 +836,7 @@ window.addEventListener('scroll', function (ev) {
 		chartCB();
 		tabCB();
 		apiBoxResult();
+		paymentBtn();
 		// ==========================================
 	};
 

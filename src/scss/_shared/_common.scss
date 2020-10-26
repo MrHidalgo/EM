@@ -9,6 +9,16 @@
 	&__field {
 		position: relative;
 
+		&-group {
+			display: flex;
+			justify-content: space-between;
+
+			.c-form__field {
+				width: 100%;
+				max-width: calc(100% / 2);
+			}
+		}
+
 		&.is-focus {
 			input {
 				border-color: #0056FC;
@@ -48,6 +58,12 @@
 				&.icon-check {
 					opacity: 1;
 				}
+			}
+		}
+		&.is-disabled {
+			input {
+				border-color: transparent;
+				background-color: transparent;
 			}
 		}
 

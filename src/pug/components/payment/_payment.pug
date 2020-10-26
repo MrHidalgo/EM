@@ -1,0 +1,108 @@
+// SECTION :: START
+
+section#payment.payment
+
+	.c-grid
+
+		.payment__wrapper
+			.payment__wrapper-header
+
+				p.payment__title Settings
+				p.payment__subtitle No montly payment and your credit never expire
+
+			.payment__wrapper-body
+
+				.payment__tab-wrapper
+
+					.payment__tab-left
+
+						.payment__tab-box
+							.payment__tab-box-body
+
+								a.payment__tab-btn.is-active(href="#" payment-btn-js data-id='1')
+									i.icon-font.icon-arrow-right
+									span General
+
+								a.payment__tab-btn(href="#" data-id='2' payment-btn-js)
+									i.icon-font.icon-arrow-right
+									span Security
+
+							.payment__tab-box-footer
+								.c-btn__wrapper
+									a.c-btn.c-btn--red(href="#")
+										span Delete your account
+
+					.payment__tab-right
+
+						.payment__tab-box
+
+							.payment__tab-content.is-active(data-id='1' payment-content-js)
+								.payment__tab-box-header
+									div
+										p.payment__date!= "Created: <span>2017-06-29 14:41:14</span>"
+									div
+										.c-btn__wrapper
+											a.c-btn.c-btn--blueBorder.is-disabled(href="#")
+												span Save
+
+								.payment__tab-box-body
+
+									form#paymentGeneral.payment__form.c-form(action='' method='' autocomplete='off')
+										.c-form__field-group
+											.c-form__field.is-focus
+												input(type='text' id='full_name' name='full_name' value='Youssef ait' required input-js)
+												label(for='full_name') Full Name
+												i.icon-font.icon-check
+												i.icon-font.icon-close
+											.c-form__field.is-focus.is-disabled
+												input(type='email' id='email' name='email' value='youssef.ait.7@gmail.com' required input-js)
+												label(for='email') Email
+										.c-form__field-group
+											.c-form__field
+												input(type='text' id='company_name' name='company_name' required input-js)
+												label(for='company_name') Company Name
+												i.icon-font.icon-check
+												i.icon-font.icon-close
+											.c-form__field
+												input(type='text' id='mobile_phone' name='mobile_phone' required input-js)
+												label(for='mobile_phone') Mobile Phone
+												i.icon-font.icon-check
+												i.icon-font.icon-close
+										.c-form__field-group
+											.c-form__field
+												input(type='text' id='city' name='city' required input-js)
+												label(for='city') City
+												i.icon-font.icon-check
+												i.icon-font.icon-close
+											.c-form__field
+												input(type='text' id='country' name='country' required input-js)
+												label(for='country') Country
+												i.icon-font.icon-check
+												i.icon-font.icon-close
+
+							.payment__tab-content(data-id='2' payment-content-js)
+
+								.payment__tab-box-header
+									div
+										p.payment__date!= "Your last login: <span>2017-06-29 14:41:14</span>"
+									div
+										.c-btn__wrapper
+											a.c-btn.c-btn--blueBorder.is-disabled(href="#")
+												span Save
+
+								.payment__tab-box-body
+									form#paymentSettting.payment__form.c-form(action='' method='' autocomplete='off')
+										.c-form__field-group
+											.c-form__field
+												input(type='text' id='new_password' name='new_password' required input-js)
+												label(for='new_password') New Password
+												i.icon-font.icon-check
+												i.icon-font.icon-close
+										.c-form__field-group
+											.c-form__field
+												input(type='text' id='confirm_password' name='confirm_password' required input-js)
+												label(for='confirm_password') Confirm Password
+												i.icon-font.icon-check
+												i.icon-font.icon-close
+
+// SECTION :: END

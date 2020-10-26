@@ -36,83 +36,86 @@
 	@if $filename == apps {
 		$char: "\E003";
 	}
-	@if $filename == bell {
+	@if $filename == arrow-right {
 		$char: "\E004";
 	}
-	@if $filename == check {
+	@if $filename == bell {
 		$char: "\E005";
 	}
-	@if $filename == circle-right {
+	@if $filename == check {
 		$char: "\E006";
 	}
-	@if $filename == close {
+	@if $filename == circle-right {
 		$char: "\E007";
 	}
-	@if $filename == edit {
+	@if $filename == close {
 		$char: "\E008";
 	}
-	@if $filename == email {
+	@if $filename == edit {
 		$char: "\E009";
 	}
-	@if $filename == envelope {
+	@if $filename == email {
 		$char: "\E00A";
 	}
-	@if $filename == eye-line {
+	@if $filename == envelope {
 		$char: "\E00B";
 	}
-	@if $filename == eye {
+	@if $filename == eye-line {
 		$char: "\E00C";
 	}
-	@if $filename == file-blank {
+	@if $filename == eye {
 		$char: "\E00D";
 	}
-	@if $filename == file {
+	@if $filename == file-blank {
 		$char: "\E00E";
 	}
-	@if $filename == filter-search {
+	@if $filename == file {
 		$char: "\E00F";
 	}
-	@if $filename == filter {
+	@if $filename == filter-search {
 		$char: "\E010";
 	}
-	@if $filename == gift {
+	@if $filename == filter {
 		$char: "\E011";
 	}
-	@if $filename == github {
+	@if $filename == gift {
 		$char: "\E012";
 	}
-	@if $filename == grammar {
+	@if $filename == github {
 		$char: "\E013";
 	}
-	@if $filename == intersect {
+	@if $filename == grammar {
 		$char: "\E014";
 	}
-	@if $filename == log-out {
+	@if $filename == intersect {
 		$char: "\E015";
 	}
-	@if $filename == products {
+	@if $filename == log-out {
 		$char: "\E016";
 	}
-	@if $filename == profile {
+	@if $filename == products {
 		$char: "\E017";
 	}
-	@if $filename == receipt {
+	@if $filename == profile {
 		$char: "\E018";
 	}
-	@if $filename == search {
+	@if $filename == receipt {
 		$char: "\E019";
 	}
-	@if $filename == trash {
+	@if $filename == search {
 		$char: "\E01A";
 	}
-	@if $filename == upload {
+	@if $filename == trash {
 		$char: "\E01B";
 	}
-	@if $filename == viewport-narrow {
+	@if $filename == upload {
 		$char: "\E01C";
 	}
-	@if $filename == vocabulary {
+	@if $filename == viewport-narrow {
 		$char: "\E01D";
+	}
+	@if $filename == vocabulary {
+		$char: "\E01E";
 	}
 
 	@return $char;
@@ -139,6 +142,10 @@
 }
 .icon-apps {
 	@include icon(apps);
+
+}
+.icon-arrow-right {
+	@include icon(arrow-right);
 
 }
 .icon-bell {

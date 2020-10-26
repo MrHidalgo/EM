@@ -40,3 +40,6 @@ PageList:
 - file: api-2.html
   titleName: API 2
   ready: 33
+- file: payment.html
+  titleName: Payment
+  ready: 33
