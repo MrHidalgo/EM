@@ -161,4 +161,17 @@ const initValidation = () => {
 			},
 		}
 	});
+
+	$("#plansForm").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function(element) {
+			$(element).valid();
+		},
+		rules: {
+			plans_num: 'required',
+		}
+	});
 };

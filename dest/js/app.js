@@ -245,6 +245,19 @@ var initValidation = function initValidation() {
 			}
 		}
 	});
+
+	$("#plansForm").validate({
+		submitHandler: validationSubmitHandler,
+		errorPlacement: validationErrorPlacement,
+		highlight: validationHighlight,
+		unhighlight: validationUnhighlight,
+		onkeyup: function onkeyup(element) {
+			$(element).valid();
+		},
+		rules: {
+			plans_num: 'required'
+		}
+	});
 };
 
 /**
@@ -809,6 +822,13 @@ window.addEventListener('scroll', function (ev) {
 			$('[setting-content-js][data-id="' + elID + '"]').addClass('is-active');
 		});
 	};
+
+	var plansBox = function plansBox() {
+		$('[plans-box-js]').on('click', function (ev) {
+			$('[plans-box-js]').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -837,6 +857,7 @@ window.addEventListener('scroll', function (ev) {
 		tabCB();
 		apiBoxResult();
 		settingBtn();
+		plansBox();
 		// ==========================================
 	};
 

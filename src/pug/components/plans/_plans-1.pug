@@ -1,0 +1,81 @@
+// SECTION :: START
+
+section#plans.plans.plans--info
+
+	.c-grid
+
+		.plans__wrapper
+			.plans__wrapper-left
+
+				.plans__wrapper-header
+
+					p.plans__title Pay only for what you need!
+					p.plans__subtitle No montly payment and your credit never expire
+
+					ul.plans__list
+						li
+							div
+								i.icon-font.icon-check
+								p Volume Discount
+							div
+								span The more you verify, the lower the cost.
+						li
+							div
+								i.icon-font.icon-check
+								p Free Deduplication
+							div
+								span We remove duplicates and bad syntax at no cost.
+						li
+							div
+								i.icon-font.icon-check
+								p No Contract
+							div
+								span No upfront fee and flexible billing.
+
+			.plans__wrapper-right
+
+				form#plansForm.plans__form.c-form(action='' method='' autocomplete='off')
+					p.plans__form-title How many verification do you need?
+					.c-form__field-group
+						.c-form__field.is-focus
+							input(type='text' id='plans_num' name='plans_num' value="0000" input-js required)
+							label(for='plans_num') Num Verification
+							i.icon-font.icon-check
+							i.icon-font.icon-close
+						.c-form__field
+							.c-btn__wrapper
+								button.c-btn.c-btn--blueBorder(type='submit')
+									span How much?
+
+				.plans__box-wrapper
+					each val, idx in ['1,000', '5,000', '10,000', '15,000', '25,000', '50,000', '100,000', '300,000', '500,000', '700,000', '1M', '2M']
+						div
+							a.plans__box(href="#" plans-box-js)
+								.plans__box-bg
+									span
+									span
+									span
+								.plans__box-content
+									.plans__box-header
+										.plans__box-img
+											svg(xmlns='http://www.w3.org/2000/svg' width='30' height='27' viewBox='0 0 30 27')
+												path(d='M30,7.579V19.421A7.556,7.556,0,0,1,22.453,27H7.587A7.57,7.57,0,0,1,0,19.434V7.579A7.44,7.44,0,0,1,.467,5a7.573,7.573,0,0,1,7.12-5H22.413a7.573,7.573,0,0,1,7.16,5.088A6.947,6.947,0,0,1,30,7.579Z' transform='translate(0 0)')
+												path(d='M29.106,5.1l-.147.12c-2.76,2.145-11.693,9.324-11.693,9.324a4.23,4.23,0,0,1-5.333,0S3.053,7.379.293,5.235L0,5.008A7.573,7.573,0,0,1,7.12,0H21.946A7.573,7.573,0,0,1,29.106,5.1Z' transform='translate(0.467 0)')
+										p.plans__box-count!= val
+									.plans__box-body
+										p.plans__box-info $0.0003 Per verification
+								.plans__box-footer
+									p.plans__box-price!= '$999,9'
+
+				.plans__action
+					p.plans__action-title More than 2 million emails to verify ?
+					p.plans__action-subtitle No problem , just contact us and you will get the best deals, discounts and prices.
+
+					.c-btn__wrapper
+						a.c-btn.c-btn--blue(href="#")
+							span Contact Us
+							i.icon-font.icon-arrow-right
+
+				a.plans__info(href="#") Privacy Policy & Terms
+
+// SECTION :: END

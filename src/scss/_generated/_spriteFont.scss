@@ -45,77 +45,80 @@
 	@if $filename == check {
 		$char: "\E006";
 	}
-	@if $filename == circle-right {
+	@if $filename == circle-minus {
 		$char: "\E007";
 	}
-	@if $filename == close {
+	@if $filename == circle-right {
 		$char: "\E008";
 	}
-	@if $filename == edit {
+	@if $filename == close {
 		$char: "\E009";
 	}
-	@if $filename == email {
+	@if $filename == edit {
 		$char: "\E00A";
 	}
-	@if $filename == envelope {
+	@if $filename == email {
 		$char: "\E00B";
 	}
-	@if $filename == eye-line {
+	@if $filename == envelope {
 		$char: "\E00C";
 	}
-	@if $filename == eye {
+	@if $filename == eye-line {
 		$char: "\E00D";
 	}
-	@if $filename == file-blank {
+	@if $filename == eye {
 		$char: "\E00E";
 	}
-	@if $filename == file {
+	@if $filename == file-blank {
 		$char: "\E00F";
 	}
-	@if $filename == filter-search {
+	@if $filename == file {
 		$char: "\E010";
 	}
-	@if $filename == filter {
+	@if $filename == filter-search {
 		$char: "\E011";
 	}
-	@if $filename == gift {
+	@if $filename == filter {
 		$char: "\E012";
 	}
-	@if $filename == github {
+	@if $filename == gift {
 		$char: "\E013";
 	}
-	@if $filename == grammar {
+	@if $filename == github {
 		$char: "\E014";
 	}
-	@if $filename == intersect {
+	@if $filename == grammar {
 		$char: "\E015";
 	}
-	@if $filename == log-out {
+	@if $filename == intersect {
 		$char: "\E016";
 	}
-	@if $filename == products {
+	@if $filename == log-out {
 		$char: "\E017";
 	}
-	@if $filename == profile {
+	@if $filename == products {
 		$char: "\E018";
 	}
-	@if $filename == receipt {
+	@if $filename == profile {
 		$char: "\E019";
 	}
-	@if $filename == search {
+	@if $filename == receipt {
 		$char: "\E01A";
 	}
-	@if $filename == trash {
+	@if $filename == search {
 		$char: "\E01B";
 	}
-	@if $filename == upload {
+	@if $filename == trash {
 		$char: "\E01C";
 	}
-	@if $filename == viewport-narrow {
+	@if $filename == upload {
 		$char: "\E01D";
 	}
-	@if $filename == vocabulary {
+	@if $filename == viewport-narrow {
 		$char: "\E01E";
+	}
+	@if $filename == vocabulary {
+		$char: "\E01F";
 	}
 
 	@return $char;
@@ -154,6 +157,10 @@
 }
 .icon-check {
 	@include icon(check);
+
+}
+.icon-circle-minus {
+	@include icon(circle-minus);
 
 }
 .icon-circle-right {

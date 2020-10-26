@@ -40,6 +40,12 @@ PageList:
 - file: api-2.html
   titleName: API 2
   ready: 33
+- file: plans-1.html
+  titleName: Plans 1
+  ready: 33
+- file: plans-2.html
+  titleName: Plans 2
+  ready: 33
 - file: payment-history.html
   titleName: Payment History
   ready: 33

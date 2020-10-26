@@ -588,6 +588,14 @@
 			$('[setting-content-js][data-id="' + elID + '"]').addClass('is-active');
 		});
 	};
+
+
+	const plansBox = () => {
+		$('[plans-box-js]').on('click', (ev) => {
+			$('[plans-box-js]').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -617,6 +625,7 @@
 		tabCB();
 		apiBoxResult();
 		settingBtn();
+		plansBox();
 		// ==========================================
 	};
 

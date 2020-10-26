@@ -11,7 +11,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-add-code:before, .icon-analytics:before, .icon-apps:before, .icon-arrow-right:before, .icon-bell:before, .icon-check:before, .icon-circle-right:before, .icon-close:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-eye-line:before, .icon-eye:before, .icon-file-blank:before, .icon-file:before, .icon-filter-search:before, .icon-filter:before, .icon-gift:before, .icon-github:before, .icon-grammar:before, .icon-intersect:before, .icon-log-out:before, .icon-products:before, .icon-profile:before, .icon-receipt:before, .icon-search:before, .icon-trash:before, .icon-upload:before, .icon-viewport-narrow:before, .icon-vocabulary:before {
+.icon-add-code:before, .icon-analytics:before, .icon-apps:before, .icon-arrow-right:before, .icon-bell:before, .icon-check:before, .icon-circle-minus:before, .icon-circle-right:before, .icon-close:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-eye-line:before, .icon-eye:before, .icon-file-blank:before, .icon-file:before, .icon-filter-search:before, .icon-filter:before, .icon-gift:before, .icon-github:before, .icon-grammar:before, .icon-intersect:before, .icon-log-out:before, .icon-products:before, .icon-profile:before, .icon-receipt:before, .icon-search:before, .icon-trash:before, .icon-upload:before, .icon-viewport-narrow:before, .icon-vocabulary:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -22,154 +22,159 @@
   text-transform: none;
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
+/* line 128, src/scss/_generated/_spriteFont.scss */
 .icon-add-code:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
+/* line 128, src/scss/_generated/_spriteFont.scss */
 .icon-analytics:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
+/* line 128, src/scss/_generated/_spriteFont.scss */
 .icon-apps:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
+/* line 128, src/scss/_generated/_spriteFont.scss */
 .icon-arrow-right:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
+/* line 128, src/scss/_generated/_spriteFont.scss */
 .icon-bell:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
+/* line 128, src/scss/_generated/_spriteFont.scss */
 .icon-check:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-circle-right:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-circle-minus:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-close:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-circle-right:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-edit:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-close:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-envelope:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-eye-line:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-envelope:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-eye:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-eye-line:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-file-blank:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-eye:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-file:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-file-blank:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-filter-search:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-file:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-filter:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-filter-search:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-gift:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-filter:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-github:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-gift:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-grammar:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-github:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-intersect:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-grammar:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-log-out:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-intersect:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-products:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-log-out:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-profile:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-products:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-receipt:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-profile:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-receipt:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-trash:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-trash:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-viewport-narrow:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
   content: "";
 }
 
-/* line 125, src/scss/_generated/_spriteFont.scss */
-.icon-vocabulary:before {
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-viewport-narrow:before {
   content: "";
+}
+
+/* line 128, src/scss/_generated/_spriteFont.scss */
+.icon-vocabulary:before {
+  content: "";
 }
 
 @font-face {
@@ -5462,6 +5467,994 @@ picture {
   font-size: 13px;
   letter-spacing: 0.01em;
   color: #000;
+}
+
+/* line 7, src/scss/_components/plans/_plans.scss */
+.plans.plans--info .plans__wrapper-left {
+  width: 40%;
+  max-width: unset;
+  -webkit-box-flex: unset;
+  -webkit-flex: unset;
+      -ms-flex: unset;
+          flex: unset;
+}
+
+/* line 13, src/scss/_components/plans/_plans.scss */
+.plans.plans--info .plans__wrapper-right {
+  width: 60%;
+  max-width: unset;
+}
+
+/* line 21, src/scss/_components/plans/_plans.scss */
+.plans__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 24, src/scss/_components/plans/_plans.scss */
+.plans__wrapper-left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 31, src/scss/_components/plans/_plans.scss */
+.plans__wrapper-right {
+  width: 100%;
+  max-width: 620px;
+  padding-left: 20px;
+}
+
+/* line 38, src/scss/_components/plans/_plans.scss */
+.plans__title {
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 34px;
+  color: #000;
+}
+
+/* line 45, src/scss/_components/plans/_plans.scss */
+.plans__subtitle {
+  padding-bottom: 65px;
+  font-size: 18px;
+  color: #27282d;
+}
+
+/* line 51, src/scss/_components/plans/_plans.scss */
+.plans__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 55, src/scss/_components/plans/_plans.scss */
+.plans__list li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 35px;
+}
+
+/* line 61, src/scss/_components/plans/_plans.scss */
+.plans__list li > div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 5px;
+}
+
+/* line 68, src/scss/_components/plans/_plans.scss */
+.plans__list li .icon-font {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #3ad378;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 6px;
+}
+
+/* line 81, src/scss/_components/plans/_plans.scss */
+.plans__list li p {
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 87, src/scss/_components/plans/_plans.scss */
+.plans__list li span {
+  font-size: 13px;
+  color: #535260;
+}
+
+/* line 94, src/scss/_components/plans/_plans.scss */
+.plans__form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 35px;
+}
+
+/* line 99, src/scss/_components/plans/_plans.scss */
+.plans__form-title {
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+
+/* line 106, src/scss/_components/plans/_plans.scss */
+.plans__form .c-form__field {
+  padding-bottom: 20px;
+}
+
+/* line 110, src/scss/_components/plans/_plans.scss */
+.plans__form .c-form__field-group .c-form__field {
+  width: auto;
+  max-width: unset;
+}
+
+/* line 114, src/scss/_components/plans/_plans.scss */
+.plans__form .c-form__field-group .c-form__field:nth-of-type(1) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 123, src/scss/_components/plans/_plans.scss */
+.plans__form .c-btn {
+  min-width: 250px;
+}
+
+/* line 126, src/scss/_components/plans/_plans.scss */
+.plans__form .c-btn__wrapper {
+  padding-left: 10px;
+}
+
+/* line 132, src/scss/_components/plans/_plans.scss */
+.plans__box {
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 95px;
+  padding: 20px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+          box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+}
+
+/* line 143, src/scss/_components/plans/_plans.scss */
+.plans__box:after {
+  content: '';
+  opacity: 0;
+  z-index: 1;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f3f6ff));
+  background: -webkit-linear-gradient(#fff 0%, #f3f6ff 100%);
+  background: -o-linear-gradient(#fff 0%, #f3f6ff 100%);
+  background: linear-gradient(#fff 0%, #f3f6ff 100%);
+  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* line 158, src/scss/_components/plans/_plans.scss */
+.plans__box:hover:after {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* line 166, src/scss/_components/plans/_plans.scss */
+.plans__box.is-active:after {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* line 173, src/scss/_components/plans/_plans.scss */
+.plans__box.is-active .plans__box-bg {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* line 181, src/scss/_components/plans/_plans.scss */
+.plans__box.is-active .plans__box-img svg path {
+  -webkit-transition: fill 0.3s ease-in-out;
+  -o-transition: fill 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out;
+}
+
+/* line 184, src/scss/_components/plans/_plans.scss */
+.plans__box.is-active .plans__box-img svg path:nth-of-type(1) {
+  fill: #BFF5FF;
+}
+
+/* line 185, src/scss/_components/plans/_plans.scss */
+.plans__box.is-active .plans__box-img svg path:nth-of-type(2) {
+  fill: #80EBFF;
+}
+
+/* line 192, src/scss/_components/plans/_plans.scss */
+.plans__box-bg {
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* line 203, src/scss/_components/plans/_plans.scss */
+.plans__box-bg span {
+  position: absolute;
+}
+
+/* line 206, src/scss/_components/plans/_plans.scss */
+.plans__box-bg span:nth-of-type(1) {
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffeddc), to(#fff));
+  background: -webkit-linear-gradient(#ffeddc 0%, #fff 100%);
+  background: -o-linear-gradient(#ffeddc 0%, #fff 100%);
+  background: linear-gradient(#ffeddc 0%, #fff 100%);
+}
+
+/* line 214, src/scss/_components/plans/_plans.scss */
+.plans__box-bg span:nth-of-type(2) {
+  top: 5px;
+  right: 93px;
+  width: 24px;
+  height: 24px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  background: #dbdeff;
+}
+
+/* line 222, src/scss/_components/plans/_plans.scss */
+.plans__box-bg span:nth-of-type(3) {
+  right: 0;
+  bottom: 0;
+  width: 83px;
+  height: 83px;
+  -webkit-border-radius: 12px;
+          border-radius: 12px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fcdbe1));
+  background: -webkit-linear-gradient(#fff 0%, #fcdbe1 100%);
+  background: -o-linear-gradient(#fff 0%, #fcdbe1 100%);
+  background: linear-gradient(#fff 0%, #fcdbe1 100%);
+}
+
+/* line 233, src/scss/_components/plans/_plans.scss */
+.plans__box-wrapper {
+  position: relative;
+  left: -20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: -webkit-calc(100% + 20px);
+  width: calc(100% + 20px);
+  padding-bottom: 30px;
+}
+
+/* line 241, src/scss/_components/plans/_plans.scss */
+.plans__box-wrapper > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 3);
+  max-width: calc(100% / 3);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 249, src/scss/_components/plans/_plans.scss */
+.plans__box-content {
+  z-index: 5;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  height: 100%;
+}
+
+/* line 260, src/scss/_components/plans/_plans.scss */
+.plans__box-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 7px;
+}
+
+/* line 266, src/scss/_components/plans/_plans.scss */
+.plans__box-body {
+  padding-top: 7px;
+}
+
+/* line 270, src/scss/_components/plans/_plans.scss */
+.plans__box-footer {
+  z-index: 5;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 7px;
+  height: 100%;
+}
+
+/* line 279, src/scss/_components/plans/_plans.scss */
+.plans__box-img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 10px;
+}
+
+/* line 286, src/scss/_components/plans/_plans.scss */
+.plans__box-img svg path {
+  -webkit-transition: fill 0.3s ease-in-out;
+  -o-transition: fill 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out;
+}
+
+/* line 289, src/scss/_components/plans/_plans.scss */
+.plans__box-img svg path:nth-of-type(1) {
+  fill: #cdf;
+}
+
+/* line 290, src/scss/_components/plans/_plans.scss */
+.plans__box-img svg path:nth-of-type(2) {
+  fill: #99bbfe;
+}
+
+/* line 295, src/scss/_components/plans/_plans.scss */
+.plans__box-count {
+  font-size: 23px;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 302, src/scss/_components/plans/_plans.scss */
+.plans__box-info {
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: #5d5d5d;
+}
+
+/* line 308, src/scss/_components/plans/_plans.scss */
+.plans__box-price {
+  font-weight: 500;
+  font-size: 34px;
+  color: #000;
+  line-height: 1;
+  text-align: right;
+}
+
+/* line 317, src/scss/_components/plans/_plans.scss */
+.plans__action {
+  padding-bottom: 65px;
+}
+
+/* line 320, src/scss/_components/plans/_plans.scss */
+.plans__action-title {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+
+/* line 327, src/scss/_components/plans/_plans.scss */
+.plans__action-subtitle {
+  padding-bottom: 25px;
+  font-size: 15px;
+  color: #27282d;
+}
+
+/* line 333, src/scss/_components/plans/_plans.scss */
+.plans__action .c-btn {
+  overflow: hidden;
+  position: relative;
+  min-width: 320px;
+  height: 80px;
+  -webkit-box-shadow: 0 20px 45px 0 rgba(0, 86, 252, 0.35);
+          box-shadow: 0 20px 45px 0 rgba(0, 86, 252, 0.35);
+}
+
+/* line 341, src/scss/_components/plans/_plans.scss */
+.plans__action .c-btn:hover:after {
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: center left;
+      -ms-transform-origin: center left;
+          transform-origin: center left;
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: -webkit-transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* line 347, src/scss/_components/plans/_plans.scss */
+.plans__action .c-btn:hover .icon-font {
+  color: #0056fc;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 352, src/scss/_components/plans/_plans.scss */
+.plans__action .c-btn:hover span {
+  color: #000000;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 358, src/scss/_components/plans/_plans.scss */
+.plans__action .c-btn:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00d7fe;
+  -webkit-transform: scaleX(0);
+      -ms-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: -webkit-transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transform-origin: center right;
+      -ms-transform-origin: center right;
+          transform-origin: center right;
+}
+
+/* line 371, src/scss/_components/plans/_plans.scss */
+.plans__action .c-btn .icon-font {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 20px;
+  color: #00d7fe;
+  font-size: 12px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 382, src/scss/_components/plans/_plans.scss */
+.plans__action .c-btn span {
+  font-size: 25px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 389, src/scss/_components/plans/_plans.scss */
+.plans__info {
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 16px;
+  color: #0056fc;
+}
+
+/* line 396, src/scss/_components/plans/_plans.scss */
+.plans__stat {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
+          box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
+}
+
+/* line 407, src/scss/_components/plans/_plans.scss */
+.plans__stat .plans__form {
+  padding-bottom: 0;
+}
+
+/* line 411, src/scss/_components/plans/_plans.scss */
+.plans__stat-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* line 416, src/scss/_components/plans/_plans.scss */
+.plans__stat-close .icon-font {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  font-size: 8px;
+  color: #000;
+}
+
+/* line 429, src/scss/_components/plans/_plans.scss */
+.plans__stat-line {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 20px;
+  background-color: #cdf;
+}
+
+/* line 436, src/scss/_components/plans/_plans.scss */
+.plans__stat-total {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* line 441, src/scss/_components/plans/_plans.scss */
+.plans__stat-total > div {
+  width: 50%;
+  padding: 10px 40px;
+}
+
+/* line 446, src/scss/_components/plans/_plans.scss */
+.plans__stat-total p {
+  font-size: 24px;
+  text-align: left;
+  color: #9a98b4;
+}
+
+/* line 452, src/scss/_components/plans/_plans.scss */
+.plans__stat-total span {
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 457, src/scss/_components/plans/_plans.scss */
+.plans__stat-total span b {
+  font-weight: bold;
+  color: #0056fc;
+}
+
+/* line 464, src/scss/_components/plans/_plans.scss */
+.plans__stat-btn {
+  padding-bottom: 20px;
+}
+
+/* line 467, src/scss/_components/plans/_plans.scss */
+.plans__stat-btn .c-btn {
+  width: 100%;
+}
+
+/* line 472, src/scss/_components/plans/_plans.scss */
+.plans__stat-method {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 479, src/scss/_components/plans/_plans.scss */
+.plans__stat-method > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 489, src/scss/_components/plans/_plans.scss */
+.plans__table {
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  border: 1px solid #cdf;
+}
+
+/* line 494, src/scss/_components/plans/_plans.scss */
+.plans__table-head {
+  background-color: #f1f4fb;
+  border-bottom: 1px solid #cdf;
+}
+
+/* line 499, src/scss/_components/plans/_plans.scss */
+.plans__table-body {
+  padding: 10px 0;
+}
+
+/* line 502, src/scss/_components/plans/_plans.scss */
+.plans__table-body .plans__table-tr {
+  position: relative;
+  left: -1px;
+  width: -webkit-calc(100% + 2px);
+  width: calc(100% + 2px);
+}
+
+/* line 508, src/scss/_components/plans/_plans.scss */
+.plans__table-body .plans__table-tr:hover:before {
+  border-color: #0056FC;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* line 516, src/scss/_components/plans/_plans.scss */
+.plans__table-body .plans__table-tr:hover .plans__table-td .minus .icon-font {
+  color: #0056FC;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 525, src/scss/_components/plans/_plans.scss */
+.plans__table-body .plans__table-tr:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: -webkit-calc(100% - 20px);
+  width: calc(100% - 20px);
+  height: 100%;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #cdf;
+  -webkit-box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+          box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -o-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* line 539, src/scss/_components/plans/_plans.scss */
+.plans__table-body .plans__table-tr:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+/* line 545, src/scss/_components/plans/_plans.scss */
+.plans__table-tr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 549, src/scss/_components/plans/_plans.scss */
+.plans__table-th, .plans__table-td {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  padding: 10px 40px;
+}
+
+/* line 561, src/scss/_components/plans/_plans.scss */
+.plans__table-th:not(:last-of-type) {
+  border-right: 1px solid #cdf;
+}
+
+/* line 565, src/scss/_components/plans/_plans.scss */
+.plans__table-th p {
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 572, src/scss/_components/plans/_plans.scss */
+.plans__table-td {
+  position: relative;
+}
+
+/* line 575, src/scss/_components/plans/_plans.scss */
+.plans__table-td .minus {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 580, src/scss/_components/plans/_plans.scss */
+.plans__table-td .minus .icon-font {
+  color: #7ca9ff;
+  font-size: 20px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 587, src/scss/_components/plans/_plans.scss */
+.plans__table-td:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 593, src/scss/_components/plans/_plans.scss */
+.plans__table-td:after {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 0;
+  width: 1px;
+  height: 75%;
+  background: #cdf;
+}
+
+/* line 606, src/scss/_components/plans/_plans.scss */
+.plans__table-td:not(:last-of-type):after {
+  opacity: 1;
+}
+
+/* line 611, src/scss/_components/plans/_plans.scss */
+.plans__table-td span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #535260;
+}
+
+/* line 618, src/scss/_components/plans/_plans.scss */
+.plans__table-td span .icon-font {
+  margin-right: 10px;
+  color: #ccddff;
+  font-size: 16px;
+}
+
+/* line 627, src/scss/_components/plans/_plans.scss */
+.plans__notes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  min-height: 124px;
+  padding: 25px 20px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: #ffeddc;
+  border: 1px solid #fdc937;
+}
+
+/* line 638, src/scss/_components/plans/_plans.scss */
+.plans__notes > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  padding-left: 50px;
+}
+
+/* line 646, src/scss/_components/plans/_plans.scss */
+.plans__notes-title {
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+/* line 652, src/scss/_components/plans/_plans.scss */
+.plans__notes ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 656, src/scss/_components/plans/_plans.scss */
+.plans__notes ul li {
+  list-style-type: disc;
+  color: #000000;
+}
+
+/* line 660, src/scss/_components/plans/_plans.scss */
+.plans__notes ul li span {
+  display: block;
+  font-size: 14px;
+  color: #535260;
 }
 
 /* line 4, src/scss/_components/payment-history/_payment-history.scss */

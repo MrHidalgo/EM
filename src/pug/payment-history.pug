@@ -1,0 +1,13 @@
+---
+title: EM | Payment History
+
+pageClassName: p-payment-history
+pageAddName: p-payment-history
+bodyClassName: body--bgSolitude
+---
+extends shared/_layout
+
+block content
+	div.body.body--start(class!= pageClassName)
+
+		include components/payment-history/_payment-history
