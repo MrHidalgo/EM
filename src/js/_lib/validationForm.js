@@ -81,7 +81,7 @@ const initValidation = () => {
 
 	$("#integrationConnect").validate({
 		submitHandler: function() {
-			$('[popup-js]').trigger('click');
+			$('a.hidden[popup-js]').trigger('click');
 		},
 		errorPlacement: validationErrorPlacement,
 		highlight: validationHighlight,

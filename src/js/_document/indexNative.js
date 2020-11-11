@@ -66,8 +66,9 @@
 
 
 	const userToggle = () => {
-		$('[user-js]').on('click', (ev) => {
-			$(ev.currentTarget).siblings('[user-dropdown-js]').toggleClass('is-open');
+		$('.header__user-wrapper').on('click', (ev) => {
+			$(ev.currentTarget).toggleClass('is-active');
+			$('.menu__user-body').slideToggle(350);
 		});
 	};
 
@@ -77,7 +78,7 @@
 			const el = $(ev.currentTarget),
 				searchNode = $('[search-node-js]');
 
-			el.toggleClass('is-active');
+			$('[search-js]').toggleClass('is-active');
 			searchNode.toggleClass('is-open');
 
 			setTimeout(() => {
@@ -123,11 +124,19 @@
 				reportNode.addClass('is-open');
 				$('html, body').addClass('is-hideScroll');
 			}
+
+			if($(window).width() < 768) {
+				$('#overlay').addClass('is-show');
+			}
 		});
 
 		$('[report-close-js]').on('click', (ev) => {
 			$('#report').removeClass('is-open');
 			$('html, body').removeClass('is-hideScroll');
+
+			if($(window).width() < 768) {
+				$('#overlay').removeClass('is-show');
+			}
 		});
 
 		$("[report-select-all]").on('change', (ev) => {
@@ -596,6 +605,39 @@
 			$(ev.currentTarget).addClass('is-active');
 		});
 	};
+
+
+	const hamburger = () => {
+		$('[hamburger-js]').on('click', (ev) => {
+			$('html, body').toggleClass('is-hideScroll');
+			$('#overlay').toggleClass('is-show');
+
+			if($(ev.currentTarget).hasClass('is-active')) {
+				$(ev.currentTarget).removeClass('is-active');
+				$('#menu').addClass('is-animated').removeClass('is-open');
+
+				setTimeout(() => {
+					$('#menu').removeClass('is-animated');
+				}, 350);
+			} else {
+				$(ev.currentTarget).addClass('is-active');
+				$('#menu').addClass('is-open');
+			}
+		});
+
+		$('#overlay').on('click', (ev) => {
+			$('html, body').toggleClass('is-hideScroll');
+			$('#overlay').toggleClass('is-show');
+
+			$('[hamburger-js]').removeClass('is-active');
+
+			$('#menu').addClass('is-animated').removeClass('is-open');
+
+			setTimeout(() => {
+				$('#menu').removeClass('is-animated');
+			}, 350);
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -616,7 +658,7 @@
 		inputFocus();
 		passwordCB();
 		sidebarCB();
-		// userToggle();
+		userToggle();
 		searchToggle();
 		dropdownCB();
 		filterBox();
@@ -626,6 +668,7 @@
 		apiBoxResult();
 		settingBtn();
 		plansBox();
+		hamburger();
 		// ==========================================
 	};
 

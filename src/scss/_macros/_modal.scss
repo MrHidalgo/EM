@@ -24,20 +24,97 @@
 		}
 	}
 
+	&__back {
+		position: absolute;
+		top: 10px;
+		left: 0;
+		right: 0;
+		display: none;
+		align-items: center;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+		@include adaptive(767) {
+			display: flex;
+		}
+
+		.icon-font {
+			color: #ccddff;
+			font-size: 11px;
+		}
+	}
+
 	&#integrationModal {
 		max-width: 900px;
 		padding: 30px;
+		@include adaptive(767) {
+			display: flex;
+			flex-direction: column;
+			top: 100px;
+			height: calc(100% - 100px);
+			padding: 50px 15px 15px;
+			border-radius: 10px 10px 0 0;
+
+			.c-modal__close {
+				display: none;
+			}
+		}
 
 		.c-modal {
 			&__body {
 				overflow-y: auto;
 				max-height: 410px;
 				padding-top: 30px;
+				@include adaptive(767) {
+					flex: 1;
+					min-height: 1px;
+					max-height: 100%;
+					padding-top: 20px;
+				}
+			}
+
+			&__footer {
+				@include adaptive(767) {
+					padding-top: 20px;
+					padding-bottom: 20px;
+				}
+			}
+
+			&__sticky {
+				display: none;
+				align-items: center;
+				justify-content: space-between;
+				height: 55px;
+				padding: 15px 0 0;
+				margin-top: 20px;
+				border-top: 1px solid #CCDDFF;
+				@include adaptive(767) {
+					display: flex;
+				}
+
+				.c-btn {
+					height: 100%;
+
+					&:nth-of-type(1) {
+						width: 45%;
+					}
+					&:nth-of-type(2) {
+						width: 50%;
+						margin-left: 5%;
+					}
+
+					span {
+						font-size: 14px;
+					}
+				}
 			}
 
 			&__title {
 				font-size: 34px;
 				color: #000;
+				@include adaptive(767) {
+					font-size: 20px;
+				}
 
 				strong {
 					font-weight: 700;
@@ -48,6 +125,10 @@
 				font-size: 18px;
 				letter-spacing: 0.01em;
 				color: #5d5d5d;
+				@include adaptive(767) {
+					font-size: 11px;
+					text-align: center;
+				}
 			}
 
 			&__integration {
@@ -62,6 +143,10 @@
 				border: 1px solid #f1f4fb;
 				background-color: #fff;
 				@include transition(box-shadow);
+				@include adaptive(767) {
+					height: auto;
+					padding: 15px;
+				}
 
 				&:hover {
 					box-shadow: 0 6px 10px rgba(224, 227, 235, 0.5);
@@ -74,12 +159,24 @@
 					display: flex;
 					flex-wrap: wrap;
 					width: calc(100% + 22px);
+					@include adaptive(767) {
+						left: -15px;
+						width: calc(100% + 15px);
+					}
 
 					> div {
 						width: 100%;
 						max-width: calc(100% / 5);
 						padding-left: 22px;
 						padding-bottom: 30px;
+						@include adaptive(1023) {
+							max-width: calc(100% / 4);
+						}
+						@include adaptive(767) {
+							max-width: calc(100% / 3);
+							padding-left: 15px;
+							padding-bottom: 15px;
+						}
 					}
 				}
 
@@ -109,6 +206,9 @@
 					font-size: 12px;
 					text-align: center;
 					color: #000;
+					@include adaptive(767) {
+						font-size: 8px;
+					}
 				}
 			}
 		}

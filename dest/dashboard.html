@@ -33,6 +33,74 @@
             </div>
           </div>
           <div>
+            <div class="header__menu">
+              <div>
+                <div class="header__hamburger"><a class="header__hamburger-inner" href="#" hamburger-js><span></span><span></span><span></span></a></div>
+              </div>
+              <div>
+                <div class="header__balance">
+                  <p class="header__balance-title">Credit Balance:</p>
+                  <div class="header__balance-content">
+                    <div>
+                      <p class="header__balance-sum">2 328 934</p>
+                    </div>
+                    <div><img src="img/mail-balance.svg" alt=""></div>
+                  </div>
+                </div>
+              </div>
+              <div><a class="header__sidebar-btn" href="#"><i class="icon-font icon-bell"></i></a>
+                <div class="header__sidebar-search">
+                  <div><a class="header__sidebar-btn c-popper" href="#" search-js><i class="icon-font icon-search"></i>
+                      <div class="c-poppertext">
+                        <u>Search</u>
+                      </div></a></div>
+                  <div search-node-js>
+                    <div class="header__sidebar-form">
+                      <div><a class="header__sidebar-btn" href="#" search-js><i class="icon-font icon-search"></i></a>
+                        <input type="text" name="" placeholder="Search">
+                      </div>
+                      <div>
+                        <div class="c-dropdown__wrapper" dropdown-node-js><a class="c-dropdown__toggle header__sidebar-btn" href="#" dropdown-toggle-js><i class="icon-font icon-filter-search"></i></a>
+                          <div class="c-dropdown" dropdown-js>
+                            <p class="c-dropdown__title">Filter by</p>
+                            <div class="c-dropdown__content">
+                              <div class="c-checkbox">
+                                <input class="c-checkbox__input" type="checkbox" name="" id="check-1" checked>
+                                <label class="c-checkbox__label" for="check-1">
+                                  <p><i></i></p>
+                                  <p><span>All</span></p>
+                                </label>
+                              </div>
+                              <div class="c-checkbox">
+                                <input class="c-checkbox__input" type="checkbox" name="" id="check-2">
+                                <label class="c-checkbox__label" for="check-2">
+                                  <p><i></i></p>
+                                  <p><span>Verified</span></p>
+                                </label>
+                              </div>
+                              <div class="c-checkbox">
+                                <input class="c-checkbox__input" type="checkbox" name="" id="check-3">
+                                <label class="c-checkbox__label" for="check-3">
+                                  <p><i></i></p>
+                                  <p><span>Processing</span></p>
+                                </label>
+                              </div>
+                              <div class="c-checkbox">
+                                <input class="c-checkbox__input" type="checkbox" name="" id="check-4">
+                                <label class="c-checkbox__label" for="check-4">
+                                  <p><i></i></p>
+                                  <p><span>Unprocessed</span></p>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="header__sidebar">
               <div class="header__sidebar-col header__sidebar-col-1">
                 <div class="c-btn__wrapper"><a class="c-btn c-btn--blue header__sidebar-file" href="#"><i class="icon-font icon-upload"></i><span>Upload your file</span></a></div>
@@ -231,7 +299,83 @@
       </div>
     </section>
     <!-- SECTION :: END-->
-    <div class="c-modal mfp-hide mfp-with-anim" id="integrationModal"><a class="c-modal__close" href="#" popup-close-js><i class="icon-font icon-close"></i></a>
+    <!-- SECTION :: START-->
+    <section class="sticky" id="sticky"><a class="c-btn c-btn--blue" href="#"><span>Upload your file</span></a><a class="c-btn c-btn--blueBorder" href="#"><span>Connect integration</span></a></section>
+    <!-- SECTION :: END-->
+    <section class="overlay" id="overlay"></section>
+    <!-- SECTION :: START-->
+    <section class="menu" id="menu">
+      <div class="menu__head">
+        <div class="menu__user-wrapper">
+          <div class="menu__user-head">
+            <div class="header__user-wrapper"><a class="header__user" href="#" user-js>
+                <div><i></i><span>YA</span></div></a>
+              <p class="header__user-name">Youssef Ait</p><i class="icon-font icon-down-arrow"></i>
+            </div>
+          </div>
+          <div class="menu__user-body"><a class="menu__link" href="#">
+              <div><i class="icon-font icon-profile"></i></div>
+              <div>
+                <p>Profile</p>
+              </div></a><a class="menu__link menu__link--logout" href="#">
+              <div><i class="icon-font icon-log-out"></i></div>
+              <div>
+                <p>Log Out</p>
+              </div></a></div>
+        </div>
+      </div>
+      <div class="menu__body">
+        <div class="header__balance">
+          <p class="header__balance-title">Credit Balance:</p>
+          <div class="header__balance-content">
+            <div>
+              <p class="header__balance-sum">2 328 934</p>
+            </div>
+            <div><img src="img/mail-balance.svg" alt=""></div>
+          </div>
+        </div>
+        <div class="c-btn__wrapper c-btn__wrapper--column"><a class="menu__btn menu__btn--upload c-btn c-btn--blue header__sidebar-file" href="#"><i class="icon-font icon-upload"></i><span>Upload your file</span></a><a class="menu__btn menu__btn--integration c-btn c-btn--blueBorder" href="#integrationModal" popup-js data-effect="mfp-zoom-in"><i class="icon-font icon-intersect"></i><span>Connect integration</span></a><a class="menu__btn menu__btn--buy c-btn c-btn--cyan" href="#"><span>Buy credit</span></a><a class="menu__btn menu__btn--upgrade c-btn c-btn--blue" href="#"><span>Upgrade for more credits</span></a></div>
+      </div>
+      <div class="menu__footer"><a class="menu__link is-active" href="#">
+          <div><i class="icon-font icon-analytics"></i></div>
+          <div>
+            <p>Dashboard</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-grammar"></i></div>
+          <div>
+            <p>Bulk Verification</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-email"></i></div>
+          <div>
+            <p>Single Verification</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-apps"></i></div>
+          <div>
+            <p>Api</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-products"></i></div>
+          <div>
+            <p>Plans & Upgrade</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-receipt"></i></div>
+          <div>
+            <p>Payment History</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-filter"></i></div>
+          <div>
+            <p>Settings</p>
+          </div></a><a class="menu__link menu__link--gift" href="#">
+          <div><i class="icon-font icon-gift"></i></div>
+          <div>
+            <p>Today's Deal</p>
+          </div></a><a class="menu__link menu__link--doc" href="#">
+          <div><i class="icon-font icon-book-open"></i></div>
+          <div>
+            <p>Documentation</p>
+          </div></a></div>
+    </section>
+    <!-- SECTION :: END-->
+    <div class="c-modal mfp-hide mfp-with-anim" id="integrationModal"><a class="c-modal__close" href="#" popup-close-js><i class="icon-font icon-close"></i></a><a class="c-modal__back" href="#" popup-close-js><i class="icon-font icon-left-arrow"></i></a>
           <div class="c-modal__header">
             <p class="c-modal__title">Select your favorite <strong>Integration</strong></p>
           </div>
@@ -344,6 +488,7 @@
           <div class="c-modal__footer">
             <p class="c-modal__desc">More Integrations with your favorite tools Coming Soon!</p>
           </div>
+          <div class="c-modal__sticky"><a class="c-btn c-btn--blue" href="#"><span>Upload your file</span></a><a class="c-btn c-btn--blueBorder" href="#"><span>Connect integration</span></a></div>
     </div>
   </body>
   <!-- SCRIPT :: START-->

@@ -54,7 +54,11 @@ var initPopups = function initPopups() {
 		mainClass: 'is-show',
 		callbacks: {
 			beforeOpen: function beforeOpen() {
-				this.st.mainClass = this.st.el.attr('data-effect');
+				if ($(window).width() > 767) {
+					this.st.mainClass = this.st.el.attr('data-effect');
+				} else {
+					this.st.mainClass = this.st.el.attr('data-effect-mobile');
+				}
 			},
 			close: function close() {}
 		}
@@ -165,7 +169,7 @@ var initValidation = function initValidation() {
 
 	$("#integrationConnect").validate({
 		submitHandler: function submitHandler() {
-			$('[popup-js]').trigger('click');
+			$('a.hidden[popup-js]').trigger('click');
 		},
 		errorPlacement: validationErrorPlacement,
 		highlight: validationHighlight,
@@ -341,8 +345,9 @@ window.addEventListener('scroll', function (ev) {
 	};
 
 	var userToggle = function userToggle() {
-		$('[user-js]').on('click', function (ev) {
-			$(ev.currentTarget).siblings('[user-dropdown-js]').toggleClass('is-open');
+		$('.header__user-wrapper').on('click', function (ev) {
+			$(ev.currentTarget).toggleClass('is-active');
+			$('.menu__user-body').slideToggle(350);
 		});
 	};
 
@@ -351,7 +356,7 @@ window.addEventListener('scroll', function (ev) {
 			var el = $(ev.currentTarget),
 			    searchNode = $('[search-node-js]');
 
-			el.toggleClass('is-active');
+			$('[search-js]').toggleClass('is-active');
 			searchNode.toggleClass('is-open');
 
 			setTimeout(function () {
@@ -394,11 +399,19 @@ window.addEventListener('scroll', function (ev) {
 				reportNode.addClass('is-open');
 				$('html, body').addClass('is-hideScroll');
 			}
+
+			if ($(window).width() < 768) {
+				$('#overlay').addClass('is-show');
+			}
 		});
 
 		$('[report-close-js]').on('click', function (ev) {
 			$('#report').removeClass('is-open');
 			$('html, body').removeClass('is-hideScroll');
+
+			if ($(window).width() < 768) {
+				$('#overlay').removeClass('is-show');
+			}
 		});
 
 		$("[report-select-all]").on('change', function (ev) {
@@ -829,6 +842,38 @@ window.addEventListener('scroll', function (ev) {
 			$(ev.currentTarget).addClass('is-active');
 		});
 	};
+
+	var hamburger = function hamburger() {
+		$('[hamburger-js]').on('click', function (ev) {
+			$('html, body').toggleClass('is-hideScroll');
+			$('#overlay').toggleClass('is-show');
+
+			if ($(ev.currentTarget).hasClass('is-active')) {
+				$(ev.currentTarget).removeClass('is-active');
+				$('#menu').addClass('is-animated').removeClass('is-open');
+
+				setTimeout(function () {
+					$('#menu').removeClass('is-animated');
+				}, 350);
+			} else {
+				$(ev.currentTarget).addClass('is-active');
+				$('#menu').addClass('is-open');
+			}
+		});
+
+		$('#overlay').on('click', function (ev) {
+			$('html, body').toggleClass('is-hideScroll');
+			$('#overlay').toggleClass('is-show');
+
+			$('[hamburger-js]').removeClass('is-active');
+
+			$('#menu').addClass('is-animated').removeClass('is-open');
+
+			setTimeout(function () {
+				$('#menu').removeClass('is-animated');
+			}, 350);
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -848,7 +893,7 @@ window.addEventListener('scroll', function (ev) {
 		inputFocus();
 		passwordCB();
 		sidebarCB();
-		// userToggle();
+		userToggle();
 		searchToggle();
 		dropdownCB();
 		filterBox();
@@ -858,6 +903,7 @@ window.addEventListener('scroll', function (ev) {
 		apiBoxResult();
 		settingBtn();
 		plansBox();
+		hamburger();
 		// ==========================================
 	};
 

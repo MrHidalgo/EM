@@ -42,83 +42,92 @@
 	@if $filename == bell {
 		$char: "\E005";
 	}
-	@if $filename == check {
+	@if $filename == book-open {
 		$char: "\E006";
 	}
-	@if $filename == circle-minus {
+	@if $filename == check {
 		$char: "\E007";
 	}
-	@if $filename == circle-right {
+	@if $filename == circle-minus {
 		$char: "\E008";
 	}
-	@if $filename == close {
+	@if $filename == circle-right {
 		$char: "\E009";
 	}
-	@if $filename == edit {
+	@if $filename == close {
 		$char: "\E00A";
 	}
-	@if $filename == email {
+	@if $filename == down-arrow {
 		$char: "\E00B";
 	}
-	@if $filename == envelope {
+	@if $filename == edit {
 		$char: "\E00C";
 	}
-	@if $filename == eye-line {
+	@if $filename == email {
 		$char: "\E00D";
 	}
-	@if $filename == eye {
+	@if $filename == envelope {
 		$char: "\E00E";
 	}
-	@if $filename == file-blank {
+	@if $filename == eye-line {
 		$char: "\E00F";
 	}
-	@if $filename == file {
+	@if $filename == eye {
 		$char: "\E010";
 	}
-	@if $filename == filter-search {
+	@if $filename == file-blank {
 		$char: "\E011";
 	}
-	@if $filename == filter {
+	@if $filename == file {
 		$char: "\E012";
 	}
-	@if $filename == gift {
+	@if $filename == filter-search {
 		$char: "\E013";
 	}
-	@if $filename == github {
+	@if $filename == filter {
 		$char: "\E014";
 	}
-	@if $filename == grammar {
+	@if $filename == gift {
 		$char: "\E015";
 	}
-	@if $filename == intersect {
+	@if $filename == github {
 		$char: "\E016";
 	}
-	@if $filename == log-out {
+	@if $filename == grammar {
 		$char: "\E017";
 	}
-	@if $filename == products {
+	@if $filename == intersect {
 		$char: "\E018";
 	}
-	@if $filename == profile {
+	@if $filename == left-arrow {
 		$char: "\E019";
 	}
-	@if $filename == receipt {
+	@if $filename == log-out {
 		$char: "\E01A";
 	}
-	@if $filename == search {
+	@if $filename == products {
 		$char: "\E01B";
 	}
-	@if $filename == trash {
+	@if $filename == profile {
 		$char: "\E01C";
 	}
-	@if $filename == upload {
+	@if $filename == receipt {
 		$char: "\E01D";
 	}
-	@if $filename == viewport-narrow {
+	@if $filename == search {
 		$char: "\E01E";
 	}
-	@if $filename == vocabulary {
+	@if $filename == trash {
 		$char: "\E01F";
+	}
+	@if $filename == upload {
+		$char: "\E020";
+	}
+	@if $filename == viewport-narrow {
+		$char: "\E021";
+	}
+	@if $filename == vocabulary {
+		$char: "\E022";
 	}
 
 	@return $char;
@@ -155,6 +164,10 @@
 	@include icon(bell);
 
 }
+.icon-book-open {
+	@include icon(book-open);
+
+}
 .icon-check {
 	@include icon(check);
 
@@ -169,6 +182,10 @@
 }
 .icon-close {
 	@include icon(close);
+
+}
+.icon-down-arrow {
+	@include icon(down-arrow);
 
 }
 .icon-edit {
@@ -221,6 +238,10 @@
 }
 .icon-intersect {
 	@include icon(intersect);
+
+}
+.icon-left-arrow {
+	@include icon(left-arrow);
 
 }
 .icon-log-out {

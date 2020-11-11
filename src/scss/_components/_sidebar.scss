@@ -1,12 +1,14 @@
 // SECTION :: START
 
 .sidebar {
-	//overflow-y: auto;
 	z-index: 1500;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 110px;
+	@include adaptive(1279) {
+		display: none;
+	}
 
 	&__wrapper {
 		display: flex;
@@ -15,12 +17,6 @@
 
 		&-top {
 			height: 110px;
-			@include transition(height);
-
-			.is-fixed & {
-				height: 90px;
-				@include transition(height);
-			}
 		}
 
 		&-middle {
@@ -32,6 +28,9 @@
 			min-height: 1px;
 			max-height: 100%;
 			padding: 20px;
+			@include respondCustom('(max-height: 899px)') {
+				padding: 0 20px;
+			}
 		}
 
 		&-bottom {
@@ -49,6 +48,13 @@
 		border-radius: 10px;
 		background-color: #fff;
 		box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
+		@include respondCustom('(max-height: 899px)') {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+		@include adaptive(1439) {
+			display: none;
+		}
 
 		&-item {
 			display: flex;

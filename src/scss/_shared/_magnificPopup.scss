@@ -13,6 +13,18 @@
 	background-color: #000000;
 }
 
+.mfp-container {
+	@include adaptive(767) {
+		padding: 0;
+	}
+}
+
+.mfp-content {
+	@include adaptive(767) {
+		height: 100%;
+	}
+}
+
 .mfp-wrap {
 	z-index: 2000;
 }
@@ -61,11 +73,11 @@
 //
 // Slide in {Change translate{X,Y} option for choose direction slide - top, left, bottom, right} - default slide in left.
 // ==========
-.mfp-slide-in{
+.mfp-slide-in {
   .mfp-with-anim {
     opacity: 0;
     transition: all 0.3s ease-in-out;
-    transform: translateX(100%);
+    transform: translateY(100%);
   }
 
   &.mfp-bg {
@@ -76,7 +88,7 @@
   &.mfp-ready {
     .mfp-with-anim {
       opacity: 1;
-      transform: translateX(0);
+      transform: translateY(0);
     }
     &.mfp-bg {
       opacity: 0.8;
@@ -85,7 +97,7 @@
 
   &.mfp-removing {
     .mfp-with-anim {
-      transform: translateX(100%);
+      transform: translateY(100%);
       opacity: 0;
     }
     &.mfp-bg {

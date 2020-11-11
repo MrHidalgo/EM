@@ -12,10 +12,10 @@ PageList:
   ready: 100
 - file: verification-1.html
   titleName: Verification - 1
-  ready: 33
+  ready: 100
 - file: verification-2.html
   titleName: Verification - 2
-  ready: 33
+  ready: 100
 - file: verification-3.html
   titleName: Verification - 3
   ready: 33

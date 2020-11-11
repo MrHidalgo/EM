@@ -1,0 +1,111 @@
+// SECTION :: START
+
+section#menu.menu
+	.menu__head
+
+		.menu__user-wrapper
+			.menu__user-head
+
+				.header__user-wrapper
+					a.header__user(href="#" user-js)
+						div
+							i
+							span YA
+					p.header__user-name Youssef Ait
+					i.icon-font.icon-down-arrow
+
+			.menu__user-body
+				a.menu__link(href="#")
+					div
+						i.icon-font.icon-profile
+					div
+						p Profile
+
+				a.menu__link.menu__link--logout(href="#")
+					div
+						i.icon-font.icon-log-out
+					div
+						p Log Out
+
+	.menu__body
+
+		.header__balance
+			p.header__balance-title Credit Balance:
+			.header__balance-content
+				div
+					p.header__balance-sum 2 328 934
+				div
+					img(src="img/mail-balance.svg" alt="")
+
+		.c-btn__wrapper.c-btn__wrapper--column
+
+			a.menu__btn.menu__btn--upload.c-btn.c-btn--blue.header__sidebar-file(href="#")
+				i.icon-font.icon-upload
+				span Upload your file
+
+			a.menu__btn.menu__btn--integration.c-btn.c-btn--blueBorder(href="#integrationModal" popup-js data-effect='mfp-zoom-in')
+				i.icon-font.icon-intersect
+				span Connect integration
+
+			a.menu__btn.menu__btn--buy.c-btn.c-btn--cyan(href="#")
+				span Buy credit
+
+			a.menu__btn.menu__btn--upgrade.c-btn.c-btn--blue(href="#")
+				span Upgrade for more credits
+
+	.menu__footer
+		a.menu__link(href="#" class!= (pageAddName === 'p-dashboard')?'is-active':'')
+			div
+				i.icon-font.icon-analytics
+			div
+				p Dashboard
+
+		a.menu__link(href="#" class!= (pageAddName === 'p-verification')?'is-active':'')
+			div
+				i.icon-font.icon-grammar
+			div
+				p Bulk Verification
+
+		a.menu__link(href="#" class!= (pageAddName === 'p-single-verification')?'is-active':'')
+			div
+				i.icon-font.icon-email
+			div
+				p Single Verification
+
+		a.menu__link(href="#" class!= (pageAddName === 'p-api')?'is-active':'')
+			div
+				i.icon-font.icon-apps
+			div
+				p Api
+
+		a.menu__link(href="#" class!= (pageAddName === 'p-plans')?'is-active':'')
+			div
+				i.icon-font.icon-products
+			div
+				p Plans & Upgrade
+
+		a.menu__link(href="#" class!= (pageAddName === 'p-payment-history')?'is-active':'')
+			div
+				i.icon-font.icon-receipt
+			div
+				p Payment History
+
+		a.menu__link(href="#" class!= (pageAddName === 'p-setting')?'is-active':'')
+			div
+				i.icon-font.icon-filter
+			div
+				p Settings
+
+		a.menu__link.menu__link--gift(href="#")
+			div
+				i.icon-font.icon-gift
+			div
+				p Today's Deal
+
+		a.menu__link.menu__link--doc(href="#")
+			div
+				i.icon-font.icon-book-open
+			div
+				p Documentation
+
+// SECTION :: END

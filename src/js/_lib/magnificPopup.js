@@ -19,7 +19,11 @@ const initPopups = () => {
     mainClass: 'is-show',
     callbacks: {
       beforeOpen: function() {
-        this.st.mainClass = this.st.el.attr('data-effect');
+      	if($(window).width() > 767) {
+		      this.st.mainClass = this.st.el.attr('data-effect');
+	      } else {
+		      this.st.mainClass = this.st.el.attr('data-effect-mobile');
+	      }
       },
       close: function() {}
     }

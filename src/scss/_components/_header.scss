@@ -7,11 +7,18 @@
 	right: 0;
 	width: 100%;
 	@include transition(background-color, box-shadow);
+	@include adaptive(767) {
+		background-color: #ffffff;
+		box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
+	}
 
 	&.header--fixed {
 		background-color: rgba(#fff, 0.8);
 		box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
 		@include transition(background-color, box-shadow);
+		@include adaptive(767) {
+			background-color: #ffffff;
+		}
 
 		.header {
 			&__wrapper {
@@ -19,11 +26,17 @@
 				padding-top: 10px;
 				padding-bottom: 10px;
 				@include transition(height, padding-top, padding-bottom);
+				@include adaptive(767) {
+					height: 56px;
+					padding-top: 0;
+					padding-bottom: 0;
+				}
 			}
 		}
 	}
 
 	&__wrapper {
+		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -31,15 +44,32 @@
 		height: 110px;
 		padding: 20px;
 		@include transition(height, padding-top, padding-bottom);
+		@include adaptive(767) {
+			padding: 0;
+			height: 56px;
+		}
+
+		&-left {
+			@include adaptive(767) {
+				display: none;
+			}
+		}
 
 		&-right {
 			display: flex;
 			align-items: center;
+			@include adaptive(767) {
+				width: 100%;
+			}
 
 			> div {
 				&:nth-of-type(2) {
 					padding-left: 20px;
 					padding-right: 20px;
+					@include adaptive(767) {
+						width: 100%;
+						padding: 0;
+					}
 				}
 			}
 		}
@@ -88,6 +118,9 @@
 
 		&-wrapper {
 			position: relative;
+			@include adaptive(767) {
+				display: none;
+			}
 
 			&:hover {
 				.header__user-dropdown {
@@ -173,7 +206,9 @@
 		border-radius: 10px;
 		box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
 		background-color: #fff;
-
+		@include adaptive(767) {
+			display: none;
+		}
 
 		&-title {
 			font-size: 14px;
@@ -215,6 +250,9 @@
 		border-radius: 10px;
 		box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
 		background-color: #fff;
+		@include adaptive(1535) {
+			display: none;
+		}
 
 		.c-btn {
 			position: relative;
@@ -270,12 +308,35 @@
 					visibility: hidden;
 					width: 0;
 					@include transition(opacity, visibility, width);
+					@include adaptive(1023) {
+						z-index: 999;
+						position: absolute;
+						top: 20px;
+						right: 20px;
+						height: calc(100% - 40px);
+						border-radius: 10px;
+						background-color: #fff;
+						box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
+					}
+					@include adaptive(767) {
+						top: 0;
+						right: 0;
+						height: 100%;
+						border-radius: 0;
+						box-shadow: none;
+					}
 
 					&.is-open {
 						opacity: 1;
 						visibility: visible;
 						width: 226px;
 						@include transition(opacity, visibility, width);
+						@include adaptive(1023) {
+							width: calc(100% - 40px);
+						}
+						@include adaptive(767) {
+							width: 100%;
+						}
 					}
 				}
 			}
@@ -284,11 +345,35 @@
 		&-form {
 			display: flex;
 			align-items: center;
+			@include adaptive(1023) {
+				width: 100%;
+				height: 100%;
+			}
 
 			> div {
 				&:nth-of-type(1) {
 					padding-left: 20px;
 					padding-right: 20px;
+					@include adaptive(1023) {
+						display: flex;
+						align-items: center;
+						flex: 1;
+						min-width: 1px;
+						max-width: 100%;
+					}
+
+					.header__sidebar-btn {
+						display: none;
+						@include adaptive(1023) {
+							display: flex;
+							margin-right: 20px;
+						}
+					}
+				}
+				&:nth-of-type(2) {
+					@include adaptive(1023) {
+						padding-right: 20px;
+					}
 				}
 
 				> input {
@@ -307,6 +392,109 @@
 					color: #0056fc;
 					@include inputPlaceholder {
 						color: #7ca9ff;
+					}
+					@include adaptive(1023) {
+						max-width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	&__menu {
+		display: none;
+		align-items: center;
+		height: 70px;
+		padding: 15px 20px;
+		border-radius: 10px;
+		box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
+		background-color: #fff;
+		@include adaptive(1535) {
+			display: flex;
+		}
+		@include adaptive(767) {
+			justify-content: space-between;
+			width: 100%;
+			height: 100%;
+			padding: 0 20px;
+			box-shadow: none;
+			border-radius: 0;
+			background-color: transparent;
+		}
+
+		> div {
+			display: flex;
+			align-items: center;
+
+			&:first-of-type {
+				padding-right: 20px;
+			}
+
+			.header__sidebar-search {
+				padding-left: 20px;
+			}
+		}
+
+		.header__balance {
+			display: none;
+			height: auto;
+			padding: 0;
+			box-shadow: none;
+			background-color: transparent;
+			@include adaptive(767) {
+				display: flex;
+			}
+
+			&-title {
+				display: none;
+			}
+
+			&-sum {
+				font-size: 20px;
+			}
+
+			img {
+				max-width: 20px;
+			}
+		}
+	}
+
+	&__hamburger {
+		display: flex;
+
+		&-inner {
+			position: relative;
+			display: flex;
+			width: 26px;
+			height: 18px;
+			@include adaptive(767) {
+				height: 14px;
+			}
+
+			span {
+				position: absolute;
+				left: 0;
+				width: 100%;
+				height: 3px;
+				background-color: #000000;
+				@include adaptive(767) {
+					height: 2px;
+				}
+
+				&:nth-of-type(1) {
+					top: 0;
+				}
+				&:nth-of-type(2) {
+					top: 50%;
+					transform: translateY(-50%);
+					@include adaptive(767) {
+						width: 75%;
+					}
+				}
+				&:nth-of-type(3) {
+					bottom: 0;
+					@include adaptive(767) {
+						width: 45%;
 					}
 				}
 			}

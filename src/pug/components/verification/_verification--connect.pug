@@ -20,7 +20,7 @@ section#connect.connect
 			p.connect__desc Enter your API key to import your email list To EmailMarker
 
 			form#integrationConnect.connect__form.c-form(action='' method='' autocomplete='off')
-				a.hidden(href="#connectModal" data-effect='mfp-zoom-in' popup-js)
+				a.hidden(href="#connectModal" data-effect='mfp-zoom-in' data-effect-mobile='mfp-slide-in' popup-js)
 				.sign__form-field.sign__form-field--input.c-form__field
 					input(type='text' id='api_key' name='api_key' placeholder='' input-js required)
 					label(for='api_key') API key
@@ -33,5 +33,7 @@ section#connect.connect
 							span Connect
 
 		.connect__wrapper-footer
+
+			a(href="#") Where to find your API key ?
 
 // SECTION :: END

@@ -1,6 +1,10 @@
 mixin modalContent()
 	a.c-modal__close(href="#" popup-close-js)
 		i.icon-font.icon-close
+
+	a.c-modal__back(href="#" popup-close-js)
+		i.icon-font.icon-left-arrow
+
 	.c-modal__header
 		p.c-modal__title!= "Select your favorite <strong>Integration</strong>"
 
@@ -52,5 +56,12 @@ mixin modalContent()
 
 	.c-modal__footer
 		p.c-modal__desc More Integrations with your favorite tools Coming Soon!
+
+	.c-modal__sticky
+		a.c-btn.c-btn--blue(href="#")
+			span Upload your file
+
+		a.c-btn.c-btn--blueBorder(href="#")
+			span Connect integration
 
 +modal('integrationModal', 'modalContent')

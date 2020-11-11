@@ -21,6 +21,13 @@
           <div class="logo logo--header"><a class="logo__btn" href="/"><img class="logo__img" src="img/logo.svg" alt=""></a></div>
         </div>
         <div class="header__wrapper-right">
+          <div class="header__menu">
+            <div style="padding-right: 0;">
+              <div class="header__hamburger"><a class="header__hamburger-inner" href="#" hamburger-js><span></span><span></span><span></span></a></div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
           <div class="header__user-wrapper"><a class="header__user" href="#" user-js>
               <div><i></i><span>YA</span></div></a>
             <div class="header__user-dropdown" user-dropdown-js><a class="header__user-link c-popper" href="#"><i class="icon-font icon-profile"></i>
@@ -51,7 +58,7 @@
           <div class="connect__wrapper-body">
             <p class="connect__title">Connect with <strong>Hubspot</strong></p>
             <p class="connect__desc">Enter your API key to import your email list To EmailMarker</p>
-            <form class="connect__form c-form" id="integrationConnect" action="" method="" autocomplete="off"><a class="hidden" href="#connectModal" data-effect="mfp-zoom-in" popup-js></a>
+            <form class="connect__form c-form" id="integrationConnect" action="" method="" autocomplete="off"><a class="hidden" href="#connectModal" data-effect="mfp-zoom-in" data-effect-mobile="mfp-slide-in" popup-js></a>
               <div class="sign__form-field sign__form-field--input c-form__field">
                 <input type="text" id="api_key" name="api_key" placeholder="" input-js required>
                 <label for="api_key">API key</label><i class="icon-font icon-check"></i><i class="icon-font icon-close"></i>
@@ -63,7 +70,7 @@
               </div>
             </form>
           </div>
-          <div class="connect__wrapper-footer"></div>
+          <div class="connect__wrapper-footer"><a href="#">Where to find your API key ?</a></div>
         </div>
       </section>
       <!-- SECTION :: END-->
@@ -78,6 +85,79 @@
               <u>Documentation</u>
             </div></a></div>
       </div>
+    </section>
+    <!-- SECTION :: END-->
+    <section class="overlay" id="overlay"></section>
+    <!-- SECTION :: START-->
+    <section class="menu" id="menu">
+      <div class="menu__head">
+        <div class="menu__user-wrapper">
+          <div class="menu__user-head">
+            <div class="header__user-wrapper"><a class="header__user" href="#" user-js>
+                <div><i></i><span>YA</span></div></a>
+              <p class="header__user-name">Youssef Ait</p><i class="icon-font icon-down-arrow"></i>
+            </div>
+          </div>
+          <div class="menu__user-body"><a class="menu__link" href="#">
+              <div><i class="icon-font icon-profile"></i></div>
+              <div>
+                <p>Profile</p>
+              </div></a><a class="menu__link menu__link--logout" href="#">
+              <div><i class="icon-font icon-log-out"></i></div>
+              <div>
+                <p>Log Out</p>
+              </div></a></div>
+        </div>
+      </div>
+      <div class="menu__body">
+        <div class="header__balance">
+          <p class="header__balance-title">Credit Balance:</p>
+          <div class="header__balance-content">
+            <div>
+              <p class="header__balance-sum">2 328 934</p>
+            </div>
+            <div><img src="img/mail-balance.svg" alt=""></div>
+          </div>
+        </div>
+        <div class="c-btn__wrapper c-btn__wrapper--column"><a class="menu__btn menu__btn--upload c-btn c-btn--blue header__sidebar-file" href="#"><i class="icon-font icon-upload"></i><span>Upload your file</span></a><a class="menu__btn menu__btn--integration c-btn c-btn--blueBorder" href="#integrationModal" popup-js data-effect="mfp-zoom-in"><i class="icon-font icon-intersect"></i><span>Connect integration</span></a><a class="menu__btn menu__btn--buy c-btn c-btn--cyan" href="#"><span>Buy credit</span></a><a class="menu__btn menu__btn--upgrade c-btn c-btn--blue" href="#"><span>Upgrade for more credits</span></a></div>
+      </div>
+      <div class="menu__footer"><a class="menu__link" href="#">
+          <div><i class="icon-font icon-analytics"></i></div>
+          <div>
+            <p>Dashboard</p>
+          </div></a><a class="menu__link is-active" href="#">
+          <div><i class="icon-font icon-grammar"></i></div>
+          <div>
+            <p>Bulk Verification</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-email"></i></div>
+          <div>
+            <p>Single Verification</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-apps"></i></div>
+          <div>
+            <p>Api</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-products"></i></div>
+          <div>
+            <p>Plans & Upgrade</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-receipt"></i></div>
+          <div>
+            <p>Payment History</p>
+          </div></a><a class="menu__link" href="#">
+          <div><i class="icon-font icon-filter"></i></div>
+          <div>
+            <p>Settings</p>
+          </div></a><a class="menu__link menu__link--gift" href="#">
+          <div><i class="icon-font icon-gift"></i></div>
+          <div>
+            <p>Today's Deal</p>
+          </div></a><a class="menu__link menu__link--doc" href="#">
+          <div><i class="icon-font icon-book-open"></i></div>
+          <div>
+            <p>Documentation</p>
+          </div></a></div>
     </section>
     <!-- SECTION :: END-->
     <div class="c-modal mfp-hide mfp-with-anim" id="connectModal"><a class="c-modal__close" href="#" popup-close-js><i class="icon-font icon-close"></i></a>
