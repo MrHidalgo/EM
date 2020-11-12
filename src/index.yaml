@@ -36,7 +36,7 @@ PageList:
   ready: 100
 - file: api-1.html
   titleName: API 1
-  ready: 33
+  ready: 100
 - file: api-2.html
   titleName: API 2
   ready: 33

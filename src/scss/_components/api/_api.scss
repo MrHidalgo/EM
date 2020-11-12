@@ -367,26 +367,45 @@
 		max-width: 400px;
 		margin-left: auto;
 		margin-right: auto;
+		@include adaptive(767) {
+			padding-left: 25px;
+			padding-right: 25px;
+		}
 
 		&-title {
 			padding-bottom: 35px;
 			font-weight: 500;
 			font-size: 34px;
 			color: #000;
+			@include adaptive(767) {
+				width: 100%;
+				font-size: 24px;
+				padding-bottom: 40px;
+			}
 		}
 
 		.c-btn {
 			width: 100%;
 			height: 80px;
 			margin-bottom: 15px;
+			@include adaptive(767) {
+				height: 60px;
+				margin-bottom: 10px;
+			}
 
 			.icon-font {
 				margin-right: 20px;
 				font-size: 30px;
+				@include adaptive(767) {
+					font-size: 24px;
+				}
 			}
 
 			span {
 				font-size: 25px;
+				@include adaptive(767) {
+					font-size: 20px;
+				}
 			}
 
 			&__wrapper {
@@ -398,6 +417,10 @@
 			font-weight: normal;
 			font-size: 16px;
 			color: #5D5D5D;
+			@include adaptive(767) {
+				padding-top: 35px;
+				font-size: 11px;
+			}
 
 			strong {
 				color: #000000;

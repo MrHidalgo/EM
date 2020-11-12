@@ -2508,7 +2508,35 @@ picture {
   padding: 30px 30px 20px;
 }
 
-/* line 491, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 487, src/scss/_macros/_modal.scss */
+  .c-modal#createAPIModal {
+    overflow-y: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 100px;
+    height: -webkit-calc(100% - 100px);
+    height: calc(100% - 100px);
+    max-height: -webkit-calc(100% - 100px);
+    max-height: calc(100% - 100px);
+    padding: 50px 40px 15px;
+    -webkit-border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 0 0;
+  }
+  /* line 500, src/scss/_macros/_modal.scss */
+  .c-modal#createAPIModal .c-modal__close {
+    display: none;
+  }
+}
+
+/* line 505, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-form {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2520,35 +2548,73 @@ picture {
           justify-content: space-between;
 }
 
-/* line 495, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 505, src/scss/_macros/_modal.scss */
+  .c-modal#createAPIModal .c-form {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 512, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-form__field {
   padding-bottom: 20px;
 }
 
-/* line 498, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 512, src/scss/_macros/_modal.scss */
+  .c-modal#createAPIModal .c-form__field {
+    padding-bottom: 25px;
+  }
+}
+
+/* line 518, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-form__field:nth-of-type(1) {
   width: -webkit-calc(100% - 260px);
   width: calc(100% - 260px);
 }
 
-/* line 501, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 518, src/scss/_macros/_modal.scss */
+  .c-modal#createAPIModal .c-form__field:nth-of-type(1) {
+    width: 100%;
+  }
+}
+
+/* line 524, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-form__field:nth-of-type(2) {
   width: 250px;
 }
 
-/* line 507, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 524, src/scss/_macros/_modal.scss */
+  .c-modal#createAPIModal .c-form__field:nth-of-type(2) {
+    width: 100%;
+  }
+}
+
+/* line 533, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-btn {
   width: 100%;
 }
 
-/* line 512, src/scss/_macros/_modal.scss */
+/* line 538, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-modal__title {
   padding-bottom: 40px;
   font-size: 34px;
   color: #535260;
 }
 
-/* line 517, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 538, src/scss/_macros/_modal.scss */
+  .c-modal#createAPIModal .c-modal__title {
+    padding-bottom: 35px;
+    font-size: 24px;
+  }
+}
+
+/* line 547, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-modal__title span {
   color: #000000;
   font-weight: 500;
@@ -7138,7 +7204,15 @@ picture {
   margin-right: auto;
 }
 
-/* line 371, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 365, src/scss/_components/api/_api.scss */
+  .api__welcome {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/* line 375, src/scss/_components/api/_api.scss */
 .api__welcome-title {
   padding-bottom: 35px;
   font-weight: 500;
@@ -7146,69 +7220,108 @@ picture {
   color: #000;
 }
 
-/* line 378, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 375, src/scss/_components/api/_api.scss */
+  .api__welcome-title {
+    width: 100%;
+    font-size: 24px;
+    padding-bottom: 40px;
+  }
+}
+
+/* line 387, src/scss/_components/api/_api.scss */
 .api__welcome .c-btn {
   width: 100%;
   height: 80px;
   margin-bottom: 15px;
 }
 
-/* line 383, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 387, src/scss/_components/api/_api.scss */
+  .api__welcome .c-btn {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+}
+
+/* line 396, src/scss/_components/api/_api.scss */
 .api__welcome .c-btn .icon-font {
   margin-right: 20px;
   font-size: 30px;
 }
 
-/* line 388, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 396, src/scss/_components/api/_api.scss */
+  .api__welcome .c-btn .icon-font {
+    font-size: 24px;
+  }
+}
+
+/* line 404, src/scss/_components/api/_api.scss */
 .api__welcome .c-btn span {
   font-size: 25px;
 }
 
-/* line 392, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 404, src/scss/_components/api/_api.scss */
+  .api__welcome .c-btn span {
+    font-size: 20px;
+  }
+}
+
+/* line 411, src/scss/_components/api/_api.scss */
 .api__welcome .c-btn__wrapper {
   width: 100%;
 }
 
-/* line 397, src/scss/_components/api/_api.scss */
+/* line 416, src/scss/_components/api/_api.scss */
 .api__welcome-info {
   font-weight: normal;
   font-size: 16px;
   color: #5D5D5D;
 }
 
-/* line 402, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 416, src/scss/_components/api/_api.scss */
+  .api__welcome-info {
+    padding-top: 35px;
+    font-size: 11px;
+  }
+}
+
+/* line 425, src/scss/_components/api/_api.scss */
 .api__welcome-info strong {
   color: #000000;
   font-weight: 500;
 }
 
-/* line 410, src/scss/_components/api/_api.scss */
+/* line 433, src/scss/_components/api/_api.scss */
 .api__wrapper-header {
   padding-bottom: 40px;
 }
 
-/* line 413, src/scss/_components/api/_api.scss */
+/* line 436, src/scss/_components/api/_api.scss */
 .api__wrapper-header .c-btn {
   min-width: 300px;
   height: 80px;
 }
 
-/* line 417, src/scss/_components/api/_api.scss */
+/* line 440, src/scss/_components/api/_api.scss */
 .api__wrapper-header .c-btn .icon-font {
   font-size: 30px;
 }
 
-/* line 421, src/scss/_components/api/_api.scss */
+/* line 444, src/scss/_components/api/_api.scss */
 .api__wrapper-header .c-btn span {
   font-size: 25px;
 }
 
-/* line 425, src/scss/_components/api/_api.scss */
+/* line 448, src/scss/_components/api/_api.scss */
 .api__wrapper-header .c-btn:not(:last-child) {
   margin-right: 10px;
 }
 
-/* line 432, src/scss/_components/api/_api.scss */
+/* line 455, src/scss/_components/api/_api.scss */
 .api__box {
   position: relative;
   width: 100%;
@@ -7221,7 +7334,7 @@ picture {
           box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
 }
 
-/* line 441, src/scss/_components/api/_api.scss */
+/* line 464, src/scss/_components/api/_api.scss */
 .api__box-wrapper {
   position: relative;
   left: -40px;
@@ -7236,7 +7349,7 @@ picture {
   width: calc(100% + 40px);
 }
 
-/* line 448, src/scss/_components/api/_api.scss */
+/* line 471, src/scss/_components/api/_api.scss */
 .api__box-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 4);
@@ -7245,30 +7358,30 @@ picture {
   padding-bottom: 40px;
 }
 
-/* line 456, src/scss/_components/api/_api.scss */
+/* line 479, src/scss/_components/api/_api.scss */
 .api__box-header {
   padding-right: 50px;
   padding-bottom: 40px;
 }
 
-/* line 461, src/scss/_components/api/_api.scss */
+/* line 484, src/scss/_components/api/_api.scss */
 .api__box-body {
   padding-bottom: 40px;
 }
 
-/* line 466, src/scss/_components/api/_api.scss */
+/* line 489, src/scss/_components/api/_api.scss */
 .api__box-footer .c-btn {
   width: 100%;
 }
 
-/* line 471, src/scss/_components/api/_api.scss */
+/* line 494, src/scss/_components/api/_api.scss */
 .api__box-remove {
   position: absolute;
   top: 20px;
   right: 20px;
 }
 
-/* line 477, src/scss/_components/api/_api.scss */
+/* line 500, src/scss/_components/api/_api.scss */
 .api__box-remove:hover .icon-font {
   color: #0056fc;
   -webkit-transition: color 0.3s ease-in-out;
@@ -7276,7 +7389,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 483, src/scss/_components/api/_api.scss */
+/* line 506, src/scss/_components/api/_api.scss */
 .api__box-remove .icon-font {
   color: #99bbfe;
   font-size: 20px;
@@ -7285,7 +7398,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 490, src/scss/_components/api/_api.scss */
+/* line 513, src/scss/_components/api/_api.scss */
 .api__box-title {
   font-size: 18px;
   letter-spacing: 0.01em;
@@ -7293,14 +7406,14 @@ picture {
   color: #000;
 }
 
-/* line 497, src/scss/_components/api/_api.scss */
+/* line 520, src/scss/_components/api/_api.scss */
 .api__box-time {
   font-size: 14px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 503, src/scss/_components/api/_api.scss */
+/* line 526, src/scss/_components/api/_api.scss */
 .api__box-list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7312,7 +7425,7 @@ picture {
           align-items: flex-start;
 }
 
-/* line 507, src/scss/_components/api/_api.scss */
+/* line 530, src/scss/_components/api/_api.scss */
 .api__box-list li {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7322,14 +7435,14 @@ picture {
   max-width: 100%;
 }
 
-/* line 512, src/scss/_components/api/_api.scss */
+/* line 535, src/scss/_components/api/_api.scss */
 .api__box-list li span {
   font-size: 11px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 518, src/scss/_components/api/_api.scss */
+/* line 541, src/scss/_components/api/_api.scss */
 .api__box-list li p {
   font-size: 13px;
   letter-spacing: 0.01em;
