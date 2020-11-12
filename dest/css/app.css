@@ -6728,7 +6728,16 @@ picture {
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 43, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 25, src/scss/_components/api/_api.scss */
+  .api-stat {
+    padding: 80px 20px 20px;
+    max-width: -webkit-calc(100% - 55px);
+    max-width: calc(100% - 55px);
+  }
+}
+
+/* line 47, src/scss/_components/api/_api.scss */
 .api-stat.is-open {
   opacity: 1;
   visibility: visible;
@@ -6742,20 +6751,28 @@ picture {
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 50, src/scss/_components/api/_api.scss */
+/* line 54, src/scss/_components/api/_api.scss */
 .api-stat__back {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
-/* line 55, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 54, src/scss/_components/api/_api.scss */
+  .api-stat__back {
+    top: 40px;
+    left: 10px;
+  }
+}
+
+/* line 63, src/scss/_components/api/_api.scss */
 .api-stat__back .icon-font {
   font-size: 20px;
   color: #000000;
 }
 
-/* line 61, src/scss/_components/api/_api.scss */
+/* line 69, src/scss/_components/api/_api.scss */
 .api-stat__header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6772,7 +6789,14 @@ picture {
   padding-bottom: 20px;
 }
 
-/* line 68, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 69, src/scss/_components/api/_api.scss */
+  .api-stat__header {
+    padding-bottom: 10px;
+  }
+}
+
+/* line 79, src/scss/_components/api/_api.scss */
 .api-stat__title {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6784,7 +6808,7 @@ picture {
           align-items: center;
 }
 
-/* line 72, src/scss/_components/api/_api.scss */
+/* line 83, src/scss/_components/api/_api.scss */
 .api-stat__title img {
   display: block;
   max-width: 100%;
@@ -6792,14 +6816,29 @@ picture {
   margin-right: 25px;
 }
 
-/* line 79, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 83, src/scss/_components/api/_api.scss */
+  .api-stat__title img {
+    max-width: 25px;
+    margin-right: 10px;
+  }
+}
+
+/* line 94, src/scss/_components/api/_api.scss */
 .api-stat__title span {
   font-size: 34px;
   line-height: 40px;
   color: #000;
 }
 
-/* line 86, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 94, src/scss/_components/api/_api.scss */
+  .api-stat__title span {
+    font-size: 20px;
+  }
+}
+
+/* line 104, src/scss/_components/api/_api.scss */
 .api-stat__remove {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6811,14 +6850,14 @@ picture {
           align-items: center;
 }
 
-/* line 90, src/scss/_components/api/_api.scss */
+/* line 108, src/scss/_components/api/_api.scss */
 .api-stat__remove .icon-font {
   margin-right: 10px;
   color: #0056fc;
   font-size: 14px;
 }
 
-/* line 96, src/scss/_components/api/_api.scss */
+/* line 114, src/scss/_components/api/_api.scss */
 .api-stat__remove span {
   font-weight: 500;
   text-decoration: underline;
@@ -6826,7 +6865,7 @@ picture {
   color: #0056fc;
 }
 
-/* line 104, src/scss/_components/api/_api.scss */
+/* line 122, src/scss/_components/api/_api.scss */
 .api-stat__subtitle {
   padding-bottom: 45px;
   font-size: 18px;
@@ -6834,7 +6873,15 @@ picture {
   color: #5d5d5d;
 }
 
-/* line 111, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 122, src/scss/_components/api/_api.scss */
+  .api-stat__subtitle {
+    padding-bottom: 20px;
+    font-size: 11px;
+  }
+}
+
+/* line 133, src/scss/_components/api/_api.scss */
 .api-stat__line {
   width: 100%;
   height: 1px;
@@ -6842,7 +6889,14 @@ picture {
   background-color: #cdf;
 }
 
-/* line 119, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 133, src/scss/_components/api/_api.scss */
+  .api-stat__line {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 144, src/scss/_components/api/_api.scss */
 .api-stat__graph-header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6858,18 +6912,40 @@ picture {
           justify-content: space-between;
 }
 
-/* line 125, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 144, src/scss/_components/api/_api.scss */
+  .api-stat__graph-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+/* line 154, src/scss/_components/api/_api.scss */
 .api-stat__graph-body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 130, src/scss/_components/api/_api.scss */
+/* line 159, src/scss/_components/api/_api.scss */
 .api-stat__graph-footer {
   padding-bottom: 40px;
 }
 
-/* line 134, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 159, src/scss/_components/api/_api.scss */
+  .api-stat__graph-footer {
+    padding-bottom: 10px;
+  }
+}
+
+/* line 166, src/scss/_components/api/_api.scss */
 .api-stat__graph-time {
   padding-bottom: 5px;
   font-size: 13px;
@@ -6877,7 +6953,7 @@ picture {
   color: #5d5d5d;
 }
 
-/* line 141, src/scss/_components/api/_api.scss */
+/* line 173, src/scss/_components/api/_api.scss */
 .api-stat__graph-name {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6889,19 +6965,40 @@ picture {
           align-items: center;
 }
 
-/* line 146, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 173, src/scss/_components/api/_api.scss */
+  .api-stat__graph-name {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 180, src/scss/_components/api/_api.scss */
+  .api-stat__graph-name > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* line 186, src/scss/_components/api/_api.scss */
 .api-stat__graph-name > div:nth-of-type(2) {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 152, src/scss/_components/api/_api.scss */
+/* line 192, src/scss/_components/api/_api.scss */
 .api-stat__graph-name .icon-file {
   color: #7ca9ff;
   font-size: 20px;
 }
 
-/* line 157, src/scss/_components/api/_api.scss */
+/* line 197, src/scss/_components/api/_api.scss */
 .api-stat__graph-name input {
   outline: none;
   border: none;
@@ -6914,12 +7011,12 @@ picture {
   color: #000;
 }
 
-/* line 167, src/scss/_components/api/_api.scss */
+/* line 207, src/scss/_components/api/_api.scss */
 .api-stat__graph-name input[disabled] {
   pointer-events: none;
 }
 
-/* line 172, src/scss/_components/api/_api.scss */
+/* line 212, src/scss/_components/api/_api.scss */
 .api-stat__graph-name a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6935,13 +7032,13 @@ picture {
           justify-content: center;
 }
 
-/* line 177, src/scss/_components/api/_api.scss */
+/* line 217, src/scss/_components/api/_api.scss */
 .api-stat__graph-name a .icon-font {
   font-size: 14px;
   color: #0056fc;
 }
 
-/* line 185, src/scss/_components/api/_api.scss */
+/* line 225, src/scss/_components/api/_api.scss */
 .api-stat__graph-select select {
   outline: none;
   border: none;
@@ -6952,7 +7049,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 194, src/scss/_components/api/_api.scss */
+/* line 234, src/scss/_components/api/_api.scss */
 .api-stat__graph-list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6968,7 +7065,22 @@ picture {
           justify-content: space-between;
 }
 
-/* line 199, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 234, src/scss/_components/api/_api.scss */
+  .api-stat__graph-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+/* line 243, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6987,39 +7099,46 @@ picture {
   max-width: 100%;
 }
 
-/* line 209, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 243, src/scss/_components/api/_api.scss */
+  .api-stat__graph-list li {
+    padding-bottom: 10px;
+  }
+}
+
+/* line 256, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li.deliverable > div:nth-of-type(2) span {
   background-color: #3AD378;
 }
 
-/* line 218, src/scss/_components/api/_api.scss */
+/* line 265, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li.invalid > div:nth-of-type(2) span {
   background-color: #7CA9FF;
 }
 
-/* line 227, src/scss/_components/api/_api.scss */
+/* line 274, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li.disposable > div:nth-of-type(2) span {
   background-color: #A762EA;
 }
 
-/* line 235, src/scss/_components/api/_api.scss */
+/* line 282, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li:nth-of-type(2) > div {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 241, src/scss/_components/api/_api.scss */
+/* line 288, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li:nth-of-type(3) > div {
   margin-left: auto;
 }
 
-/* line 246, src/scss/_components/api/_api.scss */
+/* line 293, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li > div {
   width: 100%;
   max-width: 180px;
 }
 
-/* line 250, src/scss/_components/api/_api.scss */
+/* line 297, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li > div:nth-of-type(1) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7036,7 +7155,7 @@ picture {
   padding-bottom: 10px;
 }
 
-/* line 257, src/scss/_components/api/_api.scss */
+/* line 304, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li > div:nth-of-type(2) {
   position: relative;
   width: 100%;
@@ -7044,7 +7163,7 @@ picture {
   background-color: #f1f4fb;
 }
 
-/* line 263, src/scss/_components/api/_api.scss */
+/* line 310, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li > div:nth-of-type(2) span {
   position: absolute;
   top: 0;
@@ -7052,18 +7171,18 @@ picture {
   height: 100%;
 }
 
-/* line 271, src/scss/_components/api/_api.scss */
+/* line 318, src/scss/_components/api/_api.scss */
 .api-stat__graph-list li > div p {
   font-size: 15px;
   color: #161637;
 }
 
-/* line 280, src/scss/_components/api/_api.scss */
+/* line 327, src/scss/_components/api/_api.scss */
 .api-stat__form {
   padding-bottom: 20px;
 }
 
-/* line 283, src/scss/_components/api/_api.scss */
+/* line 330, src/scss/_components/api/_api.scss */
 .api-stat__form-title {
   padding-bottom: 15px;
   font-size: 22px;
@@ -7071,7 +7190,7 @@ picture {
   color: #000;
 }
 
-/* line 290, src/scss/_components/api/_api.scss */
+/* line 337, src/scss/_components/api/_api.scss */
 .api-stat__form .c-form {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7083,23 +7202,56 @@ picture {
           justify-content: space-between;
 }
 
-/* line 294, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 337, src/scss/_components/api/_api.scss */
+  .api-stat__form .c-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* line 344, src/scss/_components/api/_api.scss */
 .api-stat__form .c-form__field {
   padding-bottom: 20px;
 }
 
-/* line 297, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 344, src/scss/_components/api/_api.scss */
+  .api-stat__form .c-form__field {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+/* line 351, src/scss/_components/api/_api.scss */
 .api-stat__form .c-form__field:nth-of-type(1) {
   width: -webkit-calc(100% - 260px);
   width: calc(100% - 260px);
 }
 
-/* line 301, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 351, src/scss/_components/api/_api.scss */
+  .api-stat__form .c-form__field:nth-of-type(1) {
+    width: 100%;
+  }
+}
+
+/* line 358, src/scss/_components/api/_api.scss */
 .api-stat__form .c-form__field:nth-of-type(2) .c-btn {
   min-width: 250px;
 }
 
-/* line 309, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 358, src/scss/_components/api/_api.scss */
+  .api-stat__form .c-form__field:nth-of-type(2) .c-btn {
+    width: 100%;
+  }
+}
+
+/* line 369, src/scss/_components/api/_api.scss */
 .api-stat__documentation {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7122,7 +7274,17 @@ picture {
           box-shadow: 0 6px 10px 0 rgba(224, 227, 235, 0.5);
 }
 
-/* line 319, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 369, src/scss/_components/api/_api.scss */
+  .api-stat__documentation {
+    width: 55px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 385, src/scss/_components/api/_api.scss */
 .api-stat__documentation > img {
   display: block;
   max-width: 100%;
@@ -7130,7 +7292,7 @@ picture {
   max-height: 100%;
 }
 
-/* line 326, src/scss/_components/api/_api.scss */
+/* line 392, src/scss/_components/api/_api.scss */
 .api-stat__documentation-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7142,13 +7304,43 @@ picture {
           align-items: flex-start;
 }
 
-/* line 331, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 392, src/scss/_components/api/_api.scss */
+  .api-stat__documentation-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 400, src/scss/_components/api/_api.scss */
+  .api-stat__documentation-wrapper > div {
+    width: 100%;
+  }
+}
+
+/* line 405, src/scss/_components/api/_api.scss */
 .api-stat__documentation-wrapper > div:nth-of-type(1) {
   width: 100%;
   max-width: 300px;
 }
 
-/* line 335, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 405, src/scss/_components/api/_api.scss */
+  .api-stat__documentation-wrapper > div:nth-of-type(1) {
+    max-width: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+/* line 413, src/scss/_components/api/_api.scss */
 .api-stat__documentation-wrapper > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7158,7 +7350,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 343, src/scss/_components/api/_api.scss */
+/* line 421, src/scss/_components/api/_api.scss */
 .api-stat__documentation-row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7173,7 +7365,7 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 348, src/scss/_components/api/_api.scss */
+/* line 426, src/scss/_components/api/_api.scss */
 .api-stat__documentation-row > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7189,14 +7381,22 @@ picture {
   padding-bottom: 20px;
 }
 
-/* line 357, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 426, src/scss/_components/api/_api.scss */
+  .api-stat__documentation-row > div {
+    max-width: -webkit-calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+}
+
+/* line 438, src/scss/_components/api/_api.scss */
 .api-stat__documentation-title {
   font-size: 22px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 365, src/scss/_components/api/_api.scss */
+/* line 446, src/scss/_components/api/_api.scss */
 .api__welcome {
   width: 100%;
   max-width: 400px;
@@ -7205,14 +7405,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 365, src/scss/_components/api/_api.scss */
+  /* line 446, src/scss/_components/api/_api.scss */
   .api__welcome {
     padding-left: 25px;
     padding-right: 25px;
   }
 }
 
-/* line 375, src/scss/_components/api/_api.scss */
+/* line 456, src/scss/_components/api/_api.scss */
 .api__welcome-title {
   padding-bottom: 35px;
   font-weight: 500;
@@ -7221,7 +7421,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 375, src/scss/_components/api/_api.scss */
+  /* line 456, src/scss/_components/api/_api.scss */
   .api__welcome-title {
     width: 100%;
     font-size: 24px;
@@ -7229,7 +7429,7 @@ picture {
   }
 }
 
-/* line 387, src/scss/_components/api/_api.scss */
+/* line 468, src/scss/_components/api/_api.scss */
 .api__welcome .c-btn {
   width: 100%;
   height: 80px;
@@ -7237,44 +7437,44 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 387, src/scss/_components/api/_api.scss */
+  /* line 468, src/scss/_components/api/_api.scss */
   .api__welcome .c-btn {
     height: 60px;
     margin-bottom: 10px;
   }
 }
 
-/* line 396, src/scss/_components/api/_api.scss */
+/* line 477, src/scss/_components/api/_api.scss */
 .api__welcome .c-btn .icon-font {
   margin-right: 20px;
   font-size: 30px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 396, src/scss/_components/api/_api.scss */
+  /* line 477, src/scss/_components/api/_api.scss */
   .api__welcome .c-btn .icon-font {
     font-size: 24px;
   }
 }
 
-/* line 404, src/scss/_components/api/_api.scss */
+/* line 485, src/scss/_components/api/_api.scss */
 .api__welcome .c-btn span {
   font-size: 25px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 404, src/scss/_components/api/_api.scss */
+  /* line 485, src/scss/_components/api/_api.scss */
   .api__welcome .c-btn span {
     font-size: 20px;
   }
 }
 
-/* line 411, src/scss/_components/api/_api.scss */
+/* line 492, src/scss/_components/api/_api.scss */
 .api__welcome .c-btn__wrapper {
   width: 100%;
 }
 
-/* line 416, src/scss/_components/api/_api.scss */
+/* line 497, src/scss/_components/api/_api.scss */
 .api__welcome-info {
   font-weight: normal;
   font-size: 16px;
@@ -7282,46 +7482,122 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 416, src/scss/_components/api/_api.scss */
+  /* line 497, src/scss/_components/api/_api.scss */
   .api__welcome-info {
     padding-top: 35px;
     font-size: 11px;
   }
 }
 
-/* line 425, src/scss/_components/api/_api.scss */
+/* line 506, src/scss/_components/api/_api.scss */
 .api__welcome-info strong {
   color: #000000;
   font-weight: 500;
 }
 
-/* line 433, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 1439px) {
+  /* line 513, src/scss/_components/api/_api.scss */
+  .api__wrapper {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 513, src/scss/_components/api/_api.scss */
+  .api__wrapper {
+    padding-top: 30px;
+  }
+}
+
+/* line 521, src/scss/_components/api/_api.scss */
 .api__wrapper-header {
   padding-bottom: 40px;
 }
 
-/* line 436, src/scss/_components/api/_api.scss */
+/* line 524, src/scss/_components/api/_api.scss */
 .api__wrapper-header .c-btn {
   min-width: 300px;
   height: 80px;
 }
 
-/* line 440, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 1279px) {
+  /* line 524, src/scss/_components/api/_api.scss */
+  .api__wrapper-header .c-btn {
+    min-width: 250px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 524, src/scss/_components/api/_api.scss */
+  .api__wrapper-header .c-btn {
+    width: 100%;
+  }
+}
+
+/* line 535, src/scss/_components/api/_api.scss */
 .api__wrapper-header .c-btn .icon-font {
   font-size: 30px;
 }
 
-/* line 444, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 1279px) {
+  /* line 535, src/scss/_components/api/_api.scss */
+  .api__wrapper-header .c-btn .icon-font {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 535, src/scss/_components/api/_api.scss */
+  .api__wrapper-header .c-btn .icon-font {
+    font-size: 24px;
+  }
+}
+
+/* line 545, src/scss/_components/api/_api.scss */
 .api__wrapper-header .c-btn span {
   font-size: 25px;
 }
 
-/* line 448, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 1279px) {
+  /* line 545, src/scss/_components/api/_api.scss */
+  .api__wrapper-header .c-btn span {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 545, src/scss/_components/api/_api.scss */
+  .api__wrapper-header .c-btn span {
+    font-size: 20px;
+  }
+}
+
+/* line 555, src/scss/_components/api/_api.scss */
 .api__wrapper-header .c-btn:not(:last-child) {
   margin-right: 10px;
 }
 
-/* line 455, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 555, src/scss/_components/api/_api.scss */
+  .api__wrapper-header .c-btn:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 563, src/scss/_components/api/_api.scss */
+  .api__wrapper-header .c-btn__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* line 572, src/scss/_components/api/_api.scss */
 .api__box {
   position: relative;
   width: 100%;
@@ -7334,7 +7610,7 @@ picture {
           box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
 }
 
-/* line 464, src/scss/_components/api/_api.scss */
+/* line 581, src/scss/_components/api/_api.scss */
 .api__box-wrapper {
   position: relative;
   left: -40px;
@@ -7349,7 +7625,15 @@ picture {
   width: calc(100% + 40px);
 }
 
-/* line 471, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 767px) {
+  /* line 581, src/scss/_components/api/_api.scss */
+  .api__box-wrapper {
+    left: 0;
+    width: 100%;
+  }
+}
+
+/* line 592, src/scss/_components/api/_api.scss */
 .api__box-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 4);
@@ -7358,30 +7642,55 @@ picture {
   padding-bottom: 40px;
 }
 
-/* line 479, src/scss/_components/api/_api.scss */
+@media screen and (max-width: 1279px) {
+  /* line 592, src/scss/_components/api/_api.scss */
+  .api__box-wrapper > div {
+    max-width: -webkit-calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 592, src/scss/_components/api/_api.scss */
+  .api__box-wrapper > div {
+    max-width: -webkit-calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 592, src/scss/_components/api/_api.scss */
+  .api__box-wrapper > div {
+    max-width: 100%;
+    padding-left: 0;
+    padding-bottom: 10px;
+  }
+}
+
+/* line 611, src/scss/_components/api/_api.scss */
 .api__box-header {
   padding-right: 50px;
   padding-bottom: 40px;
 }
 
-/* line 484, src/scss/_components/api/_api.scss */
+/* line 616, src/scss/_components/api/_api.scss */
 .api__box-body {
   padding-bottom: 40px;
 }
 
-/* line 489, src/scss/_components/api/_api.scss */
+/* line 621, src/scss/_components/api/_api.scss */
 .api__box-footer .c-btn {
   width: 100%;
 }
 
-/* line 494, src/scss/_components/api/_api.scss */
+/* line 626, src/scss/_components/api/_api.scss */
 .api__box-remove {
   position: absolute;
   top: 20px;
   right: 20px;
 }
 
-/* line 500, src/scss/_components/api/_api.scss */
+/* line 632, src/scss/_components/api/_api.scss */
 .api__box-remove:hover .icon-font {
   color: #0056fc;
   -webkit-transition: color 0.3s ease-in-out;
@@ -7389,7 +7698,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 506, src/scss/_components/api/_api.scss */
+/* line 638, src/scss/_components/api/_api.scss */
 .api__box-remove .icon-font {
   color: #99bbfe;
   font-size: 20px;
@@ -7398,7 +7707,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 513, src/scss/_components/api/_api.scss */
+/* line 645, src/scss/_components/api/_api.scss */
 .api__box-title {
   font-size: 18px;
   letter-spacing: 0.01em;
@@ -7406,14 +7715,14 @@ picture {
   color: #000;
 }
 
-/* line 520, src/scss/_components/api/_api.scss */
+/* line 652, src/scss/_components/api/_api.scss */
 .api__box-time {
   font-size: 14px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 526, src/scss/_components/api/_api.scss */
+/* line 658, src/scss/_components/api/_api.scss */
 .api__box-list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7425,7 +7734,7 @@ picture {
           align-items: flex-start;
 }
 
-/* line 530, src/scss/_components/api/_api.scss */
+/* line 662, src/scss/_components/api/_api.scss */
 .api__box-list li {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7435,14 +7744,14 @@ picture {
   max-width: 100%;
 }
 
-/* line 535, src/scss/_components/api/_api.scss */
+/* line 667, src/scss/_components/api/_api.scss */
 .api__box-list li span {
   font-size: 11px;
   letter-spacing: 0.01em;
   color: #5d5d5d;
 }
 
-/* line 541, src/scss/_components/api/_api.scss */
+/* line 673, src/scss/_components/api/_api.scss */
 .api__box-list li p {
   font-size: 13px;
   letter-spacing: 0.01em;
