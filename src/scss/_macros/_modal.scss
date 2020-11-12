@@ -48,10 +48,12 @@
 		max-width: 900px;
 		padding: 30px;
 		@include adaptive(767) {
+			overflow-y: auto;
 			display: flex;
 			flex-direction: column;
 			top: 100px;
 			height: calc(100% - 100px);
+			max-height: calc(100% - 100px);
 			padding: 50px 15px 15px;
 			border-radius: 10px 10px 0 0;
 
@@ -217,12 +219,29 @@
 	&#connectModal {
 		max-width: 900px;
 		padding: 60px 60px 55px;
+		@include adaptive(767) {
+			overflow-y: auto;
+			display: flex;
+			flex-direction: column;
+			top: 100px;
+			height: calc(100% - 100px);
+			max-height: calc(100% - 100px);
+			padding: 50px 15px 15px;
+			border-radius: 10px 10px 0 0;
+
+			.c-modal__close {
+				display: none;
+			}
+		}
 
 		.c-modal {
 			&__header {
 				display: flex;
 				align-items: center;
 				padding-bottom: 25px;
+				@include adaptive(767) {
+					padding-bottom: 30px;
+				}
 
 				> div {
 					&:nth-of-type(1) {
@@ -239,6 +258,11 @@
 				width: 80px;
 				height: 80px;
 				border-radius: 24px;
+				@include adaptive(767) {
+					width: 40px;
+					height: 40px;
+					border-radius: 14px;
+				}
 
 				img {
 					display: block;
@@ -246,12 +270,18 @@
 					max-width: 100%;
 					height: auto;
 					max-height: 100%;
+					@include adaptive(767) {
+						max-width: 20px;
+					}
 				}
 			}
 
 			&__title {
 				font-size: 34px;
 				color: #000;
+				@include adaptive(767) {
+					font-size: 20px;
+				}
 			}
 
 			&__stat {
@@ -297,6 +327,9 @@
 						padding-right: 10px;
 						border-left: 1px solid #fff;
 						border-right: 1px solid #fff;
+						@include adaptive(767) {
+							display: none;
+						}
 					}
 
 					p {
@@ -323,6 +356,10 @@
 					border: 1px solid #cdf;
 					box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
 					@include transition(border-color);
+					@include adaptive(767) {
+						flex-wrap: wrap;
+						height: auto;
+					}
 
 					&:hover {
 						border-color: #0056fc;
@@ -348,20 +385,56 @@
 							display: flex;
 							align-items: center;
 							border-right: 1px solid #cdf;
+							@include adaptive(767) {
+								display: block;
+							}
+
+							span {
+								overflow: hidden;
+								white-space: nowrap;
+								text-overflow: ellipsis;
+								display: none;
+								padding-bottom: 5px;
+								font-size: 10px;
+								letter-spacing: 0.01em;
+								color: #535260;
+								@include adaptive(767) {
+									display: block;
+								}
+							}
 						}
 
 						&:nth-of-type(1) {
 							width: 43%;
 							padding-left: 20px;
 							padding-right: 50px;
+							@include adaptive(767) {
+								order: 2;
+								width: 70%;
+								padding-left: 20px;
+								padding-right: 0;
+								border: none;
+							}
 						}
 						&:nth-of-type(2) {
 							width: 27%;
 							padding-left: 40px;
+							@include adaptive(767) {
+								order: 1;
+								width: 30%;
+								padding-left: 0;
+								padding-right: 20px;
+							}
 						}
 						&:nth-of-type(3) {
 							width: 30%;
 							padding-left: 40px;
+							@include adaptive(767) {
+								order: 3;
+								width: 100%;
+								padding-top: 10px;
+								padding-left: 0;
+							}
 						}
 					}
 
@@ -373,10 +446,23 @@
 						letter-spacing: 0.01em;
 						color: #535260;
 						line-height: 1;
+						@include adaptive(767) {
+							font-size: 14px;
+						}
 					}
 
 					.c-btn {
 						height: 100%;
+						@include adaptive(767) {
+							min-width: 145px;
+							height: 40px;
+							background-color: #0056fc;
+
+							.icon-font,
+							span {
+								color: #ffffff;
+							}
+						}
 
 						.icon-font {
 							font-size: 20px;
@@ -384,6 +470,9 @@
 
 						span {
 							font-size: 16px;
+							@include adaptive(767) {
+								line-height: 1;
+							}
 						}
 
 						&__wrapper {

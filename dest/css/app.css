@@ -1785,6 +1785,7 @@ picture {
 @media screen and (max-width: 767px) {
   /* line 47, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal {
+    overflow-y: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1797,17 +1798,19 @@ picture {
     top: 100px;
     height: -webkit-calc(100% - 100px);
     height: calc(100% - 100px);
+    max-height: -webkit-calc(100% - 100px);
+    max-height: calc(100% - 100px);
     padding: 50px 15px 15px;
     -webkit-border-radius: 10px 10px 0 0;
             border-radius: 10px 10px 0 0;
   }
-  /* line 58, src/scss/_macros/_modal.scss */
+  /* line 60, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__close {
     display: none;
   }
 }
 
-/* line 64, src/scss/_macros/_modal.scss */
+/* line 66, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__body {
   overflow-y: auto;
   max-height: 410px;
@@ -1815,7 +1818,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 64, src/scss/_macros/_modal.scss */
+  /* line 66, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__body {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -1828,14 +1831,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 76, src/scss/_macros/_modal.scss */
+  /* line 78, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__footer {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
 
-/* line 83, src/scss/_macros/_modal.scss */
+/* line 85, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__sticky {
   display: none;
   -webkit-box-align: center;
@@ -1853,7 +1856,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 83, src/scss/_macros/_modal.scss */
+  /* line 85, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__sticky {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1862,46 +1865,46 @@ picture {
   }
 }
 
-/* line 95, src/scss/_macros/_modal.scss */
+/* line 97, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__sticky .c-btn {
   height: 100%;
 }
 
-/* line 98, src/scss/_macros/_modal.scss */
+/* line 100, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__sticky .c-btn:nth-of-type(1) {
   width: 45%;
 }
 
-/* line 101, src/scss/_macros/_modal.scss */
+/* line 103, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__sticky .c-btn:nth-of-type(2) {
   width: 50%;
   margin-left: 5%;
 }
 
-/* line 106, src/scss/_macros/_modal.scss */
+/* line 108, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__sticky .c-btn span {
   font-size: 14px;
 }
 
-/* line 112, src/scss/_macros/_modal.scss */
+/* line 114, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__title {
   font-size: 34px;
   color: #000;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 112, src/scss/_macros/_modal.scss */
+  /* line 114, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__title {
     font-size: 20px;
   }
 }
 
-/* line 119, src/scss/_macros/_modal.scss */
+/* line 121, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__title strong {
   font-weight: 700;
 }
 
-/* line 124, src/scss/_macros/_modal.scss */
+/* line 126, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__desc {
   font-size: 18px;
   letter-spacing: 0.01em;
@@ -1909,14 +1912,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 124, src/scss/_macros/_modal.scss */
+  /* line 126, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__desc {
     font-size: 11px;
     text-align: center;
   }
 }
 
-/* line 134, src/scss/_macros/_modal.scss */
+/* line 136, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__integration {
   position: relative;
   display: -webkit-box;
@@ -1950,14 +1953,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 134, src/scss/_macros/_modal.scss */
+  /* line 136, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__integration {
     height: auto;
     padding: 15px;
   }
 }
 
-/* line 151, src/scss/_macros/_modal.scss */
+/* line 153, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__integration:hover {
   -webkit-box-shadow: 0 6px 10px rgba(224, 227, 235, 0.5);
           box-shadow: 0 6px 10px rgba(224, 227, 235, 0.5);
@@ -1968,7 +1971,7 @@ picture {
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 156, src/scss/_macros/_modal.scss */
+/* line 158, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__integration-wrapper {
   position: relative;
   left: -22px;
@@ -1984,7 +1987,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 156, src/scss/_macros/_modal.scss */
+  /* line 158, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__integration-wrapper {
     left: -15px;
     width: -webkit-calc(100% + 15px);
@@ -1992,7 +1995,7 @@ picture {
   }
 }
 
-/* line 167, src/scss/_macros/_modal.scss */
+/* line 169, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__integration-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 5);
@@ -2002,7 +2005,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 167, src/scss/_macros/_modal.scss */
+  /* line 169, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__integration-wrapper > div {
     max-width: -webkit-calc(100% / 4);
     max-width: calc(100% / 4);
@@ -2010,7 +2013,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 167, src/scss/_macros/_modal.scss */
+  /* line 169, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__integration-wrapper > div {
     max-width: -webkit-calc(100% / 3);
     max-width: calc(100% / 3);
@@ -2019,7 +2022,7 @@ picture {
   }
 }
 
-/* line 183, src/scss/_macros/_modal.scss */
+/* line 185, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__integration-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2039,7 +2042,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 192, src/scss/_macros/_modal.scss */
+/* line 194, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__integration-head img {
   display: block;
   max-width: 100%;
@@ -2047,12 +2050,12 @@ picture {
   max-height: 100%;
 }
 
-/* line 200, src/scss/_macros/_modal.scss */
+/* line 202, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__integration-body {
   padding-top: 10px;
 }
 
-/* line 204, src/scss/_macros/_modal.scss */
+/* line 206, src/scss/_macros/_modal.scss */
 .c-modal#integrationModal .c-modal__integration-name {
   font-weight: bold;
   font-size: 12px;
@@ -2061,19 +2064,47 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 204, src/scss/_macros/_modal.scss */
+  /* line 206, src/scss/_macros/_modal.scss */
   .c-modal#integrationModal .c-modal__integration-name {
     font-size: 8px;
   }
 }
 
-/* line 217, src/scss/_macros/_modal.scss */
+/* line 219, src/scss/_macros/_modal.scss */
 .c-modal#connectModal {
   max-width: 900px;
   padding: 60px 60px 55px;
 }
 
-/* line 222, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 219, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal {
+    overflow-y: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 100px;
+    height: -webkit-calc(100% - 100px);
+    height: calc(100% - 100px);
+    max-height: -webkit-calc(100% - 100px);
+    max-height: calc(100% - 100px);
+    padding: 50px 15px 15px;
+    -webkit-border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 0 0;
+  }
+  /* line 232, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__close {
+    display: none;
+  }
+}
+
+/* line 238, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2086,12 +2117,19 @@ picture {
   padding-bottom: 25px;
 }
 
-/* line 228, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 238, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__header {
+    padding-bottom: 30px;
+  }
+}
+
+/* line 247, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__header > div:nth-of-type(1) {
   margin-right: 20px;
 }
 
-/* line 234, src/scss/_macros/_modal.scss */
+/* line 253, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__integrate {
   position: relative;
   display: -webkit-box;
@@ -2112,7 +2150,17 @@ picture {
           border-radius: 24px;
 }
 
-/* line 243, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 253, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__integrate {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 14px;
+            border-radius: 14px;
+  }
+}
+
+/* line 267, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__integrate img {
   display: block;
   width: 50px;
@@ -2121,13 +2169,27 @@ picture {
   max-height: 100%;
 }
 
-/* line 252, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 267, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__integrate img {
+    max-width: 20px;
+  }
+}
+
+/* line 279, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__title {
   font-size: 34px;
   color: #000;
 }
 
-/* line 257, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 279, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__title {
+    font-size: 20px;
+  }
+}
+
+/* line 287, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2140,7 +2202,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 261, src/scss/_macros/_modal.scss */
+/* line 291, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-head {
   position: relative;
   left: -11px;
@@ -2153,7 +2215,7 @@ picture {
   height: 61px;
 }
 
-/* line 268, src/scss/_macros/_modal.scss */
+/* line 298, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-head > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2167,7 +2229,7 @@ picture {
   background: #f1f4fb;
 }
 
-/* line 274, src/scss/_macros/_modal.scss */
+/* line 304, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-head > div:nth-of-type(1) {
   padding-left: 40px;
   max-width: 43%;
@@ -2177,7 +2239,7 @@ picture {
   border-left: 1px solid #cdf;
 }
 
-/* line 281, src/scss/_macros/_modal.scss */
+/* line 311, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-head > div:nth-of-type(2) {
   max-width: -webkit-calc(26% + 1px);
   max-width: calc(26% + 1px);
@@ -2189,14 +2251,14 @@ picture {
   border-right: 1px solid #cdf;
 }
 
-/* line 289, src/scss/_macros/_modal.scss */
+/* line 319, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-head > div:nth-of-type(3) {
   max-width: -webkit-calc(30% + 5px);
   max-width: calc(30% + 5px);
   background-color: transparent;
 }
 
-/* line 295, src/scss/_macros/_modal.scss */
+/* line 325, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-head-wrapper {
   padding-left: 10px;
   padding-right: 10px;
@@ -2204,14 +2266,21 @@ picture {
   border-right: 1px solid #fff;
 }
 
-/* line 302, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 325, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-head-wrapper {
+    display: none;
+  }
+}
+
+/* line 335, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-head p {
   font-size: 18px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 309, src/scss/_macros/_modal.scss */
+/* line 342, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-body {
   width: 100%;
   padding: 10px;
@@ -2220,7 +2289,7 @@ picture {
   border: 1px solid #cdf;
 }
 
-/* line 316, src/scss/_macros/_modal.scss */
+/* line 349, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2240,7 +2309,17 @@ picture {
   transition: border-color 0.3s ease-in-out;
 }
 
-/* line 327, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 349, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    height: auto;
+  }
+}
+
+/* line 364, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box:hover {
   border-color: #0056fc;
   -webkit-transition: border-color 0.3s ease-in-out;
@@ -2248,23 +2327,23 @@ picture {
   transition: border-color 0.3s ease-in-out;
 }
 
-/* line 331, src/scss/_macros/_modal.scss */
+/* line 368, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box:hover .c-btn {
   background-color: #0056fc;
 }
 
-/* line 334, src/scss/_macros/_modal.scss */
+/* line 371, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box:hover .c-btn .icon-font,
 .c-modal#connectModal .c-modal__stat-box:hover .c-btn span {
   color: #ffffff;
 }
 
-/* line 341, src/scss/_macros/_modal.scss */
+/* line 378, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box:not(:last-of-type) {
   margin-bottom: 10px;
 }
 
-/* line 346, src/scss/_macros/_modal.scss */
+/* line 383, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(1), .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2277,26 +2356,93 @@ picture {
   border-right: 1px solid #cdf;
 }
 
-/* line 353, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 383, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(1), .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(2) {
+    display: block;
+  }
+}
+
+/* line 392, src/scss/_macros/_modal.scss */
+.c-modal#connectModal .c-modal__stat-box > div:nth-of-type(1) span, .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(2) span {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: none;
+  padding-bottom: 5px;
+  font-size: 10px;
+  letter-spacing: 0.01em;
+  color: #535260;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 392, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(1) span, .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(2) span {
+    display: block;
+  }
+}
+
+/* line 407, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(1) {
   width: 43%;
   padding-left: 20px;
   padding-right: 50px;
 }
 
-/* line 358, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 407, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(1) {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 0;
+    border: none;
+  }
+}
+
+/* line 419, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(2) {
   width: 27%;
   padding-left: 40px;
 }
 
-/* line 362, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 419, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(2) {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 30%;
+    padding-left: 0;
+    padding-right: 20px;
+  }
+}
+
+/* line 429, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(3) {
   width: 30%;
   padding-left: 40px;
 }
 
-/* line 368, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 429, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box > div:nth-of-type(3) {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 0;
+  }
+}
+
+/* line 441, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box p {
   overflow: hidden;
   white-space: nowrap;
@@ -2308,33 +2454,61 @@ picture {
   line-height: 1;
 }
 
-/* line 378, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 441, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box p {
+    font-size: 14px;
+  }
+}
+
+/* line 454, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box .c-btn {
   height: 100%;
 }
 
-/* line 381, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 454, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box .c-btn {
+    min-width: 145px;
+    height: 40px;
+    background-color: #0056fc;
+  }
+  /* line 461, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box .c-btn .icon-font,
+  .c-modal#connectModal .c-modal__stat-box .c-btn span {
+    color: #ffffff;
+  }
+}
+
+/* line 467, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box .c-btn .icon-font {
   font-size: 20px;
 }
 
-/* line 385, src/scss/_macros/_modal.scss */
+/* line 471, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box .c-btn span {
   font-size: 16px;
 }
 
-/* line 389, src/scss/_macros/_modal.scss */
+@media screen and (max-width: 767px) {
+  /* line 471, src/scss/_macros/_modal.scss */
+  .c-modal#connectModal .c-modal__stat-box .c-btn span {
+    line-height: 1;
+  }
+}
+
+/* line 478, src/scss/_macros/_modal.scss */
 .c-modal#connectModal .c-modal__stat-box .c-btn__wrapper {
   height: 100%;
 }
 
-/* line 398, src/scss/_macros/_modal.scss */
+/* line 487, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal {
   max-width: 900px;
   padding: 30px 30px 20px;
 }
 
-/* line 402, src/scss/_macros/_modal.scss */
+/* line 491, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-form {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2346,35 +2520,35 @@ picture {
           justify-content: space-between;
 }
 
-/* line 406, src/scss/_macros/_modal.scss */
+/* line 495, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-form__field {
   padding-bottom: 20px;
 }
 
-/* line 409, src/scss/_macros/_modal.scss */
+/* line 498, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-form__field:nth-of-type(1) {
   width: -webkit-calc(100% - 260px);
   width: calc(100% - 260px);
 }
 
-/* line 412, src/scss/_macros/_modal.scss */
+/* line 501, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-form__field:nth-of-type(2) {
   width: 250px;
 }
 
-/* line 418, src/scss/_macros/_modal.scss */
+/* line 507, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-btn {
   width: 100%;
 }
 
-/* line 423, src/scss/_macros/_modal.scss */
+/* line 512, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-modal__title {
   padding-bottom: 40px;
   font-size: 34px;
   color: #535260;
 }
 
-/* line 428, src/scss/_macros/_modal.scss */
+/* line 517, src/scss/_macros/_modal.scss */
 .c-modal#createAPIModal .c-modal__title span {
   color: #000000;
   font-weight: 500;

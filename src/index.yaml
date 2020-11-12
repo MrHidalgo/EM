@@ -18,7 +18,7 @@ PageList:
   ready: 100
 - file: verification-3.html
   titleName: Verification - 3
-  ready: 33
+  ready: 100
 - file: dashboard.html
   titleName: Dashboard
   ready: 33
