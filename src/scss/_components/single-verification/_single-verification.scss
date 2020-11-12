@@ -1,6 +1,15 @@
 // SECTION :: START
 
 .single-verification {
+	@include adaptive(1439) {
+		padding-top: 50px;
+	}
+	@include adaptive(767) {
+		padding-top: 50px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
 	&.single-verification--main {}
 	&.single-verification--done {
 		.single-verification__info {
@@ -42,10 +51,16 @@
 
 		&-header {
 			padding-bottom: 55px;
+			@include adaptive(767) {
+				padding-bottom: 40px;
+			}
 
 			p {
 				font-weight: 500;
 				font-size: 18px;
+				@include adaptive(767) {
+					font-size: 14px;
+				}
 
 				span {
 					color: #0056fc;
@@ -53,12 +68,18 @@
 
 				a {
 					font-weight: 400;
+					@include adaptive(767) {
+						display: block;
+					}
 				}
 			}
 		}
 
 		&-footer {
 			padding-top: 100px;
+			@include adaptive(767) {
+				padding-top: 45px;
+			}
 		}
 	}
 
@@ -68,12 +89,18 @@
 		justify-content: space-between;
 		width: 100%;
 		max-width: 800px;
+		@include adaptive(767) {
+			flex-direction: column;
+		}
 
 		.c-btn {
 			width: 100%;
 
 			&__wrapper {
 				min-width: 255px;
+				@include adaptive(767) {
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -83,6 +110,13 @@
 		font-size: 34px;
 		line-height: 40px;
 		color: #000;
+		@include adaptive(1279) {
+			font-size: 30px;
+		}
+		@include adaptive(767) {
+			font-size: 24px;
+			line-height: 30px;
+		}
 	}
 
 	&__info {
@@ -92,6 +126,9 @@
 		> div {
 			&:nth-of-type(1) {
 				width: 100px;
+				@include adaptive(767) {
+					width: 55px;
+				}
 			}
 			&:nth-of-type(2) {
 				flex: 1;
@@ -104,12 +141,22 @@
 			display: block;
 			max-width: 100%;
 			height: auto;
+			@include adaptive(767) {
+				max-width: 40px;
+			}
 		}
 
 		p {
 			font-size: 34px;
 			line-height: 40px;
 			color: #000;
+			@include adaptive(1279) {
+				font-size: 30px;
+			}
+			@include adaptive(767) {
+				font-size: 16px;
+				line-height: 19px;
+			}
 
 			strong {
 				font-weight: 700;
@@ -127,6 +174,9 @@
 					left: 0;
 					width: 100%;
 					height: 4px;
+					@include adaptive(767) {
+						top: calc(100% - 6px);
+					}
 				}
 			}
 		}
@@ -146,12 +196,24 @@
 			padding-bottom: 20px;
 			font-weight: 500;
 			font-size: 18px;
+			@include adaptive(767) {
+				width: 100%;
+				font-size: 13px;
+				padding-bottom: 15px;
+				padding-left: 20px !important;
+			}
 
 			&:nth-of-type(odd) {
 				padding-right: 15px;
+				@include adaptive(767) {
+					padding-right: 0;
+				}
 			}
 			&:nth-of-type(even) {
 				padding-left: 15px;
+				@include adaptive(767) {
+					padding-left: 0;
+				}
 			}
 
 			> div {
@@ -171,6 +233,9 @@
 				&:nth-of-type(2) {
 					padding-left: 15px;
 					color: #000;
+					@include adaptive(767) {
+						text-align: right;
+					}
 				}
 			}
 		}
@@ -187,12 +252,19 @@
 			font-size: 24px;
 			letter-spacing: 0.01em;
 			color: #000;
+			@include adaptive(767) {
+				font-size: 14px;
+			}
 		}
 	}
 
 	.c-form {
 		&__field {
 			width: calc(100% - 265px);
+			@include adaptive(767) {
+				width: 100%;
+				margin-bottom: 25px;
+			}
 		}
 	}
 }

@@ -24,16 +24,16 @@ PageList:
   ready: 100
 - file: single-verification-1.html
   titleName: Single Verification 1
-  ready: 33
+  ready: 100
 - file: single-verification-2.html
   titleName: Single Verification 2
-  ready: 33
+  ready: 100
 - file: single-verification-3.html
   titleName: Single Verification 3
-  ready: 33
+  ready: 100
 - file: single-verification-4.html
   titleName: Single Verification 4
-  ready: 33
+  ready: 100
 - file: api-1.html
   titleName: API 1
   ready: 33

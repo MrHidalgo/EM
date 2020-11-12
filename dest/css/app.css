@@ -6179,22 +6179,38 @@ picture {
   display: block;
 }
 
-/* line 9, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 1439px) {
+  /* line 3, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 3, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification {
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/* line 18, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification.single-verification--done .single-verification__info p span:after {
   background-color: #3ad378;
 }
 
-/* line 20, src/scss/_components/single-verification/_single-verification.scss */
+/* line 29, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification.single-verification--error .single-verification__info p span:after {
   background-color: #FD784C;
 }
 
-/* line 31, src/scss/_components/single-verification/_single-verification.scss */
+/* line 40, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification.single-verification--warning .single-verification__info p span:after {
   background-color: #FDC937;
 }
 
-/* line 39, src/scss/_components/single-verification/_single-verification.scss */
+/* line 48, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6207,33 +6223,61 @@ picture {
           flex-direction: column;
 }
 
-/* line 43, src/scss/_components/single-verification/_single-verification.scss */
+/* line 52, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-header {
   padding-bottom: 55px;
 }
 
-/* line 46, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 52, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__wrapper-header {
+    padding-bottom: 40px;
+  }
+}
+
+/* line 58, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-header p {
   font-weight: 500;
   font-size: 18px;
 }
 
-/* line 50, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 58, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__wrapper-header p {
+    font-size: 14px;
+  }
+}
+
+/* line 65, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-header p span {
   color: #0056fc;
 }
 
-/* line 54, src/scss/_components/single-verification/_single-verification.scss */
+/* line 69, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-header p a {
   font-weight: 400;
 }
 
-/* line 60, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 69, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__wrapper-header p a {
+    display: block;
+  }
+}
+
+/* line 78, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__wrapper-footer {
   padding-top: 100px;
 }
 
-/* line 65, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 78, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__wrapper-footer {
+    padding-top: 45px;
+  }
+}
+
+/* line 86, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__form {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6251,17 +6295,35 @@ picture {
   max-width: 800px;
 }
 
-/* line 72, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 86, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+/* line 96, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__form .c-btn {
   width: 100%;
 }
 
-/* line 75, src/scss/_components/single-verification/_single-verification.scss */
+/* line 99, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__form .c-btn__wrapper {
   min-width: 255px;
 }
 
-/* line 81, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 99, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__form .c-btn__wrapper {
+    width: 100%;
+  }
+}
+
+/* line 108, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__details {
   font-weight: 500;
   font-size: 34px;
@@ -6269,7 +6331,22 @@ picture {
   color: #000;
 }
 
-/* line 88, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 1279px) {
+  /* line 108, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__details {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 108, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__details {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+/* line 122, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6278,12 +6355,19 @@ picture {
   padding-top: 55px;
 }
 
-/* line 93, src/scss/_components/single-verification/_single-verification.scss */
+/* line 127, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info > div:nth-of-type(1) {
   width: 100px;
 }
 
-/* line 96, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 127, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__info > div:nth-of-type(1) {
+    width: 55px;
+  }
+}
+
+/* line 133, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -6293,32 +6377,54 @@ picture {
   max-width: 100%;
 }
 
-/* line 103, src/scss/_components/single-verification/_single-verification.scss */
+/* line 140, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 109, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 140, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__info img {
+    max-width: 40px;
+  }
+}
+
+/* line 149, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info p {
   font-size: 34px;
   line-height: 40px;
   color: #000;
 }
 
-/* line 114, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 1279px) {
+  /* line 149, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__info p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 149, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__info p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+/* line 161, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info p strong {
   font-weight: 700;
 }
 
-/* line 118, src/scss/_components/single-verification/_single-verification.scss */
+/* line 165, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info p span {
   position: relative;
   line-height: 1;
 }
 
-/* line 122, src/scss/_components/single-verification/_single-verification.scss */
+/* line 169, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__info p span:after {
   content: '';
   z-index: -1;
@@ -6330,7 +6436,15 @@ picture {
   height: 4px;
 }
 
-/* line 135, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 169, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__info p span:after {
+    top: -webkit-calc(100% - 6px);
+    top: calc(100% - 6px);
+  }
+}
+
+/* line 185, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6341,7 +6455,7 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 139, src/scss/_components/single-verification/_single-verification.scss */
+/* line 189, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li {
   overflow: hidden;
   white-space: nowrap;
@@ -6361,43 +6475,74 @@ picture {
   font-size: 18px;
 }
 
-/* line 150, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 189, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__list li {
+    width: 100%;
+    font-size: 13px;
+    padding-bottom: 15px;
+    padding-left: 20px !important;
+  }
+}
+
+/* line 206, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li:nth-of-type(odd) {
   padding-right: 15px;
 }
 
-/* line 153, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 206, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__list li:nth-of-type(odd) {
+    padding-right: 0;
+  }
+}
+
+/* line 212, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li:nth-of-type(even) {
   padding-left: 15px;
 }
 
-/* line 157, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 212, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__list li:nth-of-type(even) {
+    padding-left: 0;
+  }
+}
+
+/* line 219, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div {
   width: 50%;
 }
 
-/* line 160, src/scss/_components/single-verification/_single-verification.scss */
+/* line 222, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div.green {
   color: #3ad378 !important;
 }
 
-/* line 163, src/scss/_components/single-verification/_single-verification.scss */
+/* line 225, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div.red {
   color: #fd784c !important;
 }
 
-/* line 167, src/scss/_components/single-verification/_single-verification.scss */
+/* line 229, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div:nth-of-type(1) {
   color: #535260;
 }
 
-/* line 171, src/scss/_components/single-verification/_single-verification.scss */
+/* line 233, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list li > div:nth-of-type(2) {
   padding-left: 15px;
   color: #000;
 }
 
-/* line 178, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 233, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__list li > div:nth-of-type(2) {
+    text-align: right;
+  }
+}
+
+/* line 243, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6412,7 +6557,7 @@ picture {
   max-width: 600px;
 }
 
-/* line 185, src/scss/_components/single-verification/_single-verification.scss */
+/* line 250, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification__list-title {
   padding-bottom: 35px;
   font-size: 24px;
@@ -6420,10 +6565,25 @@ picture {
   color: #000;
 }
 
-/* line 194, src/scss/_components/single-verification/_single-verification.scss */
+@media screen and (max-width: 767px) {
+  /* line 250, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification__list-title {
+    font-size: 14px;
+  }
+}
+
+/* line 262, src/scss/_components/single-verification/_single-verification.scss */
 .single-verification .c-form__field {
   width: -webkit-calc(100% - 265px);
   width: calc(100% - 265px);
+}
+
+@media screen and (max-width: 767px) {
+  /* line 262, src/scss/_components/single-verification/_single-verification.scss */
+  .single-verification .c-form__field {
+    width: 100%;
+    margin-bottom: 25px;
+  }
 }
 
 /* line 4, src/scss/_components/api/_api.scss */
