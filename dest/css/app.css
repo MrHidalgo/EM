@@ -5865,7 +5865,14 @@ picture {
   }
 }
 
-/* line 4, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 1439px) {
+  /* line 3, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard {
+    padding-bottom: 50px;
+  }
+}
+
+/* line 8, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box {
   position: relative;
   display: -webkit-box;
@@ -5890,7 +5897,14 @@ picture {
           box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
 }
 
-/* line 15, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 767px) {
+  /* line 8, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__box {
+    padding: 20px;
+  }
+}
+
+/* line 22, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-wrapper {
   position: relative;
   left: -33px;
@@ -5905,7 +5919,16 @@ picture {
   width: calc(100% + 33px);
 }
 
-/* line 22, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 1023px) {
+  /* line 22, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__box-wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 32, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 4);
@@ -5914,21 +5937,65 @@ picture {
   padding-bottom: 33px;
 }
 
-/* line 30, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 1279px) {
+  /* line 32, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__box-wrapper > div {
+    max-width: -webkit-calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 32, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__box-wrapper > div {
+    max-width: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+/* line 47, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-title {
   font-size: 18px;
   letter-spacing: 0.01em;
   color: #7ca9ff;
 }
 
-/* line 36, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 1365px) {
+  /* line 47, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__box-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 47, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__box-title {
+    font-size: 14px;
+  }
+}
+
+/* line 59, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-num {
   font-size: 28px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 42, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 1365px) {
+  /* line 59, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__box-num {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 59, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__box-num {
+    font-size: 21px;
+  }
+}
+
+/* line 71, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__box-chart {
   position: relative;
   width: 100%;
@@ -5938,7 +6005,14 @@ picture {
   padding-left: 50px;
 }
 
-/* line 52, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 1599px) {
+  /* line 71, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__box-chart {
+    padding-left: 0;
+  }
+}
+
+/* line 84, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block {
   position: relative;
   display: -webkit-box;
@@ -5959,7 +6033,7 @@ picture {
   background-color: #fff;
 }
 
-/* line 62, src/scss/_components/dashboard/_dashboard.scss */
+/* line 94, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5976,21 +6050,28 @@ picture {
   padding-bottom: 30px;
 }
 
-/* line 69, src/scss/_components/dashboard/_dashboard.scss */
+/* line 101, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-title {
   font-size: 24px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 75, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 767px) {
+  /* line 101, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-title {
+    font-size: 21px;
+  }
+}
+
+/* line 110, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-date {
   font-size: 14px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 82, src/scss/_components/dashboard/_dashboard.scss */
+/* line 117, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab {
   position: relative;
   display: -webkit-box;
@@ -6015,7 +6096,14 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 94, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 767px) {
+  /* line 117, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__tab {
+    font-size: 14px;
+  }
+}
+
+/* line 132, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab:after {
   content: '';
   opacity: 0;
@@ -6030,7 +6118,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 106, src/scss/_components/dashboard/_dashboard.scss */
+/* line 144, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab:hover, .dashboard__tab.is-active {
   color: #878cfd;
   -webkit-transition: color 0.3s ease-in-out;
@@ -6038,7 +6126,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 113, src/scss/_components/dashboard/_dashboard.scss */
+/* line 151, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab.is-active:after {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -6046,7 +6134,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 119, src/scss/_components/dashboard/_dashboard.scss */
+/* line 157, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6059,7 +6147,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 124, src/scss/_components/dashboard/_dashboard.scss */
+/* line 162, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6074,12 +6162,19 @@ picture {
   border-bottom: 2px dashed silver;
 }
 
-/* line 132, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 767px) {
+  /* line 162, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__tab-head {
+    margin-left: 0;
+  }
+}
+
+/* line 173, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab-content {
   display: none;
 }
 
-/* line 135, src/scss/_components/dashboard/_dashboard.scss */
+/* line 176, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__tab-content.is-active {
   display: block;
 }

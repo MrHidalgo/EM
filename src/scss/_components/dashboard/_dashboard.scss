@@ -1,6 +1,10 @@
 // SECTION :: START
 
 .dashboard {
+	@include adaptive(1439) {
+		padding-bottom: 50px;
+	}
+
 	&__box {
 		position: relative;
 		display: flex;
@@ -11,6 +15,9 @@
 		border-radius: 10px;
 		background: linear-gradient(#fff 0%, #f3f6ff 100%);
 		box-shadow: 0 0 2px 0 rgba(83, 112, 151, 0.1);
+		@include adaptive(767) {
+			padding: 20px;
+		}
 
 		&-wrapper {
 			position: relative;
@@ -18,12 +25,22 @@
 			display: flex;
 			flex-wrap: wrap;
 			width: calc(100% + 33px);
+			@include adaptive(1023) {
+				flex-wrap: wrap;
+			}
 
 			> div {
 				width: 100%;
 				max-width: calc(100% / 4);
 				padding-left: 33px;
 				padding-bottom: 33px;
+				@include adaptive(1279) {
+					max-width: calc(100% / 2);
+				}
+				@include adaptive(767) {
+					max-width: 100%;
+					padding-bottom: 10px;
+				}
 			}
 		}
 
@@ -31,12 +48,24 @@
 			font-size: 18px;
 			letter-spacing: 0.01em;
 			color: #7ca9ff;
+			@include adaptive(1365) {
+				font-size: 16px;
+			}
+			@include adaptive(767) {
+				font-size: 14px;
+			}
 		}
 
 		&-num {
 			font-size: 28px;
 			letter-spacing: 0.01em;
 			color: #000;
+			@include adaptive(1365) {
+				font-size: 24px;
+			}
+			@include adaptive(767) {
+				font-size: 21px;
+			}
 		}
 
 		&-chart {
@@ -46,6 +75,9 @@
 			height: 100px;
 			max-height: 100px;
 			padding-left: 50px;
+			@include adaptive(1599) {
+				padding-left: 0;
+			}
 		}
 	}
 
@@ -70,6 +102,9 @@
 			font-size: 24px;
 			letter-spacing: 0.01em;
 			color: #000;
+			@include adaptive(767) {
+				font-size: 21px;
+			}
 		}
 
 		&-date {
@@ -90,6 +125,9 @@
 		letter-spacing: 0.01em;
 		color: gray;
 		@include transition(color);
+		@include adaptive(767) {
+			font-size: 14px;
+		}
 
 		&:after {
 			content: '';
@@ -127,6 +165,9 @@
 			margin-left: 45%;
 			padding-bottom: 10px;
 			border-bottom: 2px dashed silver;
+			@include adaptive(767) {
+				margin-left: 0;
+			}
 		}
 
 		&-content {
