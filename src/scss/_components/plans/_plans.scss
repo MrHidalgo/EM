@@ -1,6 +1,8 @@
 // SECTION :: START
 
 .plans {
+	padding-bottom: 50px;
+
 	&.plans--info {
 		.plans {
 			&__wrapper {
@@ -31,6 +33,10 @@
 					@include adaptive(1439) {
 						width: 65%;
 					}
+					@include adaptive(1279) {
+						padding-top: 0;
+						padding-left: 20px;
+					}
 					@include adaptive(1023) {
 						width: 100%;
 					}
@@ -44,7 +50,7 @@
 		@include adaptive(1439) {
 			padding-top: 50px;
 		}
-		@include adaptive(1023) {
+		@include adaptive(1279) {
 			flex-wrap: wrap;
 		}
 		@include adaptive(767) {
@@ -62,8 +68,10 @@
 			width: 100%;
 			max-width: 620px;
 			padding-left: 20px;
-			@include adaptive(1023) {
-				padding-left: 0px;
+			@include adaptive(1279) {
+				max-width: 100%;
+				padding-top: 50px;
+				padding-left: 0;
 			}
 		}
 	}
@@ -539,18 +547,28 @@
 			> div {
 				width: 50%;
 				padding: 10px 40px;
+				@include adaptive(767) {
+					padding-left: 20px;
+					padding-right: 20px;
+				}
 			}
 
 			p {
 				font-size: 24px;
 				text-align: left;
 				color: #9a98b4;
+				@include adaptive(767) {
+					font-size: 18px;
+				}
 			}
 
 			span {
 				font-size: 18px;
 				letter-spacing: 0.01em;
 				color: #000;
+				@include adaptive(767) {
+					font-size: 14px;
+				}
 
 				b {
 					font-weight: bold;
@@ -653,6 +671,10 @@
 			min-width: 1px;
 			max-width: 100%;
 			padding: 10px 40px;
+			@include adaptive(767) {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
 		}
 
 		&-th {
@@ -664,6 +686,9 @@
 				font-size: 18px;
 				letter-spacing: 0.01em;
 				color: #000;
+				@include adaptive(767) {
+					font-size: 14px;
+				}
 			}
 		}
 
@@ -712,6 +737,9 @@
 				font-size: 18px;
 				letter-spacing: 0.01em;
 				color: #535260;
+				@include adaptive(767) {
+					font-size: 14px;
+				}
 
 				.icon-font {
 					margin-right: 10px;
@@ -731,6 +759,9 @@
 		border-radius: 10px;
 		background-color: #ffeddc;
 		border: 1px solid #fdc937;
+		@include adaptive(767) {
+			padding: 15px;
+		}
 
 		> div {
 			&:nth-of-type(2) {

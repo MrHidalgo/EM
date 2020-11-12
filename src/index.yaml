@@ -42,10 +42,10 @@ PageList:
   ready: 100
 - file: plans-1.html
   titleName: Plans 1
-  ready: 33
+  ready: 100
 - file: plans-2.html
   titleName: Plans 2
-  ready: 33
+  ready: 100
 - file: payment-history.html
   titleName: Payment History
   ready: 33
