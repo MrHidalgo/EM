@@ -9377,14 +9377,30 @@ picture {
   color: #000;
 }
 
-/* line 11, src/scss/_components/setting/_setting.scss */
+@media screen and (max-width: 767px) {
+  /* line 4, src/scss/_components/setting/_setting.scss */
+  .setting__title {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+}
+
+/* line 15, src/scss/_components/setting/_setting.scss */
 .setting__subtitle {
   padding-bottom: 60px;
   font-size: 18px;
   color: #27282d;
 }
 
-/* line 18, src/scss/_components/setting/_setting.scss */
+@media screen and (max-width: 767px) {
+  /* line 15, src/scss/_components/setting/_setting.scss */
+  .setting__subtitle {
+    padding-bottom: 40px;
+    font-size: 14px;
+  }
+}
+
+/* line 26, src/scss/_components/setting/_setting.scss */
 .setting__tab-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9396,13 +9412,31 @@ picture {
           justify-content: space-between;
 }
 
-/* line 23, src/scss/_components/setting/_setting.scss */
+@media screen and (max-width: 767px) {
+  /* line 26, src/scss/_components/setting/_setting.scss */
+  .setting__tab-wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 34, src/scss/_components/setting/_setting.scss */
 .setting__tab-left {
   width: 230px;
   height: 350px;
 }
 
-/* line 27, src/scss/_components/setting/_setting.scss */
+@media screen and (max-width: 767px) {
+  /* line 34, src/scss/_components/setting/_setting.scss */
+  .setting__tab-left {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+/* line 43, src/scss/_components/setting/_setting.scss */
 .setting__tab-left .setting__tab-box {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -9416,18 +9450,25 @@ picture {
   padding: 40px 20px 20px;
 }
 
-/* line 33, src/scss/_components/setting/_setting.scss */
+@media screen and (max-width: 767px) {
+  /* line 43, src/scss/_components/setting/_setting.scss */
+  .setting__tab-left .setting__tab-box {
+    padding: 20px;
+  }
+}
+
+/* line 52, src/scss/_components/setting/_setting.scss */
 .setting__tab-left .c-btn {
   width: 100%;
   height: 40px;
 }
 
-/* line 37, src/scss/_components/setting/_setting.scss */
+/* line 56, src/scss/_components/setting/_setting.scss */
 .setting__tab-left .c-btn span {
   font-size: 16px;
 }
 
-/* line 43, src/scss/_components/setting/_setting.scss */
+/* line 62, src/scss/_components/setting/_setting.scss */
 .setting__tab-right {
   width: 100%;
   max-width: -webkit-calc(100% - 250px);
@@ -9435,7 +9476,15 @@ picture {
   margin-left: 20px;
 }
 
-/* line 48, src/scss/_components/setting/_setting.scss */
+@media screen and (max-width: 767px) {
+  /* line 62, src/scss/_components/setting/_setting.scss */
+  .setting__tab-right {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* line 71, src/scss/_components/setting/_setting.scss */
 .setting__tab-right .setting__tab-box {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -9445,7 +9494,21 @@ picture {
   padding: 65px 60px;
 }
 
-/* line 54, src/scss/_components/setting/_setting.scss */
+@media screen and (max-width: 1279px) {
+  /* line 71, src/scss/_components/setting/_setting.scss */
+  .setting__tab-right .setting__tab-box {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 71, src/scss/_components/setting/_setting.scss */
+  .setting__tab-right .setting__tab-box {
+    padding: 15px;
+  }
+}
+
+/* line 83, src/scss/_components/setting/_setting.scss */
 .setting__tab-box {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9461,7 +9524,7 @@ picture {
           box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
 }
 
-/* line 63, src/scss/_components/setting/_setting.scss */
+/* line 92, src/scss/_components/setting/_setting.scss */
 .setting__tab-box-header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9478,17 +9541,17 @@ picture {
   padding-bottom: 25px;
 }
 
-/* line 69, src/scss/_components/setting/_setting.scss */
+/* line 98, src/scss/_components/setting/_setting.scss */
 .setting__tab-box-header .c-btn {
   height: 40px;
 }
 
-/* line 72, src/scss/_components/setting/_setting.scss */
+/* line 101, src/scss/_components/setting/_setting.scss */
 .setting__tab-box-header .c-btn span {
   font-size: 16px;
 }
 
-/* line 79, src/scss/_components/setting/_setting.scss */
+/* line 108, src/scss/_components/setting/_setting.scss */
 .setting__tab-content {
   display: none;
   -webkit-box-orient: vertical;
@@ -9499,7 +9562,7 @@ picture {
   width: 100%;
 }
 
-/* line 84, src/scss/_components/setting/_setting.scss */
+/* line 113, src/scss/_components/setting/_setting.scss */
 .setting__tab-content.is-active {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9507,7 +9570,7 @@ picture {
   display: flex;
 }
 
-/* line 89, src/scss/_components/setting/_setting.scss */
+/* line 118, src/scss/_components/setting/_setting.scss */
 .setting__tab-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9520,7 +9583,7 @@ picture {
   margin-bottom: 35px;
 }
 
-/* line 95, src/scss/_components/setting/_setting.scss */
+/* line 124, src/scss/_components/setting/_setting.scss */
 .setting__tab-btn:hover span {
   color: #0056fc;
   -webkit-transition: color 0.3s ease-in-out;
@@ -9528,7 +9591,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 102, src/scss/_components/setting/_setting.scss */
+/* line 131, src/scss/_components/setting/_setting.scss */
 .setting__tab-btn.is-active .icon-font {
   opacity: 1;
   width: 30px;
@@ -9537,12 +9600,12 @@ picture {
   transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out;
 }
 
-/* line 108, src/scss/_components/setting/_setting.scss */
+/* line 137, src/scss/_components/setting/_setting.scss */
 .setting__tab-btn.is-active span {
   color: #0056fc;
 }
 
-/* line 113, src/scss/_components/setting/_setting.scss */
+/* line 142, src/scss/_components/setting/_setting.scss */
 .setting__tab-btn .icon-font {
   opacity: 0;
   width: 0;
@@ -9553,7 +9616,7 @@ picture {
   transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out;
 }
 
-/* line 121, src/scss/_components/setting/_setting.scss */
+/* line 150, src/scss/_components/setting/_setting.scss */
 .setting__tab-btn span {
   font-weight: 500;
   font-size: 16px;
@@ -9564,28 +9627,60 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 131, src/scss/_components/setting/_setting.scss */
+/* line 160, src/scss/_components/setting/_setting.scss */
 .setting__date {
   font-size: 16px;
   letter-spacing: 0.01em;
   color: #535260;
 }
 
-/* line 136, src/scss/_components/setting/_setting.scss */
+/* line 165, src/scss/_components/setting/_setting.scss */
 .setting__date span {
   color: #000000;
 }
 
-/* line 142, src/scss/_components/setting/_setting.scss */
+/* line 171, src/scss/_components/setting/_setting.scss */
 .setting__form .c-form__field {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
-/* line 147, src/scss/_components/setting/_setting.scss */
+@media screen and (max-width: 1279px) {
+  /* line 171, src/scss/_components/setting/_setting.scss */
+  .setting__form .c-form__field {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 179, src/scss/_components/setting/_setting.scss */
+  .setting__form .c-form__field-group {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 184, src/scss/_components/setting/_setting.scss */
 .setting__form .c-form__field-group .c-form__field {
   max-width: -webkit-calc((100% - 100px) / 2);
   max-width: calc((100% - 100px) / 2);
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 184, src/scss/_components/setting/_setting.scss */
+  .setting__form .c-form__field-group .c-form__field {
+    max-width: -webkit-calc((100% - 60px) / 2);
+    max-width: calc((100% - 60px) / 2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 184, src/scss/_components/setting/_setting.scss */
+  .setting__form .c-form__field-group .c-form__field {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=maps/app.css.map */
