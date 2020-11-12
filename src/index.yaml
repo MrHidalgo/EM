@@ -48,7 +48,7 @@ PageList:
   ready: 100
 - file: payment-history.html
   titleName: Payment History
-  ready: 33
+  ready: 100
 - file: setting.html
   titleName: Setting
   ready: 33

@@ -9037,7 +9037,14 @@ picture {
   color: #535260;
 }
 
-/* line 4, src/scss/_components/payment-history/_payment-history.scss */
+@media screen and (max-width: 1365px) {
+  /* line 4, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__wrapper {
+    padding-bottom: 50px;
+  }
+}
+
+/* line 10, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__title {
   padding-bottom: 15px;
   font-weight: 500;
@@ -9045,14 +9052,28 @@ picture {
   color: #000;
 }
 
-/* line 11, src/scss/_components/payment-history/_payment-history.scss */
+@media screen and (max-width: 767px) {
+  /* line 10, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__title {
+    font-size: 24px;
+  }
+}
+
+/* line 20, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__subtitle {
   padding-bottom: 60px;
   font-size: 18px;
   color: #27282d;
 }
 
-/* line 17, src/scss/_components/payment-history/_payment-history.scss */
+@media screen and (max-width: 767px) {
+  /* line 20, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__subtitle {
+    font-size: 14px;
+  }
+}
+
+/* line 29, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__box {
   padding: 20px;
   -webkit-border-radius: 10px;
@@ -9062,7 +9083,7 @@ picture {
           box-shadow: 0 0 6px 0 rgba(83, 112, 151, 0.12);
 }
 
-/* line 24, src/scss/_components/payment-history/_payment-history.scss */
+/* line 36, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table {
   overflow: hidden;
   -webkit-border-radius: 10px;
@@ -9070,18 +9091,25 @@ picture {
   border: 1px solid #cdf;
 }
 
-/* line 29, src/scss/_components/payment-history/_payment-history.scss */
+/* line 41, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-head {
   background-color: #f1f4fb;
   border-bottom: 1px solid #cdf;
 }
 
-/* line 34, src/scss/_components/payment-history/_payment-history.scss */
+@media screen and (max-width: 1279px) {
+  /* line 41, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-head {
+    display: none;
+  }
+}
+
+/* line 49, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-body {
   padding: 10px 0;
 }
 
-/* line 37, src/scss/_components/payment-history/_payment-history.scss */
+/* line 52, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-body .payment-history__table-tr {
   position: relative;
   left: -1px;
@@ -9089,7 +9117,7 @@ picture {
   width: calc(100% + 2px);
 }
 
-/* line 43, src/scss/_components/payment-history/_payment-history.scss */
+/* line 58, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-body .payment-history__table-tr:hover:before {
   border-color: #0056FC;
   -webkit-transition: border-color 0.3s ease-in-out;
@@ -9097,7 +9125,7 @@ picture {
   transition: border-color 0.3s ease-in-out;
 }
 
-/* line 49, src/scss/_components/payment-history/_payment-history.scss */
+/* line 64, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-body .payment-history__table-tr:hover .payment-history__table-td .c-btn {
   background-color: #0056fc;
   -webkit-transition: background-color 0.3s ease-in-out;
@@ -9105,7 +9133,7 @@ picture {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 53, src/scss/_components/payment-history/_payment-history.scss */
+/* line 68, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-body .payment-history__table-tr:hover .payment-history__table-td .c-btn .icon-font,
 .payment-history__table-body .payment-history__table-tr:hover .payment-history__table-td .c-btn span {
   color: #ffffff;
@@ -9114,7 +9142,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 62, src/scss/_components/payment-history/_payment-history.scss */
+/* line 77, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-body .payment-history__table-tr:before {
   content: '';
   position: absolute;
@@ -9134,12 +9162,12 @@ picture {
   transition: border-color 0.3s ease-in-out;
 }
 
-/* line 76, src/scss/_components/payment-history/_payment-history.scss */
+/* line 91, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-body .payment-history__table-tr:not(:last-of-type) {
   margin-bottom: 10px;
 }
 
-/* line 82, src/scss/_components/payment-history/_payment-history.scss */
+/* line 97, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-tr {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9147,7 +9175,16 @@ picture {
   display: flex;
 }
 
-/* line 86, src/scss/_components/payment-history/_payment-history.scss */
+@media screen and (max-width: 1279px) {
+  /* line 97, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-tr {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 104, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-th, .payment-history__table-td {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9167,24 +9204,71 @@ picture {
   padding: 10px 40px;
 }
 
-/* line 98, src/scss/_components/payment-history/_payment-history.scss */
+@media screen and (max-width: 1279px) {
+  /* line 104, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-th, .payment-history__table-td {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: auto;
+    -webkit-box-flex: unset;
+    -webkit-flex: unset;
+        -ms-flex: unset;
+            flex: unset;
+    width: 100%;
+    max-width: -webkit-calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 122, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-th:nth-of-type(1), .payment-history__table-th:nth-of-type(2), .payment-history__table-th:nth-of-type(3), .payment-history__table-th:nth-of-type(4), .payment-history__table-td:nth-of-type(1), .payment-history__table-td:nth-of-type(2), .payment-history__table-td:nth-of-type(3), .payment-history__table-td:nth-of-type(4) {
+    max-width: -webkit-calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+  /* line 129, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-th:nth-of-type(4), .payment-history__table-td:nth-of-type(4) {
+    border-bottom: 1px solid #cdf;
+  }
+  /* line 133, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-th:nth-of-type(5), .payment-history__table-th:nth-of-type(6), .payment-history__table-td:nth-of-type(5), .payment-history__table-td:nth-of-type(6) {
+    max-width: 100%;
+    border-bottom: 1px solid #cdf;
+  }
+}
+
+/* line 142, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-th:not(:last-of-type) {
   border-right: 1px solid #cdf;
 }
 
-/* line 102, src/scss/_components/payment-history/_payment-history.scss */
+/* line 146, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-th p {
   font-size: 18px;
   letter-spacing: 0.01em;
   color: #000;
 }
 
-/* line 109, src/scss/_components/payment-history/_payment-history.scss */
+/* line 153, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-td {
   position: relative;
 }
 
-/* line 112, src/scss/_components/payment-history/_payment-history.scss */
+@media screen and (max-width: 1279px) {
+  /* line 156, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-td:nth-of-type(1), .payment-history__table-td:nth-of-type(2), .payment-history__table-td:nth-of-type(3) {
+    border-bottom: 1px solid #cdf;
+  }
+}
+
+/* line 163, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-td:after {
   content: '';
   opacity: 0;
@@ -9199,12 +9283,28 @@ picture {
   background: #cdf;
 }
 
-/* line 125, src/scss/_components/payment-history/_payment-history.scss */
+/* line 176, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-td:not(:last-of-type):after {
   opacity: 1;
 }
 
-/* line 130, src/scss/_components/payment-history/_payment-history.scss */
+/* line 181, src/scss/_components/payment-history/_payment-history.scss */
+.payment-history__table-td p {
+  display: none;
+  padding-bottom: 5px;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 181, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-td p {
+    display: block;
+  }
+}
+
+/* line 192, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-td span {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9219,14 +9319,21 @@ picture {
   color: #535260;
 }
 
-/* line 137, src/scss/_components/payment-history/_payment-history.scss */
+@media screen and (max-width: 1279px) {
+  /* line 192, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-td span {
+    font-size: 14px;
+  }
+}
+
+/* line 202, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-td span .icon-font {
   margin-right: 10px;
   color: #ccddff;
   font-size: 16px;
 }
 
-/* line 144, src/scss/_components/payment-history/_payment-history.scss */
+/* line 209, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-td .c-btn {
   height: 40px;
   -webkit-transition: background-color 0.3s ease-in-out;
@@ -9234,7 +9341,14 @@ picture {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 148, src/scss/_components/payment-history/_payment-history.scss */
+@media screen and (max-width: 1279px) {
+  /* line 209, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-td .c-btn {
+    width: 100%;
+  }
+}
+
+/* line 216, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-td .c-btn .icon-font,
 .payment-history__table-td .c-btn span {
   -webkit-transition: color 0.3s ease-in-out;
@@ -9242,10 +9356,17 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 153, src/scss/_components/payment-history/_payment-history.scss */
+/* line 221, src/scss/_components/payment-history/_payment-history.scss */
 .payment-history__table-td .c-btn span {
   font-size: 16px;
   color: #0056fc;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 226, src/scss/_components/payment-history/_payment-history.scss */
+  .payment-history__table-td .c-btn__wrapper {
+    width: 100%;
+  }
 }
 
 /* line 4, src/scss/_components/setting/_setting.scss */

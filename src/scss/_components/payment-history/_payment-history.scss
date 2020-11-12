@@ -1,17 +1,29 @@
 // SECTION :: START
 
 .payment-history {
+	&__wrapper {
+		@include adaptive(1365) {
+			padding-bottom: 50px;
+		}
+	}
+
 	&__title {
 		padding-bottom: 15px;
 		font-weight: 500;
 		font-size: 34px;
 		color: #000;
+		@include adaptive(767) {
+			font-size: 24px;
+		}
 	}
 
 	&__subtitle {
 		padding-bottom: 60px;
 		font-size: 18px;
 		color: #27282d;
+		@include adaptive(767) {
+			font-size: 14px;
+		}
 	}
 
 	&__box {
@@ -29,6 +41,9 @@
 		&-head {
 			background-color: #f1f4fb;
 			border-bottom: 1px solid #cdf;
+			@include adaptive(1279) {
+				display: none;
+			}
 		}
 
 		&-body {
@@ -81,6 +96,9 @@
 
 		&-tr {
 			display: flex;
+			@include adaptive(1279) {
+				flex-wrap: wrap;
+			}
 		}
 
 		&-th,
@@ -92,6 +110,32 @@
 			min-width: 1px;
 			max-width: 100%;
 			padding: 10px 40px;
+			@include adaptive(1279) {
+				flex-direction: column;
+				align-items: flex-start;
+				height: auto;
+				flex: unset;
+				width: 100%;
+				max-width: calc(100% / 3);
+			}
+			@include adaptive(767) {
+				&:nth-of-type(1),
+				&:nth-of-type(2),
+				&:nth-of-type(3),
+				&:nth-of-type(4) {
+					max-width: calc(100% / 2);
+				}
+
+				&:nth-of-type(4) {
+					border-bottom: 1px solid #cdf;
+				}
+
+				&:nth-of-type(5),
+				&:nth-of-type(6) {
+					max-width: 100%;
+					border-bottom: 1px solid #cdf;
+				}
+			}
 		}
 
 		&-th {
@@ -108,6 +152,13 @@
 
 		&-td {
 			position: relative;
+			@include adaptive(1279) {
+				&:nth-of-type(1),
+				&:nth-of-type(2),
+				&:nth-of-type(3) {
+					border-bottom: 1px solid #cdf;
+				}
+			}
 
 			&:after {
 				content: '';
@@ -127,12 +178,26 @@
 				}
 			}
 
+			p {
+				display: none;
+				padding-bottom: 5px;
+				font-size: 12px;
+				letter-spacing: 0.01em;
+				color: #000;
+				@include adaptive(1279) {
+					display: block;
+				}
+			}
+
 			span {
 				display: flex;
 				align-items: center;
 				font-size: 18px;
 				letter-spacing: 0.01em;
 				color: #535260;
+				@include adaptive(1279) {
+					font-size: 14px;
+				}
 
 				.icon-font {
 					margin-right: 10px;
@@ -144,6 +209,9 @@
 			.c-btn {
 				height: 40px;
 				@include transition(background-color);
+				@include adaptive(1279) {
+					width: 100%;
+				}
 
 				.icon-font,
 				span {
@@ -153,6 +221,12 @@
 				span {
 					font-size: 16px;
 					color: #0056fc;
+				}
+
+				&__wrapper {
+					@include adaptive(1279) {
+						width: 100%;
+					}
 				}
 			}
 		}
